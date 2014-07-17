@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BotDetect WordPress Captcha Plugin\n"
+"POT-Creation-Date: 2014-06-19 19:53+0700\n"
+"PO-Revision-Date: 2014-06-19 19:53+0700\n"
+"Last-Translator: \n"
+"Language-Team: BotDetect WordPress Captcha <botdetect.support@captcha.com>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: InstallCaptchaProviderBotDetectLibrary.php:29
+msgid "Error occured while installing BotDetect Captcha library."
+msgstr "Đã xảy ra lỗi trong khi cài đặt thư viện BotDetect Captcha."
+
+#: InstallCaptchaProviderBotDetectLibrary.php:30
+msgid "Error details: "
+msgstr "Chi tiết lỗi: "
+
+#: InstallCaptchaProviderBotDetectLibrary.php:31
+msgid "Please enter a valid email address."
+msgstr "Vui lòng điền vào một địa chỉ email hợp lệ."
+
+#: InstallCaptchaProviderBotDetectLibrary.php:32
+msgid ""
+"Installation failed because of an unknown reason. Please try once more, and "
+"if the issue occurs again, we would appreciate if you let us know what "
+"happened (so we can investigate, and fix if possible)."
+msgstr ""
+"Chúng tôi chưa biết chính xác lý do đã gây ra làm cho việc cài đặt thư viện "
+"bị lỗi. Xin vui lòng thử lại một lần nữa, và nếu vấn đề đó vẫn còn lặp lại, "
+"hãy cho chúng tôi biết những gì đã xảy ra, chúng tôi sẽ đánh giá cao phản "
+"hồi của bạn (điều này giúp chúng tôi điều tra nguyên nhân và sửa chữa nếu có "
+"thể)."
+
+#: InstallCaptchaProviderBotDetectLibrary.php:33
+msgid "Download doesn't have \".zip\" extension."
+msgstr ""
+"Tập tin tải xuống không phải là một tập tin nén có phần mở rộng là \".zip\"."
+
+#: InstallCaptchaProviderBotDetectLibrary.php:34
+#: InstallCaptchaProviderBotDetectLibrary.php:35
+msgid ""
+"Installation wasn't able to download the BotDetect Captcha library to your "
+"WordPress server. This problem may be due to restricted write permissions to "
+"the plugin folder on your WordPress server. Please check with your WordPress "
+"server administrator if this was the case and let us know."
+msgstr ""
+"Quá trình cài đặt đã không thể tải xuống phiên bản mới nhất của thư viện "
+"BotDetect Captcha của chúng tôi vào máy chủ WordPress của bạn. Vấn đề này có "
+"thể do máy chủ WordPress của bạn đã giới hạn quyền ghi tập tin trong thư mục "
+"của plugin. Xin vui lòng kiểm tra với người quản trị máy chủ WordPress của "
+"bạn, và hãy cho chúng tôi biết điều gì đã xảy ra."
+
+#: InstallCaptchaProviderBotDetectLibrary.php:36
+msgid ""
+"Installation wasn't able to download the BotDetect Captcha library from "
+"captcha.com. Please check if the captcha.com site being inaccessible from "
+"your WordPress server is a) temporary (captcha.com is momentarily "
+"unavailable even from browsers on other computers), or b) persistent (web "
+"access is restricted on your WordPress server). If the issue is temporary, "
+"just try again in a few minutes when captcha.com comes back online. If the "
+"issue is persistent, please contact your WordPress server administrator."
+msgstr ""
+"Chúng tôi không thể tải xuống phiên bản mới nhất của thư viện BotDetect "
+"Captcha của chúng tôi từ trang web captcha.com. Xin hãy kiểm tra xem có thể "
+"truy cập captcha.com từ máy chủ WordPress của bạn a) chỉ là tạm thời (không "
+"thể mở captcha.com trên một máy tính khác), hoặc b) lỗi đó vẫn còn tiến diễn "
+"(có một sự hạn chế truy cập web trên máy chủ WordPress của bạn). Nếu vấn đề "
+"chỉ là tạm thời, hãy thử lại một lần nữa trong ít phút, khi đó captcha.com "
+"sẽ trở lại hoạt động. Nếu lỗi đó vẫn còn tiếp diễn, hãy liên hệ với người "
+"quản trị máy chủ WordPress của bạn."
+
+#: InstallCaptchaProviderBotDetectLibrary.php:37
+msgid ""
+"Installation wasn't able to download the BotDetect Captcha library due to "
+"network-related issues. Please try once more, and if the issue occurs again, "
+"we would appreciate if you let us know what happened (so we can investigate, "
+"and fix if possible)."
+msgstr ""
+"Quá trình cài đặt đã không thể tải xuống thư viện BotDetect Captcha, vấn đề "
+"này có thể liên quan đến mạng. Xin hãy thử lại một lần nữa, và nếu vấn đề đó "
+"vẫn còn lặp lại, hãy cho chúng tôi biết điều gì đã xảy ra, chúng tôi sẽ đánh "
+"giá cao phản hồi của bạn (điều này giúp chúng tôi điều tra nguyên nhân và "
+"sửa chữa nếu có thể)."
+
+#: wp-botdetect-captcha.php:240 wp-botdetect-captcha.php:322
+msgid ""
+"<strong>ERROR</strong>: Please retype the letters under the CAPTCHA image."
+msgstr ""
+"<strong>LỖI</strong>: Xin vui lòng nhập lại các ký tự ở bên dưới hình ảnh "
+"xác thực."
+
+#: wp-botdetect-captcha.php:260
+msgid "Retype the characters"
+msgstr "Nhập lại các ký tự"
+
+#: wp-botdetect-captcha.php:269 wp-botdetect-captcha.php:300
+msgid ""
+"<strong>ERROR</strong>: Please browser's back button and retype the letters "
+"under the CAPTCHA image."
+msgstr ""
+"<strong>LỖI</strong>: Hãy nhấn nút quay lại của trình duyệt và nhập lại các "
+"ký tự ở bên dưới hình ảnh xác thực."
+
+#: wp-botdetect-captcha.php:393
+#, php-format
+msgid ""
+"<b>You are almost done!</b> BotDetect WordPress Captcha Plugin requires you "
+"to deploy the BotDetect PHP Captcha library to your WordPress server.<br>\n"
+"            \tPlease click the \"Install BotDetect Captcha library\" button "
+"to download the latest BotDetect PHP Captcha Library from <a href="
+"\"%scaptcha.com?utm_source=plugin&amp;utm_medium=wp&amp;utm_campaign=%s\" "
+"target=\"_blank\">captcha.com</a> site."
+msgstr ""
+"<b>Bạn gần như làm xong!</b> BotDetect WordPress Captcha Plugin đòi hỏi bạn "
+"phải cài đặt thư viện BotDetect PHP Captcha vào máy chủ WordPress của bạn."
+"<br>\n"
+"            \tHãy nhấn vào nút \"Cài Đặt Thư Viện BotDetect Captcha\" để cài "
+"đặt phiên bản mới nhất của thư viện BotDetect PHP Captcha từ trang web <a "
+"href=\"%scaptcha.com?utm_source=plugin&amp;utm_medium=wp&amp;utm_campaign=%s"
+"\" target=\"_blank\">captcha.com</a>."
+
+#: wp-botdetect-captcha.php:397
+#, php-format
+msgid ""
+"<b>You are almost done!</b> BotDetect WordPress Captcha Plugin requires you "
+"to deploy the BotDetect PHP Captcha library to your WordPress server.<br>\n"
+"\t  \t\t\tPlease go to the <a href=\"%s\">plugin settings</a> to do it."
+msgstr ""
+"<b>Bạn gần như làm xong!</b> BotDetect WordPress Captcha Plugin đòi hỏi bạn "
+"phải cài đặt thư viện BotDetect PHP Captcha vào máy chủ WordPress của bạn."
+"<br>\n"
+"\t  \t\t\tHãy vào trang <a href=\"%s\">tùy chọn plugin</a> để cài đặt."
+
+#: wp-botdetect-captcha.php:404
+msgid ""
+"The BotDetect Captcha service is currently in a closed Alpha testing phase. "
+"Please contact us if you wish to participate in testing."
+msgstr ""
+
+#: wp-botdetect-captcha.php:462
+msgid "Settings"
+msgstr ""
+
+#: wp-botdetect-captcha.php:726
+#, php-format
+msgid "BotDetect CAPTCHA WordPress Plugin (%s)"
+msgstr ""
+
+#: wp-botdetect-captcha.php:731
+msgid ""
+"The license under which the BotDetect Captcha WordPress Plugin software is "
+"released is the <a href=\"http://www.gnu.org/licenses/gpl-2.0.txt\">GPLv2</"
+"a> (or later) from the <a href=\"http://www.fsf.org/\">Free Software "
+"Foundation</a>. Plugin source code is available for <a href=\"https://github."
+"com/wp-plugins/botdetect-wp-captcha\">download here</a>."
+msgstr ""
+
+#: wp-botdetect-captcha.php:806
+msgid ""
+"An error occurred while generating a captcha image. Captcha has been "
+"disabled in a login form."
+msgstr ""
+"Đã có lỗi xảy ra trong quá trình tạo hình ảnh xác thực. Chúng tôi đã tắt "
+"hình ảnh xác thực trong trang đăng nhập."
+
+#: wp-botdetect-captcha.php:807
+msgid "Cheking render captcha image..."
+msgstr "Quá trình tạo hình ảnh xác thực đang được kiểm tra...."
+
+#: wp-botdetect-captcha.php:808
+msgid "Working...<br>Installation may take a few minutes, please wait."
+msgstr "Đang cài đặt...<br>Cài đặt thư viện có thể mất một ít phút, xin chờ."
+
+#: wp-botdetect-captcha.php:813
+#, php-format
+msgid "<p class=\"error_msg res_msg\">%s</p>"
+msgstr ""
+
+#: wp-botdetect-captcha.php:815
+msgid "Please let us know this -- we'll try to help!"
+msgstr ""
+"Xin vui lòng cho chúng tôi biết điều này - chúng tôi sẽ cố gắng để giúp đỡ!"
+
+#: wp-botdetect-captcha.php:825
+msgid "BotDetect Captcha Library is sucessfully installed."
+msgstr "Đã cài đặt thành công thư viện BotDetect Captcha"
+
+#: wp-botdetect-captcha.php:826
+msgid "Automatically install library after future plugin updates."
+msgstr ""
+"Trong tương lai, sẽ tự động cài đặt thư viện BotDetect Captcha sau khi cập "
+"nhập plugin."
+
+#: wp-botdetect-captcha.php:827
+msgid "OK, let's move forward"
+msgstr "OK, chúng ta hãy tiến lên phía trước"
+
+#: wp-botdetect-captcha.php:833
+msgid ""
+"BotDetect Captcha Library is not installed. Click the <span>Install "
+"BotDetect Captcha Library</span> button to install it."
+msgstr ""
+"Thư viện BotDetect Captcha thì chưa được cài đặt. Nhấn vào nút <span>\"Cài "
+"Đặt Thư Viện BotDetect Captcha\"</span> để cài đặt."
+
+#: wp-botdetect-captcha.php:834
+msgid "Enter your email"
+msgstr "Nhập email của bạn"
+
+#: wp-botdetect-captcha.php:835
+msgid ""
+"We need your email to reference your deployment in our database. We will use "
+"it to inform you about security updates, new features, etc. We will never "
+"give your email to third parties, and you can easily unsubscribe (from our "
+"rare mailings) at any time."
+msgstr ""
+"Chúng tôi cần email của bạn để tham khảo sự triển khai của bạn trong cơ sở "
+"dữ liệu của chúng tôi. Chúng tôi sẽ sử dụng chúng để thông báo cho bạn về sự "
+"cập nhật an toàn, những khía cạnh mới..v..v. Chúng tôi sẽ không bao giờ cung "
+"cấp email của bạn cho một bên thứ 3 khác, và bạn có thể dễ dàng hủy bỏ đăng "
+"kí bất cứ lúc nào (từ những email hiếm hoi của chúng tôi)."
+
+#: wp-botdetect-captcha.php:838
+msgid "Install BotDetect Captcha Library"
+msgstr "Cài Đặt Thư Viện BotDetect Captcha"
+
+#: wp-botdetect-captcha.php:839
+msgid "Installing..."
+msgstr "Đang cài đặt..."
+
+#: wp-botdetect-captcha.php:849
+#, php-format
+msgid "<p id=\"wrong_email\" class=\"error_msg res_msg\">%s</p>"
+msgstr ""
+
+#: wp-botdetect-captcha.php:875
+msgid "Plugin settings"
+msgstr "Tùy chọn Plugin"
+
+#: wp-botdetect-captcha.php:880
+msgid "Generate Captchas"
+msgstr "Tạo Captchas"
+
+#: wp-botdetect-captcha.php:883
+msgid "Remotely"
+msgstr ""
+
+#: wp-botdetect-captcha.php:883
+msgid ""
+"(using the BotDetect CAPTCHA service -- not available since BotDetect "
+"Captcha service is currently in a private pre-Alpha testing phase)"
+msgstr ""
+
+#: wp-botdetect-captcha.php:885
+msgid "Service API key:"
+msgstr ""
+
+#: wp-botdetect-captcha.php:886
+msgid "Use a local BotDetect CAPTCHA library as a fallback."
+msgstr ""
+
+#: wp-botdetect-captcha.php:888
+msgid "Locally"
+msgstr ""
+
+#: wp-botdetect-captcha.php:888
+msgid "(using a local BotDetect PHP CAPTCHA Library)"
+msgstr ""
+
+#: wp-botdetect-captcha.php:895
+msgid "Use BotDetect CAPTCHA with"
+msgstr "Sử dụng BotDetect CAPTCHA với"
+
+#: wp-botdetect-captcha.php:897
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: wp-botdetect-captcha.php:898
+msgid "User Registration"
+msgstr "Đăng ký người dùng"
+
+#: wp-botdetect-captcha.php:899
+msgid "Lost Password"
+msgstr "Quên mật khẩu"
+
+#: wp-botdetect-captcha.php:900
+msgid "Wordpress Comments"
+msgstr "Bình luận của Wordpress"
+
+#: wp-botdetect-captcha.php:905
+msgid "Captcha image width"
+msgstr "Chiều rộng hình ảnh Captcha"
+
+#: wp-botdetect-captcha.php:912
+msgid "Captcha image height"
+msgstr "Chiều cao hình ảnh Captcha"
+
+#: wp-botdetect-captcha.php:919
+msgid "Number of characters"
+msgstr "Số ký tự"
+
+#: wp-botdetect-captcha.php:927
+msgid "Sound"
+msgstr "Âm thanh"
+
+#: wp-botdetect-captcha.php:929
+msgid "Enable audio Captcha"
+msgstr "Bật âm thanh Captcha"
+
+#: wp-botdetect-captcha.php:938
+msgid "Remote Include"
+msgstr ""
+
+#: wp-botdetect-captcha.php:942
+msgid ""
+"Enable Remote Include -- used for statistics collection and proof-of-work "
+"confirmation (still work in progress)"
+msgstr ""
+"Bật Remote Include -- được sử dụng để thu thập số liệu thống kê và bằng "
+"chứng của việc xác nhận (vẫn còn làm việc trong tiến trình)"
+
+#: wp-botdetect-captcha.php:944
+msgid "<i>Switching off is disabled with the Free version of BotDetect."
+msgstr "<i>Không có hiệu lực đối với phiên bản miễn phí của BotDetect."
+
+#: wp-botdetect-captcha.php:949
+msgid "Help link"
+msgstr "Liên kết trợ giúp"
+
+#: wp-botdetect-captcha.php:951
+msgid "Image"
+msgstr "Hỉnh ảnh"
+
+#: wp-botdetect-captcha.php:951
+msgid "Clicking the Captcha image opens the help page in a new browser tab."
+msgstr ""
+"Khi nhấp vào hình ảnh Captcha thì trang trợ giúp sẽ mở vào tab mới của trình "
+"duyệt."
+
+#: wp-botdetect-captcha.php:952
+msgid "Text"
+msgstr "Văn bản"
+
+#: wp-botdetect-captcha.php:952
+msgid ""
+"A text link to the help page is rendered in the bottom 10 px of the Captcha "
+"image."
+msgstr ""
+"Một liên kết văn bản vào trong trang trợ giúp sẽ được tạo ra ở phía dưới "
+"hình ảnh Captcha và cách nó 10px."
+
+#: wp-botdetect-captcha.php:955
+msgid "Off"
+msgstr "Tắt"
+
+#: wp-botdetect-captcha.php:957
+msgid "<i>Not available with the Free version of BotDetect."
+msgstr "<i>Không có hiệu lực đối với phiên bản miễn phí của BotDetect."
+
+#: wp-botdetect-captcha.php:959
+msgid "Help link is disabled."
+msgstr "Liên kết trợ giúp sẽ không được sử dụng."
+
+#: wp-botdetect-captcha.php:967
+#, php-format
+msgid ""
+"Additionally: Please note almost everything is customizable by editing "
+"BotDetect's <a href=\"%scaptcha.com/doc/php/howto/captcha-configuration.html?"
+"utm_source=plugin&amp;utm_medium=wp&amp;utm_campaign=%s\">configuration "
+"file</a>."
+msgstr ""
+
+#: wp-botdetect-captcha.php:973
+msgid "Misc Options"
+msgstr ""
+
+#: wp-botdetect-captcha.php:975
+msgid "Restore defaults upon plugin deactivation/reactivation"
+msgstr ""
+"Khôi phục mặc định các tùy chọn khi thực hiện thủ công Deactivate/Activate "
+"plugin."
+
+#: wp-botdetect-captcha.php:976
+msgid ""
+"Only check this if you want to reset plugin settings upon Plugin reactivation"
+msgstr ""
+"Chỉ chọn nếu bạn muốn thiết lập lại các tùy chọn của plugin trở về mặc định."
+
+#: wp-botdetect-captcha.php:981
+msgid "Save Changes"
+msgstr ""
+
+#~ msgid ""
+#~ "There were issues related to the network, please check this and try once "
+#~ "again. Let us know if problem persists."
+#~ msgstr ""
+#~ "Đã có những vấn đề liên quan đến mạng, hãy kiểm tra điều này và cố gắng "
+#~ "thử lại một lần nữa. Nếu vấn đề này vẫn còn xảy ra, hãy cho chúng tôi "
+#~ "biết và chúng tôi đánh giá cao sự phản hồi của bạn."

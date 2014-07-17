@@ -1,0 +1,72 @@
+#container-install {
+    padding: 10px; 
+    background: #fff;
+    border: 1px solid #dfdfdf
+}
+
+.input-text {
+    line-height: 20px!important
+}
+
+.msg-no-install-lib {
+    font-size: 15px; 
+    color: #d50000
+}
+
+.msg-no-install-lib  span {
+    font-weight: bold
+}
+
+.msg-installed-lib {
+    font-size: 15px; 
+    color: #57a60f;
+    font-weight: bold
+}
+
+.btn-install-lib {
+    background: #0074a2;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #0094cc;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.btn-disable-install-lib {
+    display: none;
+    background: #eeeeee;
+    color: #afaaa9;
+    padding: 2px 0;
+    border: 1px solid #c7c7c7;
+    outline: none;
+    font-size: 14px;
+    width:  215px;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px
+}
+
+.res_msg {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5em
+}
+
+.error_msg {
+    color: #d50000
+}
+.success_msg {
+    color: #57a60f
+}
+
+.hidden-install-form {
+	display: none!important
+}
+
+.botdetect-license {
+    font-size: 14px; 
+    border-top: 1px solid #ddd; 
+    padding: 15px 10px
+}

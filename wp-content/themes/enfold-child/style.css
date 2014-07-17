@@ -1,0 +1,108 @@
+/*
+Theme Name: Enfold Child
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Kriesi
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+/*Add your own styles here:*/
+
+/* MENU MODIFY */
+
+.av-main-nav ul { margin-top: -2px !important; }
+
+.av-main-nav > li > ul { border-top-width:3px; }
+
+.header_color .main_menu .menu ul li a:hover { 
+	background-color: #ff7713;
+}
+#top .header_color .main_menu .menu ul li>a:hover {
+color: #FFFFFF;
+}
+
+#top .main_color blockquote { 
+	font-weight: bold;	
+}
+
+p time a{ 
+	font-family: 'Roboto';	
+}
+
+#top .aviaccordion-title {
+	font-family: 'Roboto';
+	font-weight: bold;
+}
+
+#top .av-main-nav ul a {
+	font-family: 'Roboto';
+}
+
+#top .av-main-nav li:hover {
+	background-color: #F2F2F2;
+}
+
+#top .av-main-nav li:last-child:hover {
+	background-color: #FFFFFF;
+}
+
+#top .av-main-nav > li a:after { 
+		background: #ff7713; 
+}
+
+.avia-menu-fx{ height: 3px; }
+
+/* END OF MODIFYING MENU */
+
+html, #scroll-top-link { 
+	background-color: #ff7713;
+	border: #F2F2F2;
+}
+
+/* New font family define for caption */
+body, .wp-caption-text, #top .wp-caption .wp-caption-dd {
+	font-family: 'RobotoVN', 'Roboto', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#top .alternate_color.title_container .main-title a {
+	color: #ff7713;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Make hyperlink change color when hover */
+#top h1 a:hover, #top h2 a:hover, #top h3 a:hover, #top h4 a:hover, #top h5 a:hover, #top h6 a:hover {
+	color: #ff7713 !important; 
+}
+
+.main_color .template-archives .tabcontainer a, #top .main_color .tabcontainer .tab:hover, #top .main_color .tabcontainer .tab.active_tab {
+	color: #ff7713;
+}
+
+.main_color .tab_content strong:hover, .main_color div .news-headline:hover {
+	color: #ff7713;
+}
+
+/* Increase sidebar width by changing margin */
+.inner_sidebar{
+	margin-left:19px;
+}
+
+/* Color for iframe element (Facebook Widget) */
+.main_color iframe {
+	border-color:#F8F8F8;
+}
+
+/* Style custom for each category in Homepage */
+
+#top .av-magazine .avia-inherit-font-color a.av-magazine-top-heading, #top .av-magazine .avia-inherit-font-color a.active_sort, #top .av-magazine .avia-inherit-font-color a:hover {color: #ffffff}
+
+.av-magazine-top-bar a{
+	color: white !important;
+	padding: 5px 10px 5px 10px;
+}
+
+li a span  {
+	font-size: 14px;
+}
