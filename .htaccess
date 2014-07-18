@@ -1,16 +1,8 @@
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /wordpress/
 RewriteRule ^index\.php$ - [L]
-RewriteRule ^template/(.*) /wordpress/wp-content/themes/enfold-child/$1 [QSA,L]
-RewriteRule ^enfold/(.*) /wordpress/wp-content/themes/enfold/$1 [QSA,L]
-RewriteRule ^template_main/(.*) /wordpress/wp-content/themes/enfold/$1 [QSA,L]
-RewriteRule ^wp-content/themes/enfold-child/screenshot\.png|readme\.html|license\.txt|wp-content/debug\.log|wp-includes/$ /wordpress/nothing_404_404 [QSA,L]
-RewriteRule ^(((wp-content|wp-includes)/([A-Za-z1-9-_/]*))|(wp-admin/(?!network/)([A-Za-z1-9-_/]+)))(\.txt|/)$ /wordpress/nothing_404_404 [QSA,L]
-RewriteRule ^(index\.php|wp-content/repair\.php|wp-comments-post\.php|wp-includes/js/tinymce/wp-tinymce\.php|xmlrpc\.php|wp-cron\.php|wp-admin/upgrade\.php|wp-login\.php|index\.php|wp-admin/)(.*) $1$2 [QSA,L]
-RewriteRule ^(.*)\.php$ /wordpress/nothing_404_404 [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /wordpress/index.php [L]

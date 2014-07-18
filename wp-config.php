@@ -50,16 +50,7 @@ define('AUTH_SALT',        'YZZInhQy)`fOG3|7</yt~jDM+s1YbJM|yu3}gpz|2ga/@x`!{uh*
 define('SECURE_AUTH_SALT', ':%`b;V(i9N8-a@w^>2y>@w-T0Fz_AFC4K[Sr8,TpGEy8Ov&a-b#bB*KJtpt;xEco');
 define('LOGGED_IN_SALT',   'X>nUf^]@jw!HNA[KxMBz(*c87(j.8PgnFFK>CI7Bi-peU?931u+K/zd/ormLwB4t');
 define('NONCE_SALT',       ']:G}M(T<~?VMM]+EaC{HGN/9{LZ+Z/:dvVm!+T@Z4,-mp5Y>pdzh>jx<rVmkso9p');
-
-/**#@-*/
-
-/**
- * WordPress Database Table prefix.
- *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
- */
-$table_prefix  = 'wp_';
+$table_prefix = 'k4h4zjcxtu_';
 
 /**
  * WordPress Localized Language, defaults to English.
