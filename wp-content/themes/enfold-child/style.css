@@ -99,10 +99,39 @@ body, .wp-caption-text, #top .wp-caption .wp-caption-dd {
 #top .av-magazine .avia-inherit-font-color a.av-magazine-top-heading, #top .av-magazine .avia-inherit-font-color a.active_sort, #top .av-magazine .avia-inherit-font-color a:hover {color: #ffffff}
 
 .av-magazine-top-bar a{
-	color: white !important;
+	color: white;
 	padding: 5px 10px 5px 10px;
 }
 
+
+
 li a span  {
 	font-size: 14px;
+}
+
+span .av-icon-char {
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+
+#top .av_font_icon a:hover  {
+	color: #ff7713;
+}
+
+.main_color .toggler:hover, .main_color .toggler.activeTitle, .main_color .toggler.activeTitle:hover {
+	color: #FFFFFF;
+	background-color: #ff7713;
+}
+
+h3.team-member-name, div.team-member-job-title {
+	text-align: center;
+}
+
+.avia-team-member .team-social {
+	border: 7px solid rgba(0, 0, 0, 0.1);
+	position: absolute;
+	background: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	border-radius: 80px;
 }

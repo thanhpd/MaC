@@ -1,0 +1,35 @@
+.navitem
+{
+
+}
+
+.navitems a
+{
+text-align: center;
+border: #ddd solid 1px;
+text-decoration: none;
+min-width: 20px;
+padding: 2px;
+margin-right: 8px;
+margin-bottom: 16px;
+margin-top: 16px;
+color: #1880d0 !important;
+}
+
+.navitems a:hover
+{
+color: white !important;
+background: #007DBD;
+}
+
+.tooltips_list
+{
+margin-bottom: 16px;
+margin-top: 16px;
+}
+
+.tooltips_list span
+{
+color: #1880d0 !important;
+text-decoration: none;
+}

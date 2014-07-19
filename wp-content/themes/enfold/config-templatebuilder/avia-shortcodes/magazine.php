@@ -491,8 +491,14 @@ if ( !class_exists( 'avia_magazine' ) )
 			$html   = !empty($this->atts['first_big_pos'])   ? array("before"=>"<div class='av-magazine-hero first {$grid}'>","after"=>'</div>') : array("before"=>'',"after"=>'');
 			$css 	= empty($params['sort_var']) ? "sort_all" : "av-hidden-mag sort_".$params['sort_var'];
 			
+			if($this->atts['heading_color'] != "theme-color")
+				{
+					if($this->atts['heading_color'] == "custom") $b_style = "style='border-width: 5px; border-color: ".$this->atts['heading_custom_color']."'";
+				}
+			
 			if(!empty($entries))
 			{
+				/*$output .= "<div class='av-magazine-top-bar' {$b_style}>";*/
 				$output .= "<div class='av-magazine-group {$css}'>";
 			
 				foreach($entries as $entry)
@@ -513,6 +519,7 @@ if ( !class_exists( 'avia_magazine' ) )
 				if($loop !== 1 && !empty($this->atts['first_big_pos'])) $output .= "</div>";
 				
 				$output .= "</div>";
+				/*$output .= "</div>";*/
 			}
 			
 			return $output;
