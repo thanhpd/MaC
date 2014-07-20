@@ -493,13 +493,13 @@ if ( !class_exists( 'avia_magazine' ) )
 			
 			if($this->atts['heading_color'] != "theme-color")
 				{
-					if($this->atts['heading_color'] == "custom") $b_style = "style='border-width: 5px; border-color: ".$this->atts['heading_custom_color']."'";
+					if($this->atts['heading_color'] == "custom") $b_style = "style='border: 1px solid #DDD;-webkit-border-radius: 1px;box-shadow:  0 1px 3px 0 #b5b5b5;-moz-box-shadow: 0 1px 3px 0 #b5b5b5;-webkit-box-shadow:  0 1px 3px 0 #b5b5b5;border-bottom:4px solid; border-bottom-color: ".$this->atts['heading_custom_color']."'";
 				}
 			
 			if(!empty($entries))
 			{
 				/*$output .= "<div class='av-magazine-top-bar' {$b_style}>";*/
-				$output .= "<div class='av-magazine-group {$css}'>";
+				$output .= "<div class='av-magazine-group {$css}' {$b_style}>";
 			
 				foreach($entries as $entry)
 				{

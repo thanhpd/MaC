@@ -1,0 +1,21 @@
+w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:886;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 13:54:52";s:13:"post_date_gmt";s:19:"2013-04-02 13:54:52";s:12:"post_content";s:1618:"[av_one_full first]
+[av_team_member name='Janna Mc Cullis' job='CFO' src='http://dummyimage.com/600x400/000/fff&amp;text=Pic' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ']
+[av_team_icon title='Janna on Twitter' link='' link_target='' icon='210']
+[av_team_icon title='Janna on Facebook' link='' link_target='' icon='214']
+[av_team_icon title='Janna on Dribbble' link='' link_target='' icon='223']
+[/av_team_member]
+[/av_one_full]
+
+[av_one_half first]
+[av_team_member name='Max Mac Man' job='CTO' src='http://dummyimage.com/600x400/000/fff&amp;text=Pic' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ']
+[av_team_icon title='Max on Behance' link='' link_target='' icon='246']
+[av_team_icon title='Max on Facebook' link='' link_target='' icon='214']
+[/av_team_member]
+[/av_one_half]
+
+[av_one_half]
+[av_team_member name='King Cul' job='Marketing &amp; Sales' src='http://dummyimage.com/600x400/000/fff&amp;text=Pic' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ']
+[av_team_icon title='King on LinkedIn' link='' link_target='' icon='221']
+[av_team_icon title='King on Github' link='' link_target='' icon='204']
+[/av_team_member]
+[/av_one_half]";s:10:"post_title";s:12:"Team Element";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:4:"team";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2013-04-02 13:54:52";s:17:"post_modified_gmt";s:19:"2013-04-02 13:54:52";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:750;s:4:"guid";s:47:"http://www.kriesi.at/themes/enfold/?page_id=886";s:10:"menu_order";i:0;s:9:"post_type";s:4:"page";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

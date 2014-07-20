@@ -1,5 +1,21 @@
-
-
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /wordpress/
+    RewriteRule ^(.*\/)?w3tc_rewrite_test/?$ $1?w3tc_rewrite_test=1 [L]
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteRule .* - [E=W3TC_ENC:_gzip]
+    RewriteCond %{HTTP_COOKIE} w3tc_preview [NC]
+    RewriteRule .* - [E=W3TC_PREVIEW:_preview]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond %{HTTP_USER_AGENT} !(W3\ Total\ Cache/0\.9\.4) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/wordpress/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/wordpress/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" [L]
+</IfModule>
+# END W3TC Page Cache core
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -11,3 +27,42 @@ RewriteRule . /wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
+
+# BEGIN W3TC Browser Cache
+<IfModule mod_deflate.c>
+    <IfModule mod_setenvif.c>
+        BrowserMatch ^Mozilla/4 gzip-only-text/html
+        BrowserMatch ^Mozilla/4\.0[678] no-gzip
+        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+        BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+    </IfModule>
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon application/json
+    <IfModule mod_mime.c>
+        # DEFLATE by extension
+        AddOutputFilter DEFLATE js css htm html xml
+    </IfModule>
+    </IfModule>
+</IfModule>
+<FilesMatch "\.(css|htc|less|js|js2|js3|js4|CSS|HTC|LESS|JS|JS2|JS3|JS4)$">
+    FileETag None
+    <IfModule mod_headers.c>
+         Header unset ETag
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(html|htm|rtf|rtx|svg|svgz|txt|xsd|xsl|xml|HTML|HTM|RTF|RTX|SVG|SVGZ|TXT|XSD|XSL|XML)$">
+    FileETag None
+    <IfModule mod_headers.c>
+         Header unset ETag
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|json|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|tif|tiff|ttf|ttc|wav|wma|wri|woff|xla|xls|xlsx|xlt|xlw|zip|ASF|ASX|WAX|WMV|WMX|AVI|BMP|CLASS|DIVX|DOC|DOCX|EOT|EXE|GIF|GZ|GZIP|ICO|JPG|JPEG|JPE|JSON|MDB|MID|MIDI|MOV|QT|MP3|M4A|MP4|M4V|MPEG|MPG|MPE|MPP|OTF|ODB|ODC|ODF|ODG|ODP|ODS|ODT|OGG|PDF|PNG|POT|PPS|PPT|PPTX|RA|RAM|SVG|SVGZ|SWF|TAR|TIF|TIFF|TTF|TTC|WAV|WMA|WRI|WOFF|XLA|XLS|XLSX|XLT|XLW|ZIP)$">
+    FileETag None
+    <IfModule mod_headers.c>
+         Header unset ETag
+    </IfModule>
+</FilesMatch>
+# END W3TC Browser Cache

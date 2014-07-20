@@ -103,8 +103,6 @@ body, .wp-caption-text, #top .wp-caption .wp-caption-dd {
 	padding: 5px 10px 5px 10px;
 }
 
-
-
 li a span  {
 	font-size: 14px;
 }
@@ -119,11 +117,13 @@ span .av-icon-char {
 	color: #ff7713;
 }
 
+/* Change the color of toggle */
 .main_color .toggler:hover, .main_color .toggler.activeTitle, .main_color .toggler.activeTitle:hover {
 	color: #FFFFFF;
 	background-color: #ff7713;
 }
 
+/* Modifying team member page */
 h3.team-member-name, div.team-member-job-title {
 	text-align: center;
 }
@@ -134,4 +134,45 @@ h3.team-member-name, div.team-member-job-title {
 	background: rgba(255, 255, 255, 0.7);
 	text-align: center;
 	border-radius: 80px;
+}
+
+/* Make the thumbnail larger */
+.av-magazine-thumbnail, .news-thumb { padding: 1px !important; }
+.news-thumb img, .news-thumb img { width: 33px; height: 32px;}
+
+/* Try styling category box content */
+	body div .first {
+		margin-top: 15px;
+	} 
+	/*div.av-magazine-hero.first { margin: 15px 15px 0px 15px;}*/
+	/*div.av-magazine-hero.first > .av-magazine-entry { margin: 0 15px 10px 15px;}*/
+	.av-magazine-group  {
+		margin: 5px 2px 5px 2px;
+		padding-left: 15px;
+		padding-right: 15px;
+		background: white;
+		border-radius: 1px;
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px;
+		box-shadow:  0 1px 3px 0 #b5b5b5;
+		-moz-box-shadow: 0 1px 3px 0 #b5b5b5;
+		-webkit-box-shadow:  0 1px 3px 0 #b5b5b5;
+		border: 1px solid #DDD;
+		border-bottom:4px solid #F88C00;
+	}
+	
+	.av-magazine-group-custom  {
+		background: white;
+		border-radius: 1px;
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px;
+		box-shadow:  0 1px 3px 0 #b5b5b5;
+		-moz-box-shadow: 0 1px 3px 0 #b5b5b5;
+		-webkit-box-shadow:  0 1px 3px 0 #b5b5b5;
+	}
+	
+	div.av-magazine-hero.first.flex_column.av_one_half  { margin-top: 0 !important; } 
+	
+.main_color {
+	background-color: #ffffff;
 }
