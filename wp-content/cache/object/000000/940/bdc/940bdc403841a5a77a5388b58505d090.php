@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1167;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-05 13:33:38";s:13:"post_date_gmt";s:19:"2013-04-05 13:33:38";s:12:"post_content";s:2430:"[av_google_map height='400px' zoom='16' saturation='' hue='' zoom_control='aviaTBzoom_control']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1167;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-05 13:33:38";s:13:"post_date_gmt";s:19:"2013-04-05 13:33:38";s:12:"post_content";s:2430:"[av_google_map height='400px' zoom='16' saturation='' hue='' zoom_control='aviaTBzoom_control']
 [av_gmap_location address='Infinity loop' city='Cupertino' country='USA' long='-122.03074809999998' lat='37.3319426' tooltip_display='aviaTBaviaTBtooltip_display' marker='46798' attachment='' imagesize='40']
 <strong>Howdy!</strong>
 As you can see you can place unlimited markers, attach tooltips and also set custom images for your markers!

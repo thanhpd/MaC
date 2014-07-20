@@ -1,4 +1,4 @@
-v��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:3033;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-07-13 11:35:30";s:13:"post_date_gmt";s:19:"2014-07-13 04:35:30";s:12:"post_content";s:1472:"<h3><span style="color: #ff6600;">ĐỊNH HƯỚNG HOẠT ĐỘNG CÂU LẠC BỘ</span></h3>
+B��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:3033;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-07-13 11:35:30";s:13:"post_date_gmt";s:19:"2014-07-13 04:35:30";s:12:"post_content";s:1472:"<h3><span style="color: #ff6600;">ĐỊNH HƯỚNG HOẠT ĐỘNG CÂU LẠC BỘ</span></h3>
 Dựa trên sứ mệnh, tầm nhìn và giá trị cốt lõi của mình, CLB Marketing lên chương trình và thực hiện hệ thống các hoạt động.
 <h3><span style="color: #ff6600;">HƯỚNG NỘI</span></h3>
 <ul>

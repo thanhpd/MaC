@@ -1,4 +1,4 @@
-v��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"3090";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-05-04 22:29:45";s:13:"post_date_gmt";s:19:"2014-05-04 15:29:45";s:12:"post_content";s:5882:"<span class="intro" style="font-weight: bold; color: #4b4b4b;">Câu chuyện về logo 4 hình tròn có kích thước hoàn toàn bằng nhau, nằm bình đẳng trên một đường ngang, đan vào nhau của Audi là một câu chuyện lịch sử hết sức thú vị.</span>
+O��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"3090";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-05-04 22:29:45";s:13:"post_date_gmt";s:19:"2014-05-04 15:29:45";s:12:"post_content";s:5882:"<span class="intro" style="font-weight: bold; color: #4b4b4b;">Câu chuyện về logo 4 hình tròn có kích thước hoàn toàn bằng nhau, nằm bình đẳng trên một đường ngang, đan vào nhau của Audi là một câu chuyện lịch sử hết sức thú vị.</span>
 
 <span style="color: #ff6600;"><b style="color: #4b4b4b;">Lời lý giải từ những chiếc bánh</b></span>
 

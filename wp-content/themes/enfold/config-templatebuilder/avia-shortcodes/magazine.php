@@ -424,7 +424,7 @@ if ( !class_exists( 'avia_magazine' ) )
 				
 				if($this->atts['heading_color'] != "theme-color")
 				{
-					if($this->atts['heading_color'] == "custom") $b_style = "style='color: ".$this->atts['heading_custom_color']."; border-width: 2px; border-color: ".$this->atts['heading_custom_color']."'";
+					if($this->atts['heading_color'] == "custom") $b_style = "style='color: ".$this->atts['heading_custom_color']."; border-bottom-width: 2px; border-bottom-color: ".$this->atts['heading_custom_color']."'";
 					$b_class .= "avia-font-color-".$this->atts['heading_color']." avia-inherit-font-color";
 				}
 				
@@ -493,7 +493,7 @@ if ( !class_exists( 'avia_magazine' ) )
 			
 			if($this->atts['heading_color'] != "theme-color")
 				{
-					if($this->atts['heading_color'] == "custom") $b_style = "style='border: 1px solid #DDD;-webkit-border-radius: 1px;box-shadow:  0 1px 3px 0 #b5b5b5;-moz-box-shadow: 0 1px 3px 0 #b5b5b5;-webkit-box-shadow:  0 1px 3px 0 #b5b5b5;border-bottom:4px solid; border-bottom-color: ".$this->atts['heading_custom_color']."'";
+					if($this->atts['heading_color'] == "custom") $b_style = "style=' border-bottom-color: ".$this->atts['heading_custom_color']."'";
 				}
 			
 			if(!empty($entries))

@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:829;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 22:49:02";s:13:"post_date_gmt";s:19:"2013-04-01 22:49:02";s:12:"post_content";s:2014:"[av_notification title='Note' color='green' border='' custom_bg='#444444' custom_font='#ffffff' size='large' icon_select='yes' icon='120']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:829;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 22:49:02";s:13:"post_date_gmt";s:19:"2013-04-01 22:49:02";s:12:"post_content";s:2014:"[av_notification title='Note' color='green' border='' custom_bg='#444444' custom_font='#ffffff' size='large' icon_select='yes' icon='120']
 This is a notification of some sort.
 [/av_notification]
 

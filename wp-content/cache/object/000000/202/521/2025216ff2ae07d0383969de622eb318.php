@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:803;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 21:40:54";s:13:"post_date_gmt";s:19:"2013-04-01 21:40:54";s:12:"post_content";s:1866:"[av_textblock ]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:803;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 21:40:54";s:13:"post_date_gmt";s:19:"2013-04-01 21:40:54";s:12:"post_content";s:1866:"[av_textblock ]
 <h3 style="text-align: center;">IconBox with left icon</h3>
 <p style="text-align: center;">The theme ships with the <a href="http://www.entypo.com/" target="_blank">Entypo Icon font</a>. Almost all of those Icons can be selected as your IconBox Icon</p>
 [/av_textblock]

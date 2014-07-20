@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:869;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:37:39";s:13:"post_date_gmt";s:19:"2013-04-02 11:37:39";s:12:"post_content";s:7407:"[av_tab_container position='top_tab' boxed='border_tabs' initial='1']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:869;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:37:39";s:13:"post_date_gmt";s:19:"2013-04-02 11:37:39";s:12:"post_content";s:7407:"[av_tab_container position='top_tab' boxed='border_tabs' initial='1']
 [av_tab title='No Icon Tab 1' icon_select='no' icon='1']
 Lorem ipsum dolor sit amet,Â <strong>consectetuer</strong>Â adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 

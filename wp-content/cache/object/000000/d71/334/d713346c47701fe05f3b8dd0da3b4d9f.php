@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1156;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-05 13:06:38";s:13:"post_date_gmt";s:19:"2013-04-05 13:06:38";s:12:"post_content";s:713:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1156;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-05 13:06:38";s:13:"post_date_gmt";s:19:"2013-04-05 13:06:38";s:12:"post_content";s:713:"[av_textblock]
 The Post slider allows you to display a 2-5 column slider with entries, that are fetched from any of your Themes active Taxonomies. This also includes Taxonomies that are added via Plugins. So for example if you have a shop plugin active you will also be able to display the latest Products.
 [/av_textblock]
 

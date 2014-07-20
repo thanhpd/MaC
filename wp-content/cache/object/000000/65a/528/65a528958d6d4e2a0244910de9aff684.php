@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2269;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-06-18 20:27:59";s:13:"post_date_gmt";s:19:"2013-06-18 20:27:59";s:12:"post_content";s:2083:"[av_heading heading='Hey there! This is an example of a 3 Column Ajax portfolio. Once you click a portfolio item a preview will open &amp; show you some more details.' tag='h3' color='' custom_font='' style='blockquote modern-quote' size='' subheading_active='' subheading_size='10' padding='10'][/av_heading]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2269;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-06-18 20:27:59";s:13:"post_date_gmt";s:19:"2013-06-18 20:27:59";s:12:"post_content";s:2083:"[av_heading heading='Hey there! This is an example of a 3 Column Ajax portfolio. Once you click a portfolio item a preview will open &amp; show you some more details.' tag='h3' color='' custom_font='' style='blockquote modern-quote' size='' subheading_active='' subheading_size='10' padding='10'][/av_heading]
 
 [av_hr class='short' height='30' position='left']
 

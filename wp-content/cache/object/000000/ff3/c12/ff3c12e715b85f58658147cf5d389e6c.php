@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2251;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-06-18 17:29:28";s:13:"post_date_gmt";s:19:"2013-06-18 17:29:28";s:12:"post_content";s:10667:"[av_fullscreen size='extra_large' animation='fade' autoplay='true' interval='5']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2251;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-06-18 17:29:28";s:13:"post_date_gmt";s:19:"2013-06-18 17:29:28";s:12:"post_content";s:10667:"[av_fullscreen size='extra_large' animation='fade' autoplay='true' interval='5']
 [av_fullscreen_slide id='314' attachment='' position='center center' title='' caption_pos='caption_center' link='' link_target='' link_apply='' button_label='' button_color='light'][/av_fullscreen_slide]
 [av_fullscreen_slide id='315' position='center center' title='Fullscreen Slider' caption_pos='caption_right caption_right_framed caption_framed' link='manually,#portfolio' link_target='' link_apply='button' button_label='Learn more' button_color='light']
 The fullscreen slider is ideal to create smooth scrolling one page sites or interesting landing pages.

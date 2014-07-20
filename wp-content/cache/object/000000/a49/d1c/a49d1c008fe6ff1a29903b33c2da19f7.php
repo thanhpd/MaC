@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1277;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-06 18:24:13";s:13:"post_date_gmt";s:19:"2013-04-06 18:24:13";s:12:"post_content";s:8708:"[av_heading heading='FAQ' tag='h3' color='meta-heading' style='' padding='0']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1277;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-06 18:24:13";s:13:"post_date_gmt";s:19:"2013-04-06 18:24:13";s:12:"post_content";s:8708:"[av_heading heading='FAQ' tag='h3' color='meta-heading' style='' padding='0']
 
 [av_toggle_container initial='0' mode='accordion' sort='true']
 [av_toggle title='Are there additional costs?' tags='Installation, Misc']

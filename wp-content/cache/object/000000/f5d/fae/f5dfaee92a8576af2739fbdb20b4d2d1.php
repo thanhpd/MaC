@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:821;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 22:36:40";s:13:"post_date_gmt";s:19:"2013-04-01 22:36:40";s:12:"post_content";s:2491:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:821;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 22:36:40";s:13:"post_date_gmt";s:19:"2013-04-01 22:36:40";s:12:"post_content";s:2491:"[av_textblock]
 <h3 style="text-align: left;">Image Element</h3>
 You can insert Image elements via shortcode that feature a subtle CSS3 animation.
 [/av_textblock]

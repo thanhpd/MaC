@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:776;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 21:10:53";s:13:"post_date_gmt";s:19:"2013-04-01 21:10:53";s:12:"post_content";s:7169:"[av_one_half first]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:776;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 21:10:53";s:13:"post_date_gmt";s:19:"2013-04-01 21:10:53";s:12:"post_content";s:7169:"[av_one_half first]
 [av_heading heading='Small' tag='h3' color='' style='' padding='10']
 
 [av_button label='Theme Color' link='manually,#' link_target='' color='theme-color' custom_bg='#444444' custom_font='#ffffff' size='small' position='left' icon_select='yes' icon='77']

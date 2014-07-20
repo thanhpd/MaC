@@ -1,4 +1,4 @@
-w��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"3066";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-05-23 12:25:29";s:13:"post_date_gmt";s:19:"2014-05-23 05:25:29";s:12:"post_content";s:1232:"<span style="color: #000000;"><strong>"Càng học Càng thích!" là thông điệp Summit mong muốn tất cả các học viên cảm nhận được khi tham gia học các khoá luyện thi và tư vấn du học tại Summit.</strong></span>
+O��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"3066";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-05-23 12:25:29";s:13:"post_date_gmt";s:19:"2014-05-23 05:25:29";s:12:"post_content";s:1232:"<span style="color: #000000;"><strong>"Càng học Càng thích!" là thông điệp Summit mong muốn tất cả các học viên cảm nhận được khi tham gia học các khoá luyện thi và tư vấn du học tại Summit.</strong></span>
 
 <!--more-->
 

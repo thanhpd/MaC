@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2271;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 20:49:40";s:13:"post_date_gmt";s:19:"2013-04-01 20:49:40";s:12:"post_content";s:535:"[av_portfolio columns='4' items='16' contents='title' linking='' sort='yes' paginate='yes']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2271;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 20:49:40";s:13:"post_date_gmt";s:19:"2013-04-01 20:49:40";s:12:"post_content";s:535:"[av_portfolio columns='4' items='16' contents='title' linking='' sort='yes' paginate='yes']
 
 [av_hr class='short' height='50' position='center']
 

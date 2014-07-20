@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2270;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2011-12-16 02:14:08";s:13:"post_date_gmt";s:19:"2011-12-16 02:14:08";s:12:"post_content";s:1353:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2270;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2011-12-16 02:14:08";s:13:"post_date_gmt";s:19:"2011-12-16 02:14:08";s:12:"post_content";s:1353:"[av_textblock]
 This is a gallery, created with the default <a href="http://codex.wordpress.org/Gallery_Shortcode">WordPress Gallery Option</a>. The Image size of gallery pics is set automatically when the theme is activated, all you have to do then is to insert a gallery with a max of 7 columns to make it look like the one bellowâ€¦
 
 [gallery link="file" columns="7"]

@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:992;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-03 15:51:29";s:13:"post_date_gmt";s:19:"2013-04-03 15:51:29";s:12:"post_content";s:605:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:992;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-03 15:51:29";s:13:"post_date_gmt";s:19:"2013-04-03 15:51:29";s:12:"post_content";s:605:"[av_textblock]
 <h5 style="text-align: left;">This is an example of a sortable, 3 Column Portfolio.</h5>
 <p style="text-align: left;">For each Portfolio Page you create (any number possible) you can set column count, Â pagination and item count, as well if its sortable or not.Â You can add Portfolio Grids to every Page you want or need, with the help of the fantastic and easy to use template builder that is built right into the theme.</p>
 [/av_textblock]

@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:837;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 22:59:15";s:13:"post_date_gmt";s:19:"2013-04-01 22:59:15";s:12:"post_content";s:1432:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:837;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-01 22:59:15";s:13:"post_date_gmt";s:19:"2013-04-01 22:59:15";s:12:"post_content";s:1432:"[av_textblock]
 <h3>Multiple Progress Bars</h3>
 Add any number of progress bars in various predefined colors, either with or without icon, with or without description.
 Perfect if you want to<strong> display some progress</strong> or display a <strong>skill</strong> you or your company has mastered and how good you are at it.

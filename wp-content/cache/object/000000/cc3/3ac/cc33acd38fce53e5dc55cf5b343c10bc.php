@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:847;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:00:30";s:13:"post_date_gmt";s:19:"2013-04-02 11:00:30";s:12:"post_content";s:766:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:847;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:00:30";s:13:"post_date_gmt";s:19:"2013-04-02 11:00:30";s:12:"post_content";s:766:"[av_textblock]
 <h3>Promo Box</h3>
 The Promo Box Shortcode allows you to add a special notification with call to action button to draw the visitors anttention
 [/av_textblock]

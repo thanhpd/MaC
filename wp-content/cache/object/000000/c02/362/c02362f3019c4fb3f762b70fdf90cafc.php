@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:898;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 14:07:11";s:13:"post_date_gmt";s:19:"2013-04-02 14:07:11";s:12:"post_content";s:412:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:898;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 14:07:11";s:13:"post_date_gmt";s:19:"2013-04-02 14:07:11";s:12:"post_content";s:412:"[av_textblock]
 <h3>Video Shortcode</h3>
 Embed any number of videos into your pages. You can choose the aspect ratio and also display self hosted html5 videos
 [/av_textblock]

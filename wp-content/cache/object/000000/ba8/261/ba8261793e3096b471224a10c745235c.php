@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:862;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:23:53";s:13:"post_date_gmt";s:19:"2013-04-02 11:23:53";s:12:"post_content";s:6987:"[av_section color='alternate_color' custom_bg='' src='' position='top left' repeat='no-repeat' attach='scroll' padding='default' shadow='no-shadow']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:862;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:23:53";s:13:"post_date_gmt";s:19:"2013-04-02 11:23:53";s:12:"post_content";s:6987:"[av_section color='alternate_color' custom_bg='' src='' position='top left' repeat='no-repeat' attach='scroll' padding='default' shadow='no-shadow']
 [av_table purpose='pricing' caption='']
 [av_row row_style='avia-heading-row'][av_cell col_style='']Private Plan[/av_cell][av_cell col_style='avia-highlight-col']Business Plan[/av_cell][av_cell col_style='']Mega Plan[/av_cell][/av_row]
 [av_row row_style='avia-pricing-row'][av_cell col_style='']10$

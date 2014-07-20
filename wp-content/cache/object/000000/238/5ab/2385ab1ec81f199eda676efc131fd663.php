@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:891;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 14:01:19";s:13:"post_date_gmt";s:19:"2013-04-02 14:01:19";s:12:"post_content";s:2619:"[av_heading heading='Testimonial Grid' tag='h3' color='' style='' padding='10']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:891;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 14:01:19";s:13:"post_date_gmt";s:19:"2013-04-02 14:01:19";s:12:"post_content";s:2619:"[av_heading heading='Testimonial Grid' tag='h3' color='' style='' padding='10']
 
 [av_textblock]
 <p style="text-align: left;">You can display any number ofÂ testimonialsÂ within a testimonial grid. You can also choose how many grid columns you want to display (minimum: 1, maximum: 4)</p>

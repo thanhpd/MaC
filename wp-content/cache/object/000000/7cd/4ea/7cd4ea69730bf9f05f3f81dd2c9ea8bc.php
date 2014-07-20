@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1212;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-05 17:05:24";s:13:"post_date_gmt";s:19:"2013-04-05 17:05:24";s:12:"post_content";s:5536:"[av_textblock]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1212;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-05 17:05:24";s:13:"post_date_gmt";s:19:"2013-04-05 17:05:24";s:12:"post_content";s:5536:"[av_textblock]
 <h2 style="text-align: center;">Learn about our Team and Culture</h2>
 <p style="text-align: center;">We are a team of dedicated professionals, ready to do what ever it takes to make your business grow</p>
 [/av_textblock]

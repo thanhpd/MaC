@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:852;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:06:27";s:13:"post_date_gmt";s:19:"2013-04-02 11:06:27";s:12:"post_content";s:2057:"[av_slideshow_full size='featured' stretch='' animation='slide' autoplay='true' interval='5' src='' position='top left' repeat='no-repeat' attach='scroll']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:852;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 11:06:27";s:13:"post_date_gmt";s:19:"2013-04-02 11:06:27";s:12:"post_content";s:2057:"[av_slideshow_full size='featured' stretch='' animation='slide' autoplay='true' interval='5' src='' position='top left' repeat='no-repeat' attach='scroll']
 [av_slide_full id='316' title='' caption_pos='caption_bottom' link='' link_target=''][/av_slide_full]
 [av_slide_full id='315' title='' caption_pos='caption_bottom' link='' link_target=''][/av_slide_full]
 [av_slide_full id='314' title='' caption_pos='caption_bottom' link='' link_target=''][/av_slide_full]

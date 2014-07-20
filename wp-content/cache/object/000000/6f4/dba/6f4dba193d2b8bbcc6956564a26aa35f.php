@@ -1,4 +1,4 @@
-v��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:3026;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-07-13 11:26:25";s:13:"post_date_gmt";s:19:"2014-07-13 04:26:25";s:12:"post_content";s:1220:"<h3 style="text-align: justify;"><span style="color: #ff6600;">Tầm nhìn sứ mệnh</span></h3>
+B��S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:3026;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2014-07-13 11:26:25";s:13:"post_date_gmt";s:19:"2014-07-13 04:26:25";s:12:"post_content";s:1220:"<h3 style="text-align: justify;"><span style="color: #ff6600;">Tầm nhìn sứ mệnh</span></h3>
 <p style="text-align: justify;">Câu lạc bộ Marketing – ĐH Ngoại thương (MaC) là nơi tập hợp của những sinh viên Ngoại thương năng động, sáng tạo, tự tin, yêu thích và có định hướng theo ngành Marketing.
 Câu lạc bộ hoạt động với sứ mệnh và tầm nhìn:</p>
 

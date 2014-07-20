@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2207;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-06-18 14:18:59";s:13:"post_date_gmt";s:19:"2013-06-18 14:18:59";s:12:"post_content";s:2819:"[av_layerslider id='1']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2207;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-06-18 14:18:59";s:13:"post_date_gmt";s:19:"2013-06-18 14:18:59";s:12:"post_content";s:2819:"[av_layerslider id='1']
 
 [av_heading heading='Top Seller' tag='h3' color='' style='' padding='10']
 

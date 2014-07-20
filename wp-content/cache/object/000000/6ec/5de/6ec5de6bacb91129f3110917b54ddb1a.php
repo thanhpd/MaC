@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:886;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 13:54:52";s:13:"post_date_gmt";s:19:"2013-04-02 13:54:52";s:12:"post_content";s:1618:"[av_one_full first]
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:886;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-02 13:54:52";s:13:"post_date_gmt";s:19:"2013-04-02 13:54:52";s:12:"post_content";s:1618:"[av_one_full first]
 [av_team_member name='Janna Mc Cullis' job='CFO' src='http://dummyimage.com/600x400/000/fff&amp;text=Pic' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ']
 [av_team_icon title='Janna on Twitter' link='' link_target='' icon='210']
 [av_team_icon title='Janna on Facebook' link='' link_target='' icon='214']

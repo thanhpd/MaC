@@ -1,4 +1,4 @@
-w”ËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1324;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-07 17:44:22";s:13:"post_date_gmt";s:19:"2013-04-07 17:44:22";s:12:"post_content";s:9909:"[av_layerslider id='1']
+OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:1324;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-07 17:44:22";s:13:"post_date_gmt";s:19:"2013-04-07 17:44:22";s:12:"post_content";s:9909:"[av_layerslider id='1']
 
 [av_one_third first]
 [av_icon_box icon='17' position='left' title='Checkit!']

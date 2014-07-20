@@ -112,7 +112,10 @@ span .av-icon-char {
 	margin-top: 5px;
 }
 
+/* Change the color of half category */
+.av-magazine-hero-top .av-magazine-top-bar { border-bottom: solid; }
 
+/* Change the color of icon when hover */
 #top .av_font_icon a:hover  {
 	color: #ff7713;
 }
@@ -141,9 +144,10 @@ h3.team-member-name, div.team-member-job-title {
 .news-thumb img, .news-thumb img { width: 33px; height: 32px;}
 
 /* Try styling category box content */
-	body div .first {
+	div .av-magazine-hero .first  {
 		margin-top: 15px;
 	} 
+	div .flex_column .av_one_half .first  .avia-builder-el-5  .el_after_av_postslider  .el_before_av_one_half { margin-top: 0 !important; }  
 	/*div.av-magazine-hero.first { margin: 15px 15px 0px 15px;}*/
 	/*div.av-magazine-hero.first > .av-magazine-entry { margin: 0 15px 10px 15px;}*/
 	.av-magazine-group  {
@@ -171,8 +175,16 @@ h3.team-member-name, div.team-member-job-title {
 		-webkit-box-shadow:  0 1px 3px 0 #b5b5b5;
 	}
 	
-	div.av-magazine-hero.first.flex_column.av_one_half  { margin-top: 0 !important; } 
+div .flex_column .av_one_half .first  .avia-builder-el-5  .el_after_av_postslider  .el_before_av_one_half    { margin-top: 0 !important; } 
 	
-.main_color {
-	background-color: #ffffff;
+.main_color, div.tab.active_tab {
+	background-color: #ffffff !important;
 }
+
+div.tab .widget_tab_comments .tab_counter_2{ visibility: hidden !important; }
+
+/* Custom the combo widget appearance */
+#avia_combo_widget-2 { border: 2px solid #f7f7f7;}
+a.news-link { padding-left: 5px; padding-right: 5px; border-bottom: 1px solid #f7f7f7; }
+div.tab_titles{ background-color: #F7F7F7;}
+#top .news-content { margin-bottom: 0px; }
