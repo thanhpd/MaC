@@ -561,7 +561,7 @@ if ( !class_exists( 'avia_magazine' ) )
 			}
 			else
 			{
-				$excerpt = !empty($entry->post_excerpt) ? $entry->post_excerpt : avia_backend_truncate($entry->post_content, apply_filters( 'avf_magazine_excerpt_length' , 60) , apply_filters( 'avf_magazine_excerpt_delimiter' , " "), "…", true, '');
+				$excerpt = !empty($entry->post_excerpt) ? $entry->post_excerpt : avia_backend_truncate($entry->post_content, apply_filters( 'avf_magazine_excerpt_length' , 180) , apply_filters( 'avf_magazine_excerpt_delimiter' , " "), "…", true, '');
 			}
 			
 					

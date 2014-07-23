@@ -40,5 +40,8 @@ $avia_config['layout']['sidebar_left'] 	= array('content' => 'eight', 		 'sideba
 $avia_config['layout']['sidebar_right'] = array('content' => 'eight alpha',   'sidebar' => 'four alpha', 'meta' => 'two alpha', 'entry' => 'eight alpha');
 
 /* */
-
+function custom_excerpt_length( $length ) {
+	return 30;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>

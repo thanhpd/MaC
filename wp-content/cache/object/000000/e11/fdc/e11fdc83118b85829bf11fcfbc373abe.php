@@ -1,8 +1,0 @@
-OÕËS<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:992;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2013-04-03 15:51:29";s:13:"post_date_gmt";s:19:"2013-04-03 15:51:29";s:12:"post_content";s:605:"[av_textblock]
-<h5 style="text-align: left;">This is an example of a sortable, 3 Column Portfolio.</h5>
-<p style="text-align: left;">For each Portfolio Page you create (any number possible) you can set column count, Â pagination and item count, as well if its sortable or not.Â You can add Portfolio Grids to every Page you want or need, with the help of the fantastic and easy to use template builder that is built right into the theme.</p>
-[/av_textblock]
-
-[av_hr class='default' height='50' position='center']
-
-[av_portfolio columns='3' items='12' contents='title' linking='' sort='yes' paginate='yes']";s:10:"post_title";s:18:"Portfolio 3 Column";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:18:"portfolio-3-column";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2013-04-03 15:51:29";s:17:"post_modified_gmt";s:19:"2013-04-03 15:51:29";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:2271;s:4:"guid";s:47:"http://www.kriesi.at/themes/enfold/?page_id=992";s:10:"menu_order";i:0;s:9:"post_type";s:4:"page";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}
