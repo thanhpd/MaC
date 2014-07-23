@@ -42,7 +42,7 @@ return array(
 		10 => '\\bfound_rows\\(\\)',
 		11 => '\\bw3tc_request_data\\b',
 	),
-	'objectcache.enabled' => true,
+	'objectcache.enabled' => false,
 	'objectcache.debug' => false,
 	'objectcache.engine' => 'file',
 	'objectcache.file.gc' => 3600,
@@ -185,12 +185,12 @@ return array(
 	),
 	'minify.lifetime' => 86400,
 	'minify.upload' => true,
-	'minify.html.enable' => false,
+	'minify.html.enable' => true,
 	'minify.html.engine' => 'html',
-	'minify.html.reject.feed' => false,
-	'minify.html.inline.css' => false,
-	'minify.html.inline.js' => false,
-	'minify.html.strip.crlf' => false,
+	'minify.html.reject.feed' => true,
+	'minify.html.inline.css' => true,
+	'minify.html.inline.js' => true,
+	'minify.html.strip.crlf' => true,
 	'minify.html.comments.ignore' => array(
 		0 => 'google_ad_',
 		1 => 'RSPEAK_',
@@ -248,12 +248,16 @@ return array(
 	'minify.htmltidy.options.wrap' => 0,
 	'minify.reject.logged' => false,
 	'minify.reject.ua' => array(
+		0 => '',
 	),
 	'minify.reject.uri' => array(
+		0 => '',
 	),
 	'minify.reject.files.js' => array(
+		0 => '',
 	),
 	'minify.reject.files.css' => array(
+		0 => '',
 	),
 	'minify.cache.files' => array(
 		0 => 'https://ajax.googleapis.com',
@@ -627,7 +631,7 @@ return array(
 	'notes.wp_content_perms' => true,
 	'notes.theme_changed' => false,
 	'notes.wp_upgraded' => false,
-	'notes.plugins_updated' => true,
+	'notes.plugins_updated' => false,
 	'notes.cdn_upload' => false,
 	'notes.cdn_reupload' => false,
 	'notes.need_empty_pgcache' => false,

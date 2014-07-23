@@ -144,6 +144,10 @@ h3.team-member-name, div.team-member-job-title {
 .news-thumb img, .news-thumb img { width: 33px; height: 32px;}
 
 /* Try styling category box content */
+	a .av-magazine-heading {
+		text-decoration: none;
+	}
+	
 	div .av-magazine-hero .first  {
 		margin-top: 15px;
 	} 
@@ -244,4 +248,8 @@ div.tab_titles{ background-color: #F7F7F7;}
 .main_color .avia-tt, .main_color .avia-tt .avia-arrow, .main_color .avia-tt .avia-arrow {
 	background: rgba(255,119,19,0.8);
 	color: white;
+}
+
+.small-preview img {
+	border: 2px solid #b4b4b4;
 }
