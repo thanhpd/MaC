@@ -61,8 +61,8 @@ html, #scroll-top-link {
 }
 
 /* New font family define for caption */
-body, .wp-caption-text, #top .wp-caption .wp-caption-dd {
-	font-family: 'RobotoVN', 'Roboto', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+body, .wp-caption-text, #top .wp-caption .wp-caption-dd, .custom-form {
+	font-family: 'RobotoVN', 'Roboto', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 #top .alternate_color.title_container .main-title a {
@@ -188,3 +188,33 @@ div.tab .widget_tab_comments .tab_counter_2{ visibility: hidden !important; }
 a.news-link { padding-left: 5px; padding-right: 5px; border-bottom: 1px solid #f7f7f7; }
 div.tab_titles{ background-color: #F7F7F7;}
 #top .news-content { margin-bottom: 0px; }
+
+/* Modify contact page */
+#ggmaps {
+	height: 100%; 
+  width: 100%; 
+  position:absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+#contact-forms { 
+	position: relative; 
+	z-index: 9999; /* The z-index should be higher than Google Maps */
+	width: 300px;
+	padding: 10px;
+	background-color: white;
+	height: 100%;
+	opacity: 1; /* Set the opacity for a slightly transparent Google Form */ 
+}
+#top input[type="text"], #top textarea, #top select {
+	
+}
+
+#top .main_color .input-text, #top .main_color input[type='text'], #top .main_color input[type='input'], #top .main_color input[type='password'], #top .main_color input[type='email'], #top .main_color input[type='number'], #top .main_color input[type='url'], #top .main_color input[type='tel'], #top .main_color input[type='search'], #top .main_color textarea, #top .main_color select {
+	color: #ff7713 !important;
+}
+
+#top .main_color .input-text:select, #top .main_color input[type='text']:select, #top .main_color input[type='input']:select, #top .main_color input[type='password']:select, #top .main_color input[type='email']:select, #top .main_color input[type='number']:select, #top .main_color input[type='url']:select, #top .main_color input[type='tel']:select, #top .main_color input[type='search']:select, #top .main_color textarea:select, #top .main_color select:select {
+	background-color: #aad4ff !important;
+}
