@@ -192,29 +192,56 @@ div.tab_titles{ background-color: #F7F7F7;}
 /* Modify contact page */
 #ggmaps {
 	height: 100%; 
-  width: 100%; 
-  position:absolute; 
-  top: 0; 
-  left: 0; 
-  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+	  width: 100%; 
+	  /*position:absolute;*/ 
+	  top: 0; 
+	  left: 0; 
+	  /*z-index: 0;*/ /* Set z-index to 0 as it will be on a layer below the contact form */
 }
-#contact-forms { 
+#contact-form { 
 	position: relative; 
 	z-index: 9999; /* The z-index should be higher than Google Maps */
-	width: 300px;
+	width: 350px;
 	padding: 10px;
-	background-color: white;
+	margin-left: 65%;
+	background-color: #f7f7f7;
+	border: 2px solid #b4b4b4;
 	height: 100%;
 	opacity: 1; /* Set the opacity for a slightly transparent Google Form */ 
 }
-#top input[type="text"], #top textarea, #top select {
-	
+
+.wpcf7-submit  {
+	display: block;
+	font-weight: bold;
 }
 
-#top .main_color .input-text, #top .main_color input[type='text'], #top .main_color input[type='input'], #top .main_color input[type='password'], #top .main_color input[type='email'], #top .main_color input[type='number'], #top .main_color input[type='url'], #top .main_color input[type='tel'], #top .main_color input[type='search'], #top .main_color textarea, #top .main_color select {
-	color: #ff7713 !important;
+.wpcf7-submit:hover {
+  text-shadow: 0 -1px 0 darken($orange_color, 15%);
+  background-color: lighten($orange_color, 5%);
+} 
+
+.wpcf7-form p input:selection, .wpcf7-form p textarea:selection{
+	outline: 2px solid #ff7713;
+	border: 2px solid #ff7713;
 }
 
-#top .main_color .input-text:select, #top .main_color input[type='text']:select, #top .main_color input[type='input']:select, #top .main_color input[type='password']:select, #top .main_color input[type='email']:select, #top .main_color input[type='number']:select, #top .main_color input[type='url']:select, #top .main_color input[type='tel']:select, #top .main_color input[type='search']:select, #top .main_color textarea:select, #top .main_color select:select {
-	background-color: #aad4ff !important;
+#top input[type="text"]:focus, #top input[type="password"]:focus, #top input[type="email"]:focus, #top input[type="number"]:focus, #top input[type="url"]:focus, #top input[type="tel"]:focus, #top input[type="search"]:focus, #top textarea:focus {
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+	color: #555;
+	background-color: #FFFA99 !important;
+	outline-color: #ff7713 !important;
+}
+
+.avia_ajax_form .button {
+	font-size: 15px !important;
+	font-family: Roboto;
+	font-weight: bold;
+	padding: 6px 6px 6px 6px;
+}
+
+
+/* Change the color of tooltips in Sharing section on each post*/
+.main_color .avia-tt, .main_color .avia-tt .avia-arrow, .main_color .avia-tt .avia-arrow {
+	background: rgba(255,119,19,0.8);
+	color: white;
 }
