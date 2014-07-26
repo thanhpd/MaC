@@ -208,7 +208,7 @@
 		$slidertype = $slider->getParam("slider_type","fullwidth");
 		if($slidertype == 'fullwidth'){
 			$style .= ' margin: 0 auto;';
-			$style_wrapper .= ' width: 100%; height: auto;';
+			$style_wrapper .= ' width: 100%;';
 		}else{
 			$style_wrapper .= $style;
 		}
@@ -257,8 +257,9 @@
 				?>
 				
 			</div>
-			<div id="divLayers-wrapper" style="<?php echo $style_wrapper; ?>" class="slide_wrap_layers <?php echo $class_wrapper; ?>">
-				<div id="divLayers" class="<?php echo $divLayersClass?>" style="<?php echo $style; ?>"></div>
+			<div id="divLayers-wrapper" style="<?php echo $style; ?>" class="slide_wrap_layers" >
+				<div id="divbgholder" style="<?php echo $style_wrapper.$divbgminwidth; ?>" class="<?php echo $class_wrapper; ?>"></div>
+				<div id="divLayers" class="<?php echo $divLayersClass?>" style="<?php echo $style.$divLayersWidth; ?>"></div>
 			</div>
 			<div class="clear"></div>
 			<div class="editor_buttons_wrapper  postbox unite-postbox" style="max-width:100% !important;">
@@ -915,9 +916,9 @@
 										<div class="layer-links">
 											<?php
 												$s = $settingsLayerOutput;
-												$s->drawSettingsByNames("layer_image_link,layer_link_open_in,layer_slide_link,layer_scrolloffset");
+												$s->drawSettingsByNames("layer_image_link,layer_link_open_in,layer_slide_link,layer_scrolloffset,layer_link_id,layer_link_class,layer_link_title,layer_link_rel");
 											?>
-										</div>
+										</div><div style="clear: both;"></div>
 
 										<li id="" class="custom attributes_title" style="">
 											<span class="setting_text_2 text-disabled" original-title=""><?php _e("Caption Sharp Corners (optional only with BG color)",REVSLIDER_TEXTDOMAIN)?></span>

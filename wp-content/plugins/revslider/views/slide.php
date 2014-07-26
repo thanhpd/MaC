@@ -32,8 +32,8 @@
 	require self::getSettingsFilePath("slide_settings");
 	require self::getSettingsFilePath("layer_settings");
 	
-	//add plugins.min.js 
-	self::addScript("jquery.themepunch.plugins.min","rs-plugin/js");
+	//add tools.min.js 
+	self::addScript("jquery.themepunch.tools.min","rs-plugin/js", 'tp-tools');
 	
 	$settingsLayerOutput = new UniteSettingsProductSidebarRev();
 	$settingsSlideOutput = new UniteSettingsRevProductRev();
@@ -75,7 +75,9 @@
 	
 	$imageFilename = $slide->getImageFilename();
 	
-	$style = "width:".$width."px;height:".$height."px;";
+	$style = "height:".$height."px;"; //
+	$divLayersWidth = "width:".$width."px;";
+	$divbgminwidth = "min-width:".$width."px;";
 	
 	//set iframe parameters
 	$iframeWidth = $width+60;

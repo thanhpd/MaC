@@ -21,8 +21,8 @@
  * @return str|array
  */
 
-if(!class_exists('Aq_Resize')) {
-    class Aq_Resize
+if(!class_exists('Rev_Aq_Resize')) {
+    class Rev_Aq_Resize
     {
         /**
          * The singleton instance
@@ -199,7 +199,7 @@ if(!function_exists('rev_aq_resize')) {
      * need to change any code in your own WP themes. Usage is still the same :)
      */
     function rev_aq_resize( $url, $width = null, $height = null, $crop = null, $single = true, $upscale = false ) {
-        $aq_resize = Aq_Resize::getInstance();
+        $aq_resize = Rev_Aq_Resize::getInstance();
         return $aq_resize->process( $url, $width, $height, $crop, $single, $upscale );
     }
 }

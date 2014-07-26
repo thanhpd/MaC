@@ -28,7 +28,7 @@
 		 * main constructor		 
 		 */
 		public function __construct($mainFile,$t,$defaultView){
-						
+			
 			parent::__construct($mainFile,$t);
 			
 			//set view
@@ -49,6 +49,8 @@
 			
 			//a must event for any admin. call onActivate function.
 			$this->addEvent_onActivate();
+			$this->addAction_onActivate();
+			
 			self::addActionAjax("show_image", "onShowImage");
 			
 			
@@ -434,6 +436,23 @@
 		 */
 		protected function addEvent_onActivate($eventFunc = "onActivate"){
 			register_activation_hook( self::$mainFile, array(self::$t, $eventFunc) );
+		}
+		
+		
+		protected function addAction_onActivate(){
+			register_activation_hook( self::$mainFile, array(self::$t, 'onActivateHook') );
+		}
+		
+		
+		public static function onActivateHook(){
+			
+			$options = array('use_hammer_js' => 'on');
+			
+			$options = apply_filters('revslider_mod_activation_option', $options);
+			
+			$operations = new RevOperations();
+			$operations->updateGeneralSettings($options);
+			
 		}
 		
 		/**

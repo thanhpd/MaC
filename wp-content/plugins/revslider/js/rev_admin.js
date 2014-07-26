@@ -1207,7 +1207,7 @@ var RevSliderAdmin = new function(){
 							imageID = "";
 						
 						//set visual image 
-						jQuery("#divLayers-wrapper").css("background-image","url("+urlImage+")");
+						jQuery("#divbgholder").css("background-image","url("+urlImage+")");
 						
 						//update setting input
 						jQuery("#image_url").val(urlImage);
@@ -1301,7 +1301,7 @@ var RevSliderAdmin = new function(){
 				var bgType = jQuery("#background_type").val();
 				if(bgType == "solid"){
 					var bgColor = jQuery("#slide_bg_color").val();
-					jQuery("#divLayers-wrapper").css("background-color",bgColor);
+					jQuery("#divbgholder").css("background-color",bgColor);
 				}
 					
 			});
@@ -1453,29 +1453,29 @@ var RevSliderAdmin = new function(){
 			switch(bgType){
 				case "image":
 					var urlImage = jQuery("#image_url").val();
-					jQuery("#divLayers-wrapper").css("background-image","url('"+urlImage+"')");
-					jQuery("#divLayers-wrapper").css("background-color","transparent");
-					jQuery("#divLayers-wrapper").removeClass("trans_bg");
+					jQuery("#divbgholder").css("background-image","url('"+urlImage+"')");
+					jQuery("#divbgholder").css("background-color","transparent");
+					jQuery("#divbgholder").removeClass("trans_bg");
 					if(jQuery('input[name="kenburn_effect"]:checked').val() == 'on'){
 						jQuery('input[name="kb_start_fit"]').change();
 					}
 				break;			
 				case "trans":
-					jQuery("#divLayers-wrapper").css("background-image","none");
-					jQuery("#divLayers-wrapper").css("background-color","transparent");
-					jQuery("#divLayers-wrapper").addClass("trans_bg");
+					jQuery("#divbgholder").css("background-image","none");
+					jQuery("#divbgholder").css("background-color","transparent");
+					jQuery("#divbgholder").addClass("trans_bg");
 				break;
 				case "solid":
-					jQuery("#divLayers-wrapper").css("background-image","none");
-					jQuery("#divLayers-wrapper").removeClass("trans_bg");
+					jQuery("#divbgholder").css("background-image","none");
+					jQuery("#divbgholder").removeClass("trans_bg");
 					var bgColor = jQuery("#slide_bg_color").val();
-					jQuery("#divLayers-wrapper").css("background-color",bgColor);
+					jQuery("#divbgholder").css("background-color",bgColor);
 				break;
 				case "external":
 					var urlImage = jQuery("#slide_bg_external").val();
-					jQuery("#divLayers-wrapper").css("background-image","url('"+urlImage+"')");
-					jQuery("#divLayers-wrapper").css("background-color","transparent");
-					jQuery("#divLayers-wrapper").removeClass("trans_bg");
+					jQuery("#divbgholder").css("background-image","url('"+urlImage+"')");
+					jQuery("#divbgholder").css("background-color","transparent");
+					jQuery("#divbgholder").removeClass("trans_bg");
 					if(jQuery('input[name="kenburn_effect"]:checked').val() == 'on'){
 						jQuery('input[name="kb_start_fit"]').change();
 					}

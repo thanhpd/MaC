@@ -95,8 +95,8 @@ body, .wp-caption-text, #top .wp-caption .wp-caption-dd, .custom-form {
 }
 
 /* Style custom for each category in Homepage */
-
-#top .av-magazine .avia-inherit-font-color a.av-magazine-top-heading, #top .av-magazine .avia-inherit-font-color a.active_sort, #top .av-magazine .avia-inherit-font-color a:hover {color: #ffffff}
+#top .av-magazine .avia-inherit-font-color a.av-magazine-top-heading {color: #fff;}
+#top .av-magazine .avia-inherit-font-color a:hover, #top .av-magazine .avia-inherit-font-color a.active_sort {color: #ff7713;}
 
 .av-magazine-top-bar a{
 	color: white;

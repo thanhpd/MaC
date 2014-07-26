@@ -39,18 +39,18 @@ var UniteAdminRev = new function(){
 
 
 		// ANIMATE THE INFO BOX
-		TweenLite.fromTo(nt,0.5,{y:-50,autoAlpha:0,transformOrigin:"50% 50%", transformPerspective:900, rotationX:-90},{autoAlpha:1,y:0,rotationX:0,ease:Back.easeOut,delay:obj.showdelay});
+		punchgs.TweenLite.fromTo(nt,0.5,{y:-50,autoAlpha:0,transformOrigin:"50% 50%", transformPerspective:900, rotationX:-90},{autoAlpha:1,y:0,rotationX:0,ease:punchgs.Back.easeOut,delay:obj.showdelay});
 
 		if (obj.hideon != "event") {
 			nt.click(function() {
-				TweenLite.to(nt,0.3,{x:200,ease:Power3.easeInOut,autoAlpha:0,onComplete:function() {nt.remove()}});
+				punchgs.TweenLite.to(nt,0.3,{x:200,ease:punchgs.Power3.easeInOut,autoAlpha:0,onComplete:function() {nt.remove()}});
 			})
 
 			if (obj.hidedelay !=0 && obj.hideon!="click")
-				TweenLite.to(nt,0.3,{x:200,ease:Power3.easeInOut,autoAlpha:0,delay:obj.hidedelay + obj.showdelay, onComplete:function() {nt.remove()}});
+				punchgs.TweenLite.to(nt,0.3,{x:200,ease:punchgs.Power3.easeInOut,autoAlpha:0,delay:obj.hidedelay + obj.showdelay, onComplete:function() {nt.remove()}});
 		} else  {
 			jQuery('#eg-toolbox-wrapper').on(obj.event,function() {
-				TweenLite.to(nt,0.3,{x:200,ease:Power3.easeInOut,autoAlpha:0,onComplete:function() {nt.remove()}});
+				punchgs.TweenLite.to(nt,0.3,{x:200,ease:punchgs.Power3.easeInOut,autoAlpha:0,onComplete:function() {nt.remove()}});
 			});
 		}
 	}

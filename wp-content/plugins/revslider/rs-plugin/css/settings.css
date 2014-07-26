@@ -217,7 +217,7 @@ website:   	http://www.themepunch.com
 }
 
 .rev_slider .tp-caption,
-.rev_slider .caption { position:absolute; visibility: hidden; white-space: nowrap;}
+.rev_slider .caption { position:absolute;  visibility:hidden; white-space: nowrap;}
 
 .tp-simpleresponsive img	{	max-width:none;}
 
@@ -844,6 +844,7 @@ website:   	http://www.themepunch.com
 											    border: 5px solid rgba(0, 0, 0, 1) !important;
 } 
 
+.tp-arr-titleholder.alwayshidden			{	display:none !important;}
 
 
 	@media only screen and (min-width: 768px) and (max-width: 979px) {

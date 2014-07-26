@@ -10,6 +10,8 @@ $includes_globally = $generalSettings->getSettingValue("includes_globally",'on')
 $pages_for_includes = $generalSettings->getSettingValue("pages_for_includes",'');
 $js_to_footer = $generalSettings->getSettingValue("js_to_footer",'off');
 $show_dev_export = $generalSettings->getSettingValue("show_dev_export",'off');
+
+$use_hammer_js = $generalSettings->getSettingValue("use_hammer_js",'on');
 ?>
 
 <div id="dialog_general_settings" title="<?php _e("General Settings",REVSLIDER_TEXTDOMAIN)?>" style="display:none;">
@@ -110,6 +112,28 @@ $show_dev_export = $generalSettings->getSettingValue("show_dev_export",'off');
 									</span>					
 									<div class="description_container">
 										<span class="description"><?php _e("This will enable the option to export the Slider Markups to copy/paste it directly into websites.",REVSLIDER_TEXTDOMAIN)?></span>				
+									</div>
+								</td>
+							</tr>
+							
+							<tr id="use_hammer_js_row" valign="top">
+								<th scope="row">
+									<?php _e("Use Own hammer.js:",REVSLIDER_TEXTDOMAIN); ?>
+								</th>
+								<td>
+									<span id="use_hammer_js_wrapper" class="radio_settings_wrapper">
+										<div class="radio_inner_wrapper">
+											<input type="radio" id="use_hammer_js_1" value="on" name="use_hammer_js" <?php checked($use_hammer_js, 'on'); ?>>
+											<label for="use_hammer_js_1" style="cursor:pointer;"><?php _e("On",REVSLIDER_TEXTDOMAIN); ?></label>
+										</div>
+						
+										<div class="radio_inner_wrapper">
+											<input type="radio" id="use_hammer_js_2" value="off" name="use_hammer_js" <?php checked($use_hammer_js, 'off'); ?>>
+											<label for="use_hammer_js_2" style="cursor:pointer;"><?php _e("Off",REVSLIDER_TEXTDOMAIN); ?></label>
+										</div>					
+									</span>					
+									<div class="description_container">
+										<span class="description"><?php _e("Disable this only if hammer.js is already loaded.",REVSLIDER_TEXTDOMAIN)?></span>				
 									</div>
 								</td>
 							</tr>								
