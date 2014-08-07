@@ -68,7 +68,7 @@ function avia_bbpress_filter_form_message( $retstr, $args )
 
 /*modify default breadcrumb to work better with bb forums*/
 
-if(!function_exists('avia_bbpress_breadcrumb'))
+if(!function_exists('avia_fetch_bb_trail'))
 {
 	//fetch bb trail and set the bb breadcrum output to false
 	function avia_fetch_bb_trail($trail, $breadcrumbs, $r)
@@ -180,6 +180,7 @@ if(!function_exists('avia_remove_bbpress_post_type_from_query'))
 	add_filter('avia_post_grid_query', 'avia_remove_bbpress_post_type_from_query', 10, 2);
 	add_filter('avia_post_slide_query', 'avia_remove_bbpress_post_type_from_query', 10, 2);
 	add_filter('avia_blog_post_query', 'avia_remove_bbpress_post_type_from_query', 10, 2);
+	add_filter('avf_magazine_entries_query', 'avia_remove_bbpress_post_type_from_query', 10, 2);
 }
 
 

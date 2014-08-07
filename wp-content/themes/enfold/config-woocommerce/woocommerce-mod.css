@@ -1444,6 +1444,8 @@ z-index: 101;
 .sort-param li{
 position: relative;
 margin: 0;
+display: block;
+z-index: 100;
 }
 
 .sort-param > li > span, .sort-param > li > a{
@@ -1497,7 +1499,7 @@ min-width: 167px;
 min-width: 207px;
 }
 
-.sort-param > li:hover ul{
+.sort-param > li:hover ul, .sort-param.active-sort > li ul{
 display:block;
 box-shadow: 		0px 6px 14px 0 rgba(0, 0, 0, 0.1);
 }
@@ -2223,6 +2225,11 @@ margin-left: -6px;}
 		margin-top:20px;
 		}
 
+        .responsive .shipping_calculator {
+            padding-top: 20px;
+        }
+
+
 		.responsive table.shop_table th {
 		font-size: 11px;
 		font-weight: normal;
@@ -2231,7 +2238,7 @@ margin-left: -6px;}
 		text-transform: none;
 		}
 
-		.responsive table.shop_table .product-remove , .responsive table.shop_table .product-thumbnail{
+		.responsive table.shop_table .product-thumbnail{
 		display:none;
 		}
 
@@ -2261,6 +2268,10 @@ margin-left: -6px;}
 		}
 
 		.responsive #top .single-product-main-image .thumbnails a {width:30%;}
+
+        .responsive .shop_table .product-quantity{
+            display: none;
+        }
 
 
 		/*header*/
@@ -2301,18 +2312,51 @@ margin-left: -6px;}
 		display:none;
 		}
 
-		.responsive table.shop_table th{display:none;}
+		/*.responsive table.shop_table th{display:none;}*/
 
-		.responsive table.shop_table td, .responsive table.shop_table tr, .responsive table.shop_table tbody{
-		display:block;
-		border:none !important;
-		}
+        .responsive table.shop_table.cart {
+            display: table;
+        }
+
+        .responsive table.shop_table.cart .product-thumbnail{
+            display: none;
+        }
+
+        .responsive table.shop_table.cart td.product-remove{
+            display: table-cell;
+            padding: 3px 0 3px 3px;
+        }
+
+        .responsive table.shop_table.cart .product-remove{
+            width: 10%;
+        }
+
+        .responsive table.shop_table.cart .product-name{
+            display: table-cell;
+            padding: 3px 0 3px 3px;
+            width: 40%;
+            text-align: center;
+        }
+
+        .responsive table.shop_table.cart td.product-price, .responsive table.shop_table.cart td.product-tax{
+            display: table-cell;
+            padding: 3px;
+        }
+
+        .responsive table.shop_table.cart .product-price, .responsive table.shop_table.cart .product-tax{
+            width: 25%;
+            text-align: center;
+        }
+
+        .responsive table.shop_table td{
+            display:table-cell;
+        }
 
 		.responsive table.shop_table{
-		display:block;
-		border-width:1px;
-		border-style: solid;
-		overflow: hidden;
+            display:table;
+            border-width:1px;
+            border-style: solid;
+            overflow: hidden;
 		}
 
 		.responsive td.actions{overflow: hidden; padding:10px; }

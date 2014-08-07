@@ -187,6 +187,17 @@ $avia_elements[] =	array(
 
 
 
+$avia_elements[] = array(
+		"name" 	=> __("Lightbox Modal Window", 'avia_framework'),
+		"desc" 	=> __("Check to enable the default lightbox that opens once you click a link to an image. Uncheck only if you want to use your own modal window plugin", 'avia_framework'),
+		"id" 	=> "lightbox_active",
+		"type" 	=> "checkbox",
+		"std"	=> "true",
+		"slug"	=> "avia");	
+		
+		
+		
+
 $avia_elements[] =	array(
 					"slug"	=> "avia",
 					"name" 	=> __("Google Analytics Tracking Code", 'avia_framework'),

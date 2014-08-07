@@ -22,7 +22,9 @@ if (have_posts()) :
 	$current_post['the_id']	   	= get_the_ID();
 	$current_post['parity']	   	= $post_loop_count % 2 ? 'odd' : 'even';
 	$current_post['last']      	= count($wp_query->posts) == $post_loop_count ? " post-entry-last " : "";
+	$current_post['post_type']	= get_post_type($current_post['the_id']);
 	$current_post['post_class'] 	= "post-entry-".$current_post['the_id']." post-loop-".$post_loop_count." post-parity-".$current_post['parity'].$current_post['last']." ".$blog_style;
+	$current_post['post_class']	.= ($current_post['post_type'] == "post") ? '' : ' post';
 	$current_post['post_format'] 	= get_post_format() ? get_post_format() : 'standard';
 	$current_post['post_layout']	= avia_layout_class('main', false);
 

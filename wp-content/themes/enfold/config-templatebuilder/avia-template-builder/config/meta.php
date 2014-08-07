@@ -231,6 +231,7 @@ array(
         "class" => "avia-style",
         "subtype" => array( __("No transparency",'avia_framework') => '',
                             __('Transparent Header','avia_framework') =>'header_transparent',
+                            __('Transparent & Glassy Header','avia_framework') =>'header_transparent header_glassy ',
 
                     )
         ),

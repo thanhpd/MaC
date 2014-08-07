@@ -176,8 +176,12 @@ if ( !class_exists( 'avia_sc_image' ) )
 			{
 				$template = $this->update_template("src", "<img src='{{src}}' alt=''/>");
 				$img	  = "";
-
-				if(isset($params['args']['src']) && is_numeric($params['args']['src']))
+				
+				if(!empty($params['args']['attachment']) && !empty($params['args']['attachment_size']))
+				{
+					$img = wp_get_attachment_image($params['args']['attachment'],$params['args']['attachment_size']);
+				}
+				else if(isset($params['args']['src']) && is_numeric($params['args']['src']))
 				{
 					$img = wp_get_attachment_image($params['args']['src'],'large');
 				}
@@ -212,7 +216,7 @@ if ( !class_exists( 'avia_sc_image' ) )
 				$alt 	= "";
 				$title 	= "";
 
-				extract(shortcode_atts(array('src'=>'', 'animation'=>'no-animation', 'link'=>'', 'attachment'=>'', 'target'=>'no', 'styling' =>'', 'caption'=>'', 'font_size'=>'', 'appearance'=>'' ), $atts, $this->config['shortcode']));
+				extract(shortcode_atts(array('src'=>'', 'animation'=>'no-animation', 'link'=>'', 'attachment'=>'', 'attachment_size'=>'', 'target'=>'no', 'styling' =>'', 'caption'=>'', 'font_size'=>'', 'appearance'=>'' ), $atts, $this->config['shortcode']));
 
 				if(!empty($attachment))
 				{
@@ -223,6 +227,12 @@ if ( !class_exists( 'avia_sc_image' ) )
 						$alt = get_post_meta($attachment_entry->ID, '_wp_attachment_image_alt', true);
 	                	$alt = !empty($alt) ? esc_attr($alt) : '';
 	                	$title = trim($attachment_entry->post_title) ? esc_attr($attachment_entry->post_title) : "";
+	                	
+	                	if(!empty($attachment_size))
+						{
+							$src = wp_get_attachment_image_src($attachment_entry->ID, $attachment_size);
+							$src = !empty($src[0]) ? $src[0] : "";
+						}
 					}
 				}
 				else
@@ -258,8 +268,8 @@ if ( !class_exists( 'avia_sc_image' ) )
 						}
 						
 						if($caption == "yes")
-						{
-							$content = ShortcodeHelper::avia_apply_autop(trim($content));
+						{	
+							$content = ShortcodeHelper::avia_apply_autop(ShortcodeHelper::avia_remove_autop($content));
 							$overlay = "<div class='av-image-caption-overlay'><div class='av-image-caption-overlay-position'><div class='av-image-caption-overlay-center' {$style}>{$content}</div></div></div>";
 							$class .= " noHover ";
 							

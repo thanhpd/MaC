@@ -433,6 +433,8 @@ function wpgmaps_b_admin_edit_polyline_javascript($mapid,$polyid) {
                 
                 foreach ($poly_array as $single_poly) {
                     $poly_data_raw = str_replace(" ","",$single_poly);
+                    $poly_data_raw = str_replace(")","",$poly_data_raw );
+                    $poly_data_raw = str_replace("(","",$poly_data_raw );
                     $poly_data_raw = explode(",",$poly_data_raw);
                     $lat = $poly_data_raw[0];
                     $lng = $poly_data_raw[1];
@@ -572,7 +574,7 @@ function wpgmza_b_return_polyline_list($map_id,$admin = true,$width = "100%") {
         foreach ($poly_array as $poly_single) {
             $poly_data .= $poly_single.",";
         } 
-        if (isset($result->polyname) && $result->polyname != "") { $poly_name = $result->polyname; } else { $poly_name = "Polygon".$result->id; }
+        if (isset($result->polyname) && $result->polyname != "") { $poly_name = $result->polyname; } else { $poly_name = "Polyline".$result->id; }
 
         $wpgmza_tmp .= "
             <tr id=\"wpgmza_poly_tr_".$result->id."\">

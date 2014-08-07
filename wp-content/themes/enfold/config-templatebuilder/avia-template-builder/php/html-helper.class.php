@@ -435,7 +435,7 @@ if ( !class_exists( 'AviaHtmlHelper' ) ) {
 		static function textarea( $element )
 		{	
 			$output  = '<textarea rows="5" cols="30" class="'.$element['class'].'" id="'.$element['id'].'" name="'.$element['id'].'">';
-			$output .= $element['std'].'</textarea>';
+			$output .= rtrim($element['std']).'</textarea>';
 			return $output;
 		}
 		
@@ -681,26 +681,52 @@ if ( !class_exists( 'AviaHtmlHelper' ) ) {
 			$output = '	<a href="#" class="'.$class.'" '.$data.' title="'.esc_attr($element['title']).'">'.$element['title'].'</a>';
 			
 			if(isset($element['delete'])) $output .= '<a href="#" class="button avia-delete-gallery-button" title="'.esc_attr($element['delete']).'">'.$element['delete'].'</a>';
+				
+			$attachmentids 	= !empty($element['shortcode_data']['attachment']) ? explode(',', $element['shortcode_data']['attachment']) : array();
+			$attachmentid 	= !empty($attachmentids[self::$imageCount]) ? $attachmentids[self::$imageCount] : '';
+			$attachmentsize = !empty($element['shortcode_data']['attachment_size']) ? $element['shortcode_data']['attachment_size'] : "";		
+				
+			//get image based on id if possible
+			if(!empty($attachmentid) && !empty($attachmentsize))
+			{
+				$fake_img 	= wp_get_attachment_image( $attachmentid, $attachmentsize);
+				$url		= wp_get_attachment_image_src( $attachmentid, $attachmentsize);
+				$url		= !empty($url[0]) ? $url[0] : "";
+			}
+			else if(isset($fetch) && $fetch == "id")
+			{
+				$fake_img 	= wp_get_attachment_image( $element['std'], 'thumbnail');
+				$url		= wp_get_attachment_image_src( $element['std'], 'thumbnail');
+				$url		= !empty($url[0]) ? $url[0] : "";
+			}
+			else
+			{
+				$fake_img 	= '<img src="'.$element['std'].'" />';
+				$url		= $element['std'];
+			}
+	
 					
 			if($element['type'] != 'video')
 			{
-				$output .= self::display_image($element['std']);			
+				$output .= self::display_image($url);			
 			}
 			$output .= self::$element['data']['save_to']($element);
 			
 			//fake img for multi_image element
 			if(isset($fetch))
 			{
+			
 				$fake_img_id = str_replace ( str_replace('aviaTB','',$element['id']) ,'img_fakeArg', $element['id']);
 				$img_id_field = str_replace ( str_replace('aviaTB','',$element['id']) ,'attachment', $element['id']);
-				
-				$fake_img = $fetch == "id" ? wp_get_attachment_image( $element['std'], 'thumbnail') : '<img src="'.$element['std'].'" />';
+				$img_size_field = str_replace ( str_replace('aviaTB','',$element['id']) ,'attachment_size', $element['id']);
 
-				$attachmentids = !empty($element['shortcode_data']['attachment']) ? explode(',', $element['shortcode_data']['attachment']) : array();
-				$attachmentid = !empty($attachmentids[self::$imageCount]) ? $attachmentids[self::$imageCount] : '';
-				
 				$output .= '<input type="hidden" class="hidden-image-url '.$element['class'].'" value="'.htmlentities($fake_img, ENT_QUOTES, get_bloginfo( 'charset' )).'" id="'.$fake_img_id.'" name="'.$fake_img_id.'"/>';
-				$output .= '<input type="hidden" class="hidden-attachment-id '.$element['class'].'" value="'.$attachmentid.'" id="'.$img_id_field.'" name="'.$img_id_field.'"/>';
+				
+				if($fetch == 'url')
+				{
+					$output .= '<input type="hidden" class="hidden-attachment-id '.$element['class'].'" value="'.$attachmentid.'" id="'.$img_id_field.'" name="'.$img_id_field.'"/>';
+					$output .= '<input type="hidden" class="hidden-attachment-size '.$element['class'].'" value="'.$attachmentsize.'" id="'.$img_size_field.'" name="'.$img_size_field.'"/>';
+				}
 			}
 
 			self::$imageCount++;
@@ -1176,8 +1202,6 @@ if ( !class_exists( 'AviaHtmlHelper' ) ) {
 			return $output;
 		}
 		
-
-		
 		
 		static function display_image($img = "")
 		{
@@ -1201,6 +1225,7 @@ if ( !class_exists( 'AviaHtmlHelper' ) ) {
 			$output = "";
 			$hidden = "avia-hidden";
 			
+			$output .= "<div class='avia-builder-prev-img-container-wrap'>";
 			$output .= "<div class='avia-builder-prev-img-container'>";
 			if(!empty($final))
 			{
@@ -1212,6 +1237,7 @@ if ( !class_exists( 'AviaHtmlHelper' ) ) {
 				}
 			}
 			
+			$output .= "</div>";
 			$output .= "</div>";
 			$output .= "<a href='#delete' class='avia-delete-image {$hidden}'>".__('Remove Image', 'avia_framework' )."</a>";
 			return $output;

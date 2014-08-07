@@ -155,6 +155,7 @@ else
 function avia_include_layerslider()
 {	
 	if(!is_admin() && !post_has_layerslider()) return;
+	if(current_theme_supports('deactivate_layerslider')) return;
 	
 	// Path for LayerSlider WP main PHP file
 	$layerslider = get_template_directory() . '/config-layerslider/LayerSlider/layerslider.php';

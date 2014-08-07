@@ -171,7 +171,7 @@ if ( !class_exists( 'AviaBuilder' ) ) {
 			
 			//default wordpress hooking
 			add_action('wp_head', array($this,'load_shortcode_assets'), 2000);
-			add_action( 'template_redirect',array($this, 'template_redirect' ));
+			add_action( 'template_redirect',array($this, 'template_redirect'), 1000);
 		}
 		
 		/**

@@ -80,22 +80,18 @@
 	width:100% !important;
 	height:100% !important;
 }
-/*
+
 div .mejs-overlay-button {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	width: 100px;
 	height: 100px;
-	margin: -50px 0 0 -50px;
-	background: url(bigplay.png) no-repeat;
+	margin: -50px 0 0 -50px !important;
 }
 
 
-.mejs-overlay:hover .mejs-overlay-button{
-	background-position: 0 -100px ;
-}
-*/
+
 
 
 .mejs-overlay-loading {

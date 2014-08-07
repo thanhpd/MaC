@@ -68,7 +68,7 @@ if ( !class_exists( 'avia_sc_portfolio' ) )
 												__('3 Columns', 'avia_framework' )=>'3',
 												__('4 Columns', 'avia_framework' )=>'4',
 												__('5 Columns', 'avia_framework' )=>'5',
-												/*__('6 Columns', 'avia_framework' )=>'6',*/
+												__('6 Columns', 'avia_framework' )=>'6',
 												)),
 
                     array(
@@ -203,6 +203,14 @@ if ( !class_exists( 'avia_sc_portfolio' ) )
 			{
 				$params['innerHtml'] = "<img src='".$this->config['icon']."' title='".$this->config['name']."' />";
 				$params['innerHtml'].= "<div class='avia-element-label'>".$this->config['name']."</div>";
+				$params['innerHtml'].= "<div class='avia-flex-element'>"; 
+				$params['innerHtml'].= 		__('This element will stretch across the whole screen by default.','avia_framework')."<br/>";
+				$params['innerHtml'].= 		__('If you put it inside a color section or column it will only take up the available space','avia_framework');
+				$params['innerHtml'].= "	<div class='avia-flex-element-2nd'>".__('Currently:','avia_framework');
+				$params['innerHtml'].= "	<span class='avia-flex-element-stretched'>&laquo; ".__('Stretch fullwidth','avia_framework')." &raquo;</span>";
+				$params['innerHtml'].= "	<span class='avia-flex-element-content'>| ".__('Adjust to content width','avia_framework')." |</span>";
+				$params['innerHtml'].= "</div></div>";
+				
 				$params['content'] 	 = NULL; //remove to allow content elements
 
 				return $params;
@@ -242,11 +250,31 @@ if ( !class_exists( 'avia_sc_portfolio' ) )
 
 					if(is_string($atts['post_type'])) $atts['post_type'] = explode(',', $atts['post_type']);
 				}
-
+				
+				$atts['fullscreen'] = ShortcodeHelper::is_top_level();
 
 				$grid = new avia_post_grid($atts);
 				$grid->query_entries();
-				return $grid->html();
+				$portfolio_html = $grid->html();
+			
+				if(!ShortcodeHelper::is_top_level()) 
+				return $portfolio_html;
+				
+				
+				$params['class'] = "main_color avia-no-border-styling avia-fullwidth-portfolio ".$meta['el_class'];
+				$params['open_structure'] = false;
+				$params['id'] = !empty($atts['id']) ? AviaHelper::save_string($atts['id'],'-') : "";
+				$params['custom_markup'] = $meta['custom_markup'];
+				
+				//we dont need a closing structure if the element is the first one or if a previous fullwidth element was displayed before
+				if($meta['index'] == 0) $params['close'] = false;
+				if(!empty($meta['siblings']['prev']['tag']) && in_array($meta['siblings']['prev']['tag'], AviaBuilder::$full_el_no_section )) $params['close'] = false;
+					
+				$output  =  avia_new_section($params);
+				$output .= $portfolio_html;
+				$output .= avia_section_after_element_content( $meta , 'after_portfolio' );
+				
+				return $output;
 			}
 		}
 }
@@ -280,7 +308,8 @@ if ( !class_exists( 'avia_post_grid' ) )
 		                                 		'one_column_template' => 'special',
 		                                 		'set_breadcrumb' => true, //no shortcode option for this, modifies the breadcrumb nav, must be false on taxonomy overview
 		                                 		'class'		=> "",
-		                                 		'custom_markup'	=> ''
+		                                 		'custom_markup'	=> '',
+		                                 		'fullscreen'	=> false,
 		                                 		), $atts, 'av_portfolio');
 
 
@@ -321,21 +350,25 @@ if ( !class_exists( 'avia_post_grid' ) )
 				case "5": $grid = 'av_one_fifth';  if($preview_mode == 'auto') $image_size = 'portfolio_small'; break;
 				case "6": $grid = 'av_one_sixth';  if($preview_mode == 'auto') $image_size = 'portfolio_small'; break;
 			}
+			
+			if($fullscreen && $preview_mode =='auto' && $image_size == "portfolio_small") $image_size = 'portfolio';
 
 			$output .= $sort == "yes" ? $this->sort_buttons($this->entries->posts, $this->atts) : "";
 
 			if($linking == "ajax")
 			{
-			global $avia_config;
-
-			$output .= "<div class='portfolio_preview_container' data-portfolio-id='{$container_id}'>
-							<div class='ajax_controlls iconfont'>
-								<a href='#prev' class='ajax_previous' 	".av_icon_string('prev')."></a>
-								<a href='#next' class='ajax_next'		".av_icon_string('next')."></a>
-								<a class='avia_close' href='#close'		".av_icon_string('close')."></a>
-							</div>
-							<div class='portfolio-details-inner'></div>
-						</div>";
+				global $avia_config;
+				
+				$container_class = $fullscreen ? "container" : "";
+				
+				$output .= "<div class='portfolio_preview_container {$container_class}' data-portfolio-id='{$container_id}'>
+								<div class='ajax_controlls iconfont'>
+									<a href='#prev' class='ajax_previous' 	".av_icon_string('prev')."></a>
+									<a href='#next' class='ajax_next'		".av_icon_string('next')."></a>
+									<a class='avia_close' href='#close'		".av_icon_string('close')."></a>
+								</div>
+								<div class='portfolio-details-inner'></div>
+							</div>";
 			}
 			$output .= "<div class='{$class} grid-sort-container isotope {$style_class}-container with-{$contents}-container grid-total-{$total} grid-col-{$columns} grid-links-{$linking}' data-portfolio-id='{$container_id}'>";
 

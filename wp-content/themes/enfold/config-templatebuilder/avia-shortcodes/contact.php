@@ -305,13 +305,20 @@ if ( !class_exists( 'avia_sc_contact' ) )
 			function helper_array2form_fields($base)
 			{
 				$form_fields = array();
+                		$labels = array();
+
 
 				if(is_array($base))
 				{
 					foreach($base as $key => $field)
 					{
-						$form_fields[strtolower($field['attr']['label'])] = $field['attr'];
-						if(!empty($field['content'])) $form_fields[strtolower($field['attr']['label'])]['content'] = ShortcodeHelper::avia_apply_autop($field['content']);
+                        			$sanizited_id = trim(strtolower($field['attr']['label']));
+
+                        			$labels[$sanizited_id] = empty($labels[$sanizited_id]) ? 1 : $labels[$sanizited_id] + 1;
+                        			if($labels[$sanizited_id] > 1) $sanizited_id = $sanizited_id . '_' . $labels[$sanizited_id];
+
+						$form_fields[$sanizited_id] = $field['attr'];
+						if(!empty($field['content'])) $form_fields[$sanizited_id]['content'] = ShortcodeHelper::avia_apply_autop($field['content']);
 					}
 				}
 

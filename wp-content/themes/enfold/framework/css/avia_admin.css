@@ -2055,7 +2055,7 @@ top:40%;
 position: fixed;
 left:50%;
 margin-left:-200px;
-z-index: 500;
+z-index: 15000;
 max-width: 100%;
 width:400px;
 overflow: auto;
@@ -2102,7 +2102,7 @@ bottom: 0;
 min-height: 360px;
 background: #000;
 opacity: .7;
-z-index: 400;
+z-index: 14000;
 }
 
 .avia-popup .popup-close{

@@ -30,8 +30,8 @@
                     </div>
 
                     <?php
-                    $blog_layout = apply_filters('avf_blog_style', avia_get_option('blog_style','multi-big'), 'archive');
-                    if($blog_layout == 'blog-grid')
+                    $avia_config['blog_style'] = apply_filters('avf_blog_style', avia_get_option('blog_style','multi-big'), 'archive');
+                    if($avia_config['blog_style'] == 'blog-grid')
                     {
                         global $posts;
                         $post_ids = array();

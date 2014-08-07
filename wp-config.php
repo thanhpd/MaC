@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache Edge Mode */
+define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
+
 /** Enable W3 Total Cache */
 define('WP_CACHE', true); // Added by W3 Total Cache
 
@@ -65,7 +68,7 @@ $table_prefix = 'k4h4zjcxtu_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
  * language support.
  */
-define('WPLANG', '');
+define('WPLANG', 'vi_VN');
 
 /**
  * For developers: WordPress debugging mode.

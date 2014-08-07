@@ -76,7 +76,7 @@ if(!class_exists('avia_social_media_icons'))
 			$blank = "target='_blank'";
 			
 			//dont add target blank to relative urls or urls to the same dmoain
-			if(strpos($icon['social_icon_link'], 'http') === false || strpos($icon['social_icon_link'], home_url()) !== false) $blank = "";
+			if(strpos($icon['social_icon_link'], 'http') === false || strpos($icon['social_icon_link'], home_url()) === 0) $blank = "";
 			
 			$html  = "";
 			$html .= "<".$this->args['inside']." class='".$this->args['class']."_".$icon['social_icon']." av-social-link-".$icon['social_icon']." social_icon_".$this->counter."'>";

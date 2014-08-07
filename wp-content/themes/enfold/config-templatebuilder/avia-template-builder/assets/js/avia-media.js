@@ -97,7 +97,8 @@
 				parent 	= clicked.parents('.avia-form-element-container:last'),
  				target 	= parent.find('#'+options.target),
  				fakeImg = target.next('input'),
- 				attachmentIdwhenSRC = parent.find('.hidden-attachment-id'),
+ 				hidde_attachment_id = parent.find('.hidden-attachment-id'),
+ 				hidde_attachment_size = parent.find('.hidden-attachment-size'),
  				preview = parent.find('.avia-builder-prev-img-container'),
  				template = parent.find(".avia-tmpl-modal-element").html(),
  				modal_group = parent.find('.avia-modal-group'),
@@ -223,9 +224,14 @@
 								del_btn.removeClass('avia-hidden');
 								
 								//insert id for alt and title tag
-								if(attachmentIdwhenSRC.length)
+								if(hidde_attachment_id.length)
 								{
-									attachmentIdwhenSRC.val(element.id);
+									hidde_attachment_id.val(element.id);
+								}
+								
+								if(hidde_attachment_size.length)
+								{
+									hidde_attachment_size.val(display.size);
 								}
 							}
 							
@@ -240,13 +246,15 @@
 							{
 								fakeImg.val('<img src="'+preview_img+'" />');
 							}
-							
+
 							return element[options.fetch];
 						}
 						else if(options.fetch == 'template')
 						{
 							var new_template = $(template),
 								values		 = {id: element.id, img_fakeArg:""};
+							
+							
 							
 							//check if a thumbnail image exists and insert it
 							if(element.sizes && element.sizes.thumbnail)
@@ -260,10 +268,11 @@
 							
 							values.img_fakeArg = '<img src="'+values.img_fakeArg +'" title="" alt="" />';
 							
-							var htmlVal 	 = $.avia_builder.update_builder_html(new_template, values),
+							var htmlVal 	 = $.avia_builder.update_builder_html(new_template, values, true),
 								saveTo 		 = new_template.find($.avia_builder.datastorage + ":eq(0)");
 					
 							saveTo[0].innerHTML = htmlVal.output;
+							
 							final_template.append(new_template);
 						}
 						

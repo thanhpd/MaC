@@ -65,6 +65,10 @@ body, .wp-caption-text, #top .wp-caption .wp-caption-dd, .custom-form {
 	font-family: 'RobotoVN', 'Roboto', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
+h1, h2, h3, h4, h5, h6, #top .title_container .main-title, tr.pricing-row td, #top .portfolio-title, .callout .content-area, .avia-big-box .avia-innerbox, .av-special-font {
+	font-family: 'RobotoVN', 'Roboto', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
 #top .alternate_color.title_container .main-title a {
 	color: #ff7713;
 	font-weight: bold;
@@ -252,4 +256,9 @@ div.tab_titles{ background-color: #F7F7F7;}
 
 .small-preview img {
 	border: 2px solid #b4b4b4;
+}
+
+div#u_1_0._4-u2.mbm._5jmm._5pat._5v3q._5x16 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }

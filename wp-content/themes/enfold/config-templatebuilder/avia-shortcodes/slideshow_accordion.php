@@ -574,7 +574,7 @@ if ( !class_exists( 'aviaccordion' ) )
 					$markup_content = avia_markup_helper(array('context' => 'entry_content','echo'=>false, 'id'=>$slide->ID, 'custom_markup'=>$this->config['custom_markup']));
 
 					$output .= "<div class='aviaccordion-preview-title-pos'><div class='aviaccordion-preview-title-wrap'><div class='aviaccordion-preview-title'>";
-					$output .= !empty($slide->post_title) ? "<div class='aviaccordion-title' {$markup_title}>".$slide->post_title."</div>" : "";
+					$output .= !empty($slide->post_title) ? "<h3 class='aviaccordion-title' {$markup_title}>".$slide->post_title."</h3>" : "";
 					$output .= !empty($slide->post_excerpt) && !empty($this->config['excerpt']) ? "<div class='aviaccordion-excerpt' {$markup_content}>".wpautop($slide->post_excerpt)."</div>" : "";
 					$output .= "</div></div></div>";
 				}

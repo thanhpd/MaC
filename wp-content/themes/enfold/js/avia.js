@@ -58,7 +58,7 @@
         $('a.aviablank').attr('target', '_blank');
 
         //activates the prettyphoto lightbox
-        $(container).avia_activate_lightbox({callback:'avia_lightbox_callback'});
+        $(container).avia_activate_lightbox();
         
         //scrollspy for main menu. must be located before smoothscrolling
 		if($.fn.avia_scrollspy)
@@ -250,7 +250,7 @@
 	  $.fn.avia_scrollspy.Constructor = AviaScrollSpy
 	
 	  $.fn.avia_scrollspy.defaults = {
-	    offset: (parseInt($('.html_header_sticky #main').data('scroll-offset'), 10)) + parseInt($('html').css('margin-top'),10),
+	    offset: (parseInt($('.html_header_sticky #main').data('scroll-offset'), 10)) + ($(".html_header_sticky #header_main_alternate").outerHeight()) + ($(".html_header_sticky #header_meta").outerHeight()) + 1 + parseInt($('html').css('margin-top'),10),
 	    applyClass: 'current-menu-item'
 	  }
 
@@ -656,7 +656,7 @@
 			var hash = window.location.hash.replace(/\//g, "");
 			
 			//if a scroll event occurs at pageload and an anchor is set and a coresponding element exists apply the offset to the event
-			if (fixedMainPadding > 0 && hash && apply_to_container == 'body')
+			if (fixedMainPadding > 0 && hash && apply_to_container == 'body' && hash.charAt(1) != "!")
 			{
 				var scroll_to_el = $(hash);
 				
@@ -796,68 +796,89 @@
 	{
 		$.fn.avia_activate_lightbox = function(variables)
 		{
-			var defaults =
-			{
-				autolinkElements: 'a[rel^="prettyPhoto"], a[rel^="lightbox"], a[href$=jpg], a[href$=png], a[href$=gif], a[href$=jpeg], a[href$=".mov"] , a[href$=".swf"] , a:regex(href, .vimeo\.com/[0-9]) , a[href*="youtube.com/watch"] , a[href*="screenr.com"]'
-			};
+			var defaults = {
+				groups			:	['.avia-gallery', '.isotope', '.post-entry', '.sidebar', '#main'], 
+				autolinkElements: 	'a[rel^="prettyPhoto"], a[rel^="lightbox"], a[href$=jpg], a[href$=png], a[href$=gif], a[href$=jpeg], a[href$=".mov"] , a[href$=".swf"] , a:regex(href, .vimeo\.com/[0-9]) , a[href*="youtube.com/watch"] , a[href*="screenr.com"]',
+				videoElements	: 	'a[href$=".mov"] , a[href$=".swf"] , a:regex(href, .vimeo\.com/[0-9]) , a[href*="youtube.com/watch"] , a[href*="screenr.com"]',
+				exclude			:	'.noLightbox, .noLightbox a, .fakeLightbox, .lightbox-added',
+			},
+			
+			options = $.extend({}, defaults, variables),
+			
+			av_popup = {
+				type: 				'image',
+				mainClass: 			'avia-popup mfp-zoom-in',
+				tLoading: 			'',
+				tClose: 			'',
+				removalDelay: 		300, //delay removal by X to allow out-animation
+				closeBtnInside: 	true,
+				closeOnContentClick:true,
+				midClick: 			true,
+				fixedContentPos: 	false, // allows scrolling when lightbox is open but also removes any jumping because of scrollbar removal
+				
+				image: {
+				    titleSrc: function(item){
+						// return item.el.find('img').attr('title');
+						return item.el.attr('title');
+					}
+				},
+				
+				gallery: {
+					// delegate: 	options.autolinkElements,
+					tPrev:		'',
+					tNext:		'',
+					tCounter:	'%curr% / %total%',
+					enabled:	true,
+					preload:	[1,1] // Will preload 1 - before current, and 1 after the current image
+				},
 
-			var options 	= $.extend(defaults, variables),
-				win		    = $(window),
-				ww			= parseInt(win.width(),10) * 0.8, 	//controls the default lightbox width: 80% of the window size
-				wh 			= (ww/16)*9;						//controls the default lightbox height (16:9 ration for videos. images are resized by the lightbox anyway)
-
-
+				callbacks: 
+				{
+					open: function()
+					{
+						//overwrite default prev + next function. Add timeout for css3 crossfade animation
+						$.magnificPopup.instance.next = function() {
+							var self = this;
+							self.wrap.removeClass('mfp-image-loaded');
+							setTimeout(function() { $.magnificPopup.proto.next.call(self); }, 120);
+						}
+						$.magnificPopup.instance.prev = function() {
+							var self = this;
+							self.wrap.removeClass('mfp-image-loaded');
+							setTimeout(function() { $.magnificPopup.proto.prev.call(self); }, 120);
+						}
+					},
+					imageLoadComplete: function() 
+					{	
+						var self = this;
+						setTimeout(function() { self.wrap.addClass('mfp-image-loaded'); }, 16);
+					}
+				}
+			},
+			
+			active = !$('html').is('.av-custom-lightbox');
+			
+			if(!active) return this;
+			
 			return this.each(function()
 			{
-				var elements = $(options.autolinkElements, this).not('.noLightbox, .noLightbox a, .fakeLightbox'),
-					lastParent = "",
-					counter = 0;
-
-				elements.each(function()
-				{
-					var el = $(this),
-						rel = el.data('rel'),
-						parentPost = el.parents('.content:eq(0)'),
-						group = 'auto_group';
-
-					if(parentPost.get(0) != lastParent)
+				var container	= $(this),
+					videos		= $(options.videoElements, this).not(options.exclude).addClass('mfp-iframe'), /*necessary class for the correct lightbox markup*/
+					ajaxed		= !container.is('body') && !container.is('.ajax_slide');
+										
+					for (var i = 0; i < options.groups.length; i++) 
 					{
-						lastParent = parentPost.get(0);
-						counter ++;
+						$(options.groups[i]).each(function() 
+						{ 
+							var links = $(options.autolinkElements, this);
+						
+							if(ajaxed) links.removeClass('lightbox-added');
+							links.not(options.exclude).addClass('lightbox-added').magnificPopup(av_popup);
+						});
 					}
-
-					if(rel != "" && typeof rel != 'undefined')
-					{
-						el.attr('rel','lightbox['+rel+']');
-					}
-
-                    if((el.attr('rel') == undefined || el.attr('rel') == '') && !el.hasClass('noLightbox'))
-                    {
-                        if(elements.length > 1)
-                        {
-                            el.attr('rel','lightbox['+group+counter+']');
-                        }
-                        else
-                        {
-                            el.attr('rel','lightbox');
-                        }
-                    }
-                });
-
-                if(options.callback) var callbackfn = window[options.callback];
-
-                if(typeof(callbackfn) !== 'undefined' && typeof(callbackfn) === "function")
-                {
-                    callbackfn(elements,ww,wh);
-                }
-                else
-                {
-                    if($.fn.prettyPhoto)
-                    elements.prettyPhoto({ social_tools:'',slideshow: 5000, deeplinking: false, overlay_gallery:false, default_width: ww, default_height: wh });
-                }
-
+				
 			});
-		};
+		}
 	})(jQuery);
 
 
@@ -1073,7 +1094,7 @@
 			var the_body		= $('body'),
 				container		= $(this),
 				portfolio_id	= container.data('portfolio-id'),
-				parentContainer	= container.parents('.entry-content-wrapper'),
+				parentContainer	= container.parents('.entry-content-wrapper, .avia-fullwidth-portfolio'),
 				filter			= parentContainer.find('.sort_width_container[data-portfolio-id="' + portfolio_id + '"]').find('#js_sort_items').css({visibility:"visible", opacity:0}),
 				links			= filter.find('a'),
 				imgParent		= container.find('.grid-image'),
@@ -1328,15 +1349,17 @@
 	{
 	   var defaults = {
             delay: 1500,                //delay in ms until the tooltip appears
-            delayOut: 300,             //delay in ms when instant showing should stop
-            "class": "avia-tooltip",     //tooltip classname for css styling and alignment
-            scope: "body",             //area the tooltip should be applied to
-            data:  "avia-tooltip",     //data attribute that contains the tooltip text
-            attach:"body",          //either attach the tooltip to the "mouse" or to the "element" // todo: implement mouse, make sure that it doesnt overlap with screen borders
-            event: 'mouseenter',       //mousenter and leave or click and leave
-            position:'top'             //top or bottom
+            delayOut: 300,             	//delay in ms when instant showing should stop
+            delayHide: 0,             	//delay hiding of tooltip in ms
+            "class": "avia-tooltip",   	//tooltip classname for css styling and alignment
+            scope: "body",             	//area the tooltip should be applied to
+            data:  "avia-tooltip",     	//data attribute that contains the tooltip text
+            attach:"body",          	//either attach the tooltip to the "mouse" or to the "element" // todo: implement mouse, make sure that it doesnt overlap with screen borders
+            event: 'mouseenter',       	//mousenter and leave or click and leave
+            position:'top',             //top or bottom
+            extraClass:'avia-tooltip-class' //extra class that is defined by a tooltip element data attribute
         }
-
+		
         this.options = $.extend({}, defaults, options);
         this.body    = $('body');
         this.scope   = $(this.options.scope);
@@ -1391,30 +1414,90 @@
 
         display_tooltip: function(e)
         {
-            var target 	= this.options.event == "click" ? e.target : e.currentTarget,
-            	element = $(target),
-                text    = element.data(this.options.data),
-                newTip  = element.data('avia-created-tooltip'),
-                attach  = this.options.attach == 'element' ? element : this.body,
-                offset  = this.options.attach == 'element' ? element.position() : element.offset();
+            var target 		= this.options.event == "click" ? e.target : e.currentTarget,
+            	element 	= $(target),
+                text    	= element.data(this.options.data).trim(),
+                newTip  	= element.data('avia-created-tooltip'),
+            	extraClass 	= element.data('avia-tooltip-class'),
+                attach  	= this.options.attach == 'element' ? element : this.body,
+                offset  	= this.options.attach == 'element' ? element.position() : element.offset(),
+                position	= element.data('avia-tooltip-position'),
+                align		= element.data('avia-tooltip-alignment');
+                
+			if(text == "") return;
+			if(position == "" || typeof position == 'undefined') position = this.options.position;
+			if(align == "" || typeof align == 'undefined') align = 'center';
 			
-			this.inner.html(text);
-            newTip = typeof newTip != 'undefined' ? $.AviaTooltip.openTTs[newTip] : this.options.attach == 'element' ? this.tooltip.clone().insertAfter(attach) : this.tooltip.clone().appendTo(attach);
+			if(typeof newTip != 'undefined')
+			{
+				newTip = $.AviaTooltip.openTTs[newTip]
+			}
+			else
+			{
+				
+				this.inner.html(text); 
+				
+                newTip = this.options.attach == 'element' ? this.tooltip.clone().insertAfter(attach) : this.tooltip.clone().appendTo(attach);
+                if(extraClass != "") newTip.addClass(extraClass);
+			}
+			
             this.open = true;
             this.active = newTip;
 
             if((newTip.is(':animated:visible') && e.type == 'click') || element.is('.'+this.options['class']) || element.parents('.'+this.options['class']).length != 0) return;
 
 
-            var real_top  = offset.top - newTip.outerHeight(),
-                real_left = (offset.left + (element.outerWidth() / 2)) - (newTip.outerWidth() / 2);
+            var animate1 = {}, animate2	= {}, pos1 = "", pos2 = "";
+			
+			if(position == "top" || position == "bottom")
+			{
+				switch(align)
+				{
+					case "left": pos2 = offset.left; break;
+					case "right": pos2 = offset.left + element.outerWidth() - newTip.outerWidth();  break;
+					default: pos2 = (offset.left + (element.outerWidth() / 2)) - (newTip.outerWidth() / 2); break;
+				}	
+			}
+			else
+			{
+				switch(align)
+				{
+					case "top": pos1 = offset.top; break;
+					case "bottom": pos1 = offset.top + element.outerHeight() - newTip.outerHeight();  break;
+					default: pos1 = (offset.top + (element.outerHeight() / 2)) - (newTip.outerHeight() / 2); break;
+				}	
+			}
+	
+			switch(position)
+			{
+				case "top": 
+				pos1 = offset.top - newTip.outerHeight();
+                animate1 = {top: pos1 - 10, left: pos2};
+                animate2 = {top: pos1};
+				break;
+				case "bottom": 	
+				pos1 = offset.top + element.outerHeight();
+				animate1 = {top: pos1 + 10, left: pos2};
+				animate2 = {top: pos1};
+				break;
+				case "left": 
+				pos2 = offset.left  - newTip.outerWidth();
+				animate1 = {top: pos1, left: pos2 -10};
+            	animate2 = {left: pos2};	
+				break;
+				case "right": 	
+				pos2 = offset.left + element.outerWidth();
+				animate1 = {top: pos1, left: pos2 + 10};
+            	animate2 = {left: pos2};	
+				break;
+			}
+			
+			animate1['display'] = "block";
+			animate1['opacity'] = 0;
+			animate2['opacity'] = 1;
+			
 
-            if(this.options.position == 'bottom')
-            {
-                real_top = offset.top + element.outerHeight();
-            }
-
-            newTip.css({opacity:0, display:'block', top: real_top - 10, left: real_left }).stop().animate({top: real_top, opacity:1},200);
+            newTip.css(animate1).stop().animate(animate2,200);
             newTip.find('input, textarea').focus();
             $.AviaTooltip.openTTs.push(newTip);
             element.data('avia-created-tooltip', $.AviaTooltip.openTTs.length - 1);
@@ -1423,7 +1506,12 @@
 
         hide_tooltip: function(e)
         {
-            var element = $(e.currentTarget) , newTip, animateTo;
+            var element 	= $(e.currentTarget) , newTip, animateTo, 
+            	position	= element.data('avia-tooltip-position'),
+                align		= element.data('avia-tooltip-alignment');
+                
+            if(position == "" || typeof position == 'undefined') position = this.options.position;
+			if(align == "" || typeof align == 'undefined') align = 'center';
 
             if(this.options.event == 'click')
             {
@@ -1442,11 +1530,27 @@
 
             if(newTip)
             {
-                animateTo = parseInt(newTip.css('top'),10) - 10;
-                newTip.animate({top: animateTo, opacity:0},200, function()
+            	var animate = {opacity:0};
+            	
+            	switch(position)
+            	{
+            		case "top": 	
+						animate['top'] = parseInt(newTip.css('top'),10) - 10;	
+					break;
+					case "bottom": 	
+						animate['top'] = parseInt(newTip.css('top'),10) + 10;	
+					break;
+					case "left": 	
+						animate['left'] = parseInt(newTip.css('left'), 10) - 10;
+					break;
+					case "right": 	
+						animate['left'] = parseInt(newTip.css('left'), 10) + 10;
+					break;
+            	}
+            	
+                newTip.animate(animate, 200, function()
                 {
                     newTip.css({display:'none'});
-
                 });
             }
         },

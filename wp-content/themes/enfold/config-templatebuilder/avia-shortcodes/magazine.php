@@ -533,7 +533,8 @@ if ( !class_exists( 'avia_magazine' ) )
 			$output			= "";
 			$image	 		= get_the_post_thumbnail( $entry->ID, $this->atts['image_size'][$style] );
 			$link			= get_permalink($entry->ID);
-			$titleAttr		= "title='".__('Link to:','avia_framework')." ".the_title_attribute('echo=0')."'";
+			/*$titleAttr		= "title='".__('Link to:','avia_framework')." ".the_title_attribute('echo=1')."'";*/
+			$titleAttr		= "title='".__('Link to:','avia_framework')." ".get_the_title($entry->ID)."'";
 			$title	 		= "<a href='{$link}' {$titleAttr}>".get_the_title($entry->ID)."</a>";
 			$titleTag		= "h3";
 			$excerpt		= "";

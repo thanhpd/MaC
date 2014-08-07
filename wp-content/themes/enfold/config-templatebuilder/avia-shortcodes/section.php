@@ -281,7 +281,11 @@ if ( !class_exists( 'avia_sc_section' ) )
 			    								'video' => '', 
 			    								'video_ratio'=>'16:9', 
 			    								'video_mobile_disabled'=>'',
-			    								'custom_markup' => ''), 
+			    								'custom_markup' => '',
+			    								'attachment' => '',
+			    								'attachment_size' => ''
+			    								
+			    								), 
 			    							$atts, $this->config['shortcode']);
 							    							
 			    							
@@ -292,7 +296,28 @@ if ( !class_exists( 'avia_sc_section' ) )
 				
 				$params['id'] = !empty($id) ? AviaHelper::save_string($id,'-') :"av_section_".avia_sc_section::$section_count;
 				$params['custom_markup'] = $meta['custom_markup'];
-
+				
+				
+				if(!empty($attachment) && !empty($attachment_size))
+				{
+					$attachment_entry = get_post( $attachment );
+					
+					if(!empty($attachment_entry))
+					{
+	                	if(!empty($attachment_size))
+						{
+							$src = wp_get_attachment_image_src($attachment_entry->ID, $attachment_size);
+							$src = !empty($src[0]) ? $src[0] : "";
+						}
+					}
+				}
+				else
+				{
+					$attachment = false;
+				}
+				
+				
+				
 				if($src != "")
 				{
 					if($repeat == 'stretch')
@@ -508,6 +533,22 @@ function avia_section_close_markup()
 	}
 	
 	return $close_markup;
+}
+
+
+function avia_section_after_element_content($meta, $second_id = "", $skipSecond = false)
+{
+	$output = "</div>"; //close section
+				
+	//if the next tag is a section dont create a new section from this shortcode
+	if(!empty($meta['siblings']['next']['tag']) && in_array($meta['siblings']['next']['tag'], AviaBuilder::$full_el )){ $skipSecond = true; }
+
+	//if there is no next element dont create a new section.
+	if(empty($meta['siblings']['next']['tag'])) { $skipSecond = true; }
+	
+	if(empty($skipSecond)) { $output .= avia_new_section(array('close'=>false, 'id' => $second_id)); }
+	
+	return $output;
 }
 
 

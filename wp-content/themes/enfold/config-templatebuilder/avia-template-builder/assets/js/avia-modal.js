@@ -380,8 +380,9 @@
 			});
 	}
    	
-   	//once a modal with tinyMCE editor is opened execute the following function
+   	
 
+   	//once a modal with tinyMCE editor is opened execute the following function
 	$.AviaModal.register_callback.modal_load_tiny_mce = function(textareas)
 	{
 		textareas = textareas || this.modal.find('.avia-modal-inner-content .avia_tinymce');
@@ -454,12 +455,222 @@
 			}
 			
 		});
-		
-		
-		
-		
-		
 	}
+	
+	
+	
+	//helper function that makes hotspots dragable and saves their values
+   	$.AviaModal.register_callback.modal_hotspot_helper = function()
+	{
+		//check if we got a hotspot element. if not return
+		var _self = {}, methods = {};
+		_self.hotspot =	this.modal.find('.av-hotspot-container');
+		
+		if(! _self.hotspot.length ) return;
+		
+		//container that wraps around the image
+		_self.image_container 	=	_self.hotspot.find('.avia-builder-prev-img-container-wrap');
+		
+		//container that is used to insert and track hotspots
+		_self.hotspot_container =	$('<div class="av-hotspot-holder"></div>').appendTo(_self.image_container);
+		
+		//modal group with options to click on that open submodals
+		_self.modal_group 		=	_self.hotspot.siblings('.avia-element-modal_group');
+		
+		
+		
+		//html for hotspot
+		_self.hotspot_html 		= "<div class='av-image-hotspot'><div class='av-image-hotspot_inner'>{count}</div></div>";
+   		
+   		//all the functions needed for the hotspot tool
+   		methods = {
+   		
+   			/*iterate over each modal groub subel and create a hotspot*/
+   			init: function()
+   			{
+   				//fetch all existing modal group elements
+   				methods.find_sub_els();
+   			
+   				//generate a hotspot for each element
+   				_self.modal_group_els.each(function(i)
+   				{
+   					var $sub_el = $(this);
+   					methods.create_hotspot($sub_el, i);
+   				});
+   				
+   				methods.general_behavior();
+   				
+   			},
+   			
+   			find_sub_els: function()
+   			{
+   				//the modal group elements
+				_self.modal_group_els 	=	_self.modal_group.find('.avia-modal-group-element');
+   			},
+   			
+   			/*create hotspot and add individual behavior*/
+   			create_hotspot: function($sub_el, i)
+   			{
+				var hotspot = $(_self.hotspot_html.replace("{count}", (i+1) )).appendTo(_self.hotspot_container),
+					pos		= $sub_el.find("[data-hotspot_pos]").data('hotspot_pos').split(",");
+					
+					if(pos[1]){
+						hotspot.css({top: pos[0] + "%", left: pos[1] + "%"});
+					}
+					
+					methods.hotspot_behavior(hotspot, $sub_el);
+   			},
+   			
+   			/*connect hotspot and modalsub element by using data method, make hotspot draggable*/
+   			hotspot_behavior: function(hotspot, $sub_el)
+   			{
+   				//connect hotspot and modalsub element
+   				$sub_el.data('hotspot', hotspot);
+   				hotspot.data('modal_sub_el', $sub_el);
+   				
+   				//make hotspot draggable
+   				hotspot.draggable({
+					containment: "parent", 
+					scroll: false,
+					grid: [ 15, 15 ],
+					stop: methods.update_hotspot
+				});
+   			},
+   			
+   			/*add behavior that connects hotspot and modal subelements*/
+   			general_behavior: function()
+   			{
+   				/*trigger click event*/
+   				_self.hotspot_container.on('click', '.av-image-hotspot', function()
+   				{
+   					var el = $(this).data('modal_sub_el');
+   					if(el) el.find('.avia-modal-group-element-inner').trigger('click');
+   				});
+   				
+   			
+   				/*highlight the modal sub el when hotspot is hovered*/
+   				_self.hotspot_container.on('mouseenter', '.av-image-hotspot', function()
+   				{
+   					var el = $(this).data('modal_sub_el');
+   					if(el) el.addClass('av-highlight-subel');
+   				});
+   				
+   				_self.hotspot_container.on('mouseleave', '.av-image-hotspot', function()
+   				{
+   					var el = $(this).data('modal_sub_el');
+   					if(el) el.removeClass('av-highlight-subel');
+   				});
+   				
+   				/*highlight the hotspot when modal sub el is hovered*/
+   				_self.modal_group.on('mouseenter', '.avia-modal-group-element', function()
+   				{
+   					var el = $(this).data('hotspot');
+   					if(el) el.addClass('active_tooltip');
+   				});
+   				
+   				_self.modal_group.on('mouseleave', '.avia-modal-group-element', function()
+   				{
+   					var el = $(this).data('hotspot');
+   					if(el) el.removeClass('active_tooltip');
+   				});
+   				
+   				/*add and remove items*/
+   				_self.modal_group.on('av-item-add', 	methods.add_hotspot );
+   				_self.modal_group.on('av-item-delete', 	methods.delete_hotspot );
+   				_self.modal_group.on('av-item-moved', 	methods.update_hotspot_numbers );
+   				
+
+   			},
+   			
+   			add_hotspot: function(event, item)
+   			{
+   				methods.create_hotspot(item, 0);
+   				methods.update_hotspot_numbers();
+   			},
+   			
+   			delete_hotspot: function(event, item)
+   			{
+   				var hotspot = item.data('hotspot');
+   				if(hotspot) { hotspot.remove(); setTimeout(methods.update_hotspot_numbers, 350); }
+   			},
+   			
+   			update_hotspot_numbers: function()
+   			{
+   				methods.find_sub_els();
+   				
+   				_self.modal_group_els.each(function(i)
+   				{
+   					var el = $(this).data('hotspot');
+   					if(el) el.find('.av-image-hotspot_inner').text(i+1);
+   				});
+   				
+   			},
+   			
+   			/*calculates % based position and applies it to the hotspot*/
+   			update_hotspot: function(event, hotspot)
+   			{
+   				var image_el = _self.image_container.find('img');
+   				if(!image_el.length) return;
+   				
+   				var image_dimensions  	= {width: image_el.width(), height: image_el.height()},
+   					hotspot_pixel_pos 	= hotspot.position,
+   					hotspot_percent_pos = {top:0, left:0};
+   				
+   				//calculate % position
+   				hotspot_percent_pos.left = hotspot.position.left / (image_dimensions.width / 100);
+   				hotspot_percent_pos.top = hotspot.position.top / (image_dimensions.height / 100);
+   				
+   				//round to 1 decimal
+   				hotspot_percent_pos.left = Math.round( hotspot_percent_pos.left * 10 ) / 10;
+   				hotspot_percent_pos.top  = Math.round( hotspot_percent_pos.top * 10  ) / 10;
+   				
+				//set the helper to this value
+				hotspot.helper.css({top: hotspot_percent_pos.top + "%", left: hotspot_percent_pos.left + "%"});
+				
+				methods.update_shortcode(hotspot_percent_pos, hotspot.helper);
+   			},
+   			
+   			/*fetches the shortcode of the modal sub element and changes it by replacing the old hotspot_pos value with the new one*/
+   			update_shortcode: function(hotspot_percent_pos, hotspot)
+   			{
+   				var shortcode_container = hotspot.data('modal_sub_el'),
+   					shortcode_storage	= shortcode_container.find('textarea'),
+   					shortcode			= shortcode_storage.val();
+   				
+   				//test if the hotspot_pos parameter is located in the shortcode and replace it. if not available add it
+   				if (shortcode.indexOf('hotspot_pos') > -1) 
+   				{
+   					shortcode = shortcode.replace(/hotspot_pos=['|"].*?['|"]/g,"hotspot_pos='"+hotspot_percent_pos.top+","+hotspot_percent_pos.left+"'");
+   				}
+   				else
+   				{
+   					shortcode = shortcode.replace(/av_image_spot/,"av_image_spot hotspot_pos='"+hotspot_percent_pos.top+","+hotspot_percent_pos.left+"'");
+   				}
+   				
+   				shortcode_storage.val(shortcode).html(shortcode);
+   			}
+   		};
+   		
+   		methods.init();
+   		
+   	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 })(jQuery);	 
 
 

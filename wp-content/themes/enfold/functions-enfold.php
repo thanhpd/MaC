@@ -631,21 +631,17 @@ if(!function_exists('avia_header_setting'))
 		}
 		
 		$header = shortcode_atts($defaults, $settings);
+		$header['header_scroll_offset'] = avia_get_header_scroll_offset($header);
 		
-		//#main data attribute used to calculate scroll offset
-		switch($header['header_size'])
-		{
-			case 'large': 	$header['header_scroll_offset'] = 116; break;
-			case 'custom': 	$header['header_scroll_offset'] = $header['header_custom_size']; break;
-			default : 		$header['header_scroll_offset'] = 88; break;
-		}
 		
 		//set header transparency
 		$header['header_transparency'] = "";
 		if(!empty($transparency)) $header['header_transparency'] = 'header_transparency';
+		if(!empty($transparency) && strpos($transparency, 'glass')) $header['header_transparency'] .= ' header_glassy';
 		
 		//deactivate title bar if header is transparent
 		if(!empty($transparency)) $header['header_title_bar'] = 'hidden_title_bar';
+		
 		
 		
 		//sticky and shrinking are tied together
@@ -688,7 +684,28 @@ if(!function_exists('avia_header_setting'))
 	}
 }
 
-
+if(!function_exists('avia_get_header_scroll_offset'))
+{
+	function avia_get_header_scroll_offset($header = array())
+	{
+			//#main data attribute used to calculate scroll offset
+			
+			if(empty($header)) 
+			{
+				$header['header_size'] = avia_get_option('header_size');
+				$header['header_custom_size'] = avia_get_option('header_custom_size');
+			}
+			
+			switch($header['header_size'])
+			{
+				case 'large': 	$header['header_scroll_offset'] = 116; break;
+				case 'custom': 	$header['header_scroll_offset'] = $header['header_custom_size']; break;
+				default : 		$header['header_scroll_offset'] = 88; break;
+			}
+			
+			return $header['header_scroll_offset'];
+	}
+}
 
 if(!function_exists('avia_header_class_string'))
 {
@@ -1053,6 +1070,7 @@ if(!function_exists('avia_generate_stylesheet'))
 	    {
 	        $dir_flag = update_option( 'avia_stylesheet_dir_writable'.$safe_name, 'true' );
 	        $stylesheet_flag = update_option( 'avia_stylesheet_exists'.$safe_name, 'true' );
+			$dynamic_id = update_option( 'avia_stylesheet_dynamic_version'.$safe_name, uniqid() );
 	    }
 	}
 }

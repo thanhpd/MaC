@@ -129,6 +129,7 @@
 		{
 			$('.av_font_icon', container).avia_sc_animation_delayed({delay:100});
 			$('.avia-image-container', container).avia_sc_animation_delayed({delay:100});
+			$('.av-hotspot-image-container', container).avia_sc_animation_delayed({delay:100});
 		}
 
 		//activates animation for iconlist
@@ -173,9 +174,59 @@
         	$('.av-magazine-tabs-active', container).aviaMagazine();
     	}
     	
+    	 //load image hotspot
+        if($.fn.aviaHotspots)
+        {
+        	$('.av-hotspot-image-container', container).aviaHotspots();
+    	}
+    	
     }
 
 
+
+
+//creates relate posts tooltip
+// 
+
+// -------------------------------------------------------------------------------------------
+// 
+// AVIA Image Hotspots
+// 
+// -------------------------------------------------------------------------------------------
+(function($)
+{ 
+	"use strict";
+
+	$.fn.aviaHotspots = function( options )
+	{
+		if(!this.length) return; 
+
+		return this.each(function()
+		{
+			var _self = {};
+			
+			_self.container	= $(this);
+			_self.hotspots	= _self.container.find('.av-image-hotspot');
+			
+				_self.container.on('avia_start_animation', function()
+				{
+					setTimeout(function()
+					{
+						_self.hotspots.each(function(i)
+						{
+							var current = $(this);
+							setTimeout(function(){ current.addClass('av-display-hotspot'); },300 * i);
+						});
+					},400);
+				});
+
+		});
+		
+		
+		
+	}
+	
+}(jQuery));
 
 
 
@@ -1512,7 +1563,7 @@ $.fn.avia_masonry = function(options)
 	    this.isMobile 	= $.avia_utilities.isMobile;
 	    this.property 	= {};
 	    this.scrollPos	= "0";
-	    this.transform3d= document.documentElement.className.indexOf('csstransforms3d') !== -1 ? true : false;
+	    this.transform3d= document.documentElement.className.indexOf('avia_transform3d') !== -1 ? true : false;
 	    
 	    if($.avia_utilities.supported.transition === undefined)
 		{
@@ -1678,8 +1729,8 @@ $.fn.aviaFullscreenSlider = function( options )
 	    this.property	= {};
 	    this.isMobile 	= $.avia_utilities.isMobile;
 	    this.ratio		= this.$el.data('avia-parallax-ratio') || 0.5;
-	    this.transform  = document.documentElement.className.indexOf('csstransforms') !== -1 ? true : false;
-	    this.transform3d= document.documentElement.className.indexOf('csstransforms3d') !== -1 ? true : false;
+	    this.transform  = document.documentElement.className.indexOf('avia_transform') !== -1 ? true : false;
+	    this.transform3d= document.documentElement.className.indexOf('avia_transform3d') !== -1 ? true : false;
 	    
 	    if($.avia_utilities.supported.transition === undefined)
 		{
@@ -2286,9 +2337,13 @@ $.fn.avia_sc_toggle = function(options)
 		trigger_default_open(false);
 		
 		$('a').on('click',function(){
-            		var hash = $(this).attr('href').replace(/^.*?#/,'');
-            		if(hash) trigger_default_open('#'+hash);
-        	});
+            var hash = $(this).attr('href');
+            if(typeof hash != "undefined" && hash)
+            {
+                hash = hash.replace(/^.*?#/,'');
+                trigger_default_open('#'+hash);
+            }
+        });
 
 	});
 };
@@ -2352,10 +2407,14 @@ $.fn.avia_sc_tabs= function(options)
 		trigger_default_open(false);
 		win.on("debouncedresize", set_size);
 		
-		$('a').on('click',function(){
-            		var hash = $(this).attr('href').replace(/^.*?#/,'');
-            		if(hash) trigger_default_open('#'+hash);
-        	});
+        $('a').on('click',function(){
+            var hash = $(this).attr('href');
+            if(typeof hash != "undefined" && hash)
+            {
+                hash = hash.replace(/^.*?#/,'');
+                trigger_default_open('#'+hash);
+            }
+        });
 
 		function set_size()
 		{
@@ -2587,7 +2646,7 @@ $.fn.avia_sc_tabs= function(options)
 
 						if(classes && classes.match(/is_email/))
 						{
-							if(!value.match(/^\w[\w|\.|\-]+@\w[\w|\.|\-]+\.[a-zA-Z]{2,4}$/))
+							if(!value.match(/^\w[\w|\.|\-]+@\w[\w|\.|\-]*\.[a-zA-Z]{2,4}$/))
 							{
 								surroundingElement.removeClass("valid error ajax_alert").addClass("error");
 								send.validationError = true;
@@ -2697,7 +2756,7 @@ $.fn.avia_sc_tabs= function(options)
 		
 		this.browserPrefix 	= $.avia_utilities.supported.transition;
 	    this.cssActive 		= this.browserPrefix !== false ? true : false;
-	    this.transform3d	= document.documentElement.className.indexOf('csstransforms3d') !== -1 ? true : false;
+	    this.transform3d	= document.documentElement.className.indexOf('avia_transform3d') !== -1 ? true : false;
 		this.isMobile 		= $.avia_utilities.isMobile;
 		this.property		= this.browserPrefix + 'transform',
 		this.count			= this.$slides.length;
@@ -3569,7 +3628,7 @@ Avia Slideshow
 			this.cssActive = this.browserPrefix !== false ? true : false;
 			
 			// css3D animation?
-			this.css3DActive = document.documentElement.className.indexOf('csstransforms3d') !== -1 ? true : false;
+			this.css3DActive = document.documentElement.className.indexOf('avia_transform3d') !== -1 ? true : false;
 			
 			//store the aviaVideoApi object for the current slide if available
 			this.video	= false;
@@ -4102,7 +4161,7 @@ Avia Slideshow
 			function onFinish( event )
 			{ 	
 				//if the video is not looped resume the slideshow
-				if(!event.data.slide.is('.av-loop-video')) 
+				if(!event.data.slide.is('.av-single-slide') && !event.data.slide.is('.av-loop-video'))
 				{
 					event.data.slide.trigger('reset');
 					self._navigate( 'next' );  

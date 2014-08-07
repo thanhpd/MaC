@@ -271,8 +271,7 @@ if(!function_exists('avia_register_frontend_scripts'))
 		wp_enqueue_script( 'avia-compat', $template_url.'/js/avia-compat.js', array('jquery'), 2, false ); //needs to be loaded at the top to prevent bugs
 		wp_enqueue_script( 'avia-default', $template_url.'/js/avia.js', array('jquery'), 2, true );
 		wp_enqueue_script( 'avia-shortcodes', $template_url.'/js/shortcodes.js', array('jquery'), 2, true );
-		wp_enqueue_script( 'avia-prettyPhoto',  $template_url.'/js/prettyPhoto/js/jquery.prettyPhoto.js', 'jquery', "3.1.5", true);
-		// wp_register_script( 'wp-mediaelement',  $template_url.'/js/mediaelement/mediaelement-and-player.min.js', 'jquery', "1", true);
+		wp_enqueue_script( 'avia-popup',  $template_url.'/js/aviapopup/jquery.magnific-popup.min.js', array('jquery'), 2, true);
 
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'wp-mediaelement' );
@@ -289,13 +288,13 @@ if(!function_exists('avia_register_frontend_scripts'))
 		wp_enqueue_style( 'avia-base' ,   $template_url."/css/base.css", array(), 		'2', 'all' );
 		wp_enqueue_style( 'avia-layout',  $template_url."/css/layout.css", array(), 	'2', 'all' );
 		wp_enqueue_style( 'avia-scs',     $template_url."/css/shortcodes.css", array(), '2', 'all' );
-		wp_enqueue_style( 'avia-prettyP', $template_url."/js/prettyPhoto/css/prettyPhoto.css", array(), '1', 'screen' );
+		wp_enqueue_style( 'avia-popup-css', $template_url."/js/aviapopup/magnific-popup.css", array(), '1', 'screen' );
 		wp_enqueue_style( 'avia-media'  , $template_url."/js/mediaelement/skin-1/mediaelementplayer.css", array(), '1', 'screen' );
 		wp_enqueue_style( 'avia-print' ,  $template_url."/css/print.css", array(), '1', 'print' );
 		
 		
 		if ( is_rtl() ) {
-			wp_enqueue_style(  'avia-rtl',  $template_url."/css/rtl.css", array(), '1', 'screen' );
+			wp_enqueue_style(  'avia-rtl',  $template_url."/css/rtl.css", array(), '1', 'all' );
 		}
 		
 
@@ -305,9 +304,13 @@ if(!function_exists('avia_register_frontend_scripts'))
         if( get_option('avia_stylesheet_exists'.$safe_name) == 'true' )
         {
             $avia_upload_dir = wp_upload_dir();
+            if(is_ssl()) $avia_upload_dir['baseurl'] = str_replace("http://", "https://", $avia_upload_dir['baseurl']);
 
             $avia_dyn_stylesheet_url = $avia_upload_dir['baseurl'] . '/dynamic_avia/'.$safe_name.'.css';
-            wp_enqueue_style( 'avia-dynamic', $avia_dyn_stylesheet_url, array(), '1', 'all' );
+			$version_number = get_option('avia_stylesheet_dynamic_version'.$safe_name);
+			if(empty($version_number)) $version_number = '1';
+            
+            wp_enqueue_style( 'avia-dynamic', $avia_dyn_stylesheet_url, array(), $version_number, 'all' );
         }
 
 		wp_enqueue_style( 'avia-custom');
@@ -347,18 +350,30 @@ if(!function_exists('avia_nav_menus'))
 {
 	function avia_nav_menus()
 	{
-		global $avia_config;
+		global $avia_config, $wp_customize;
 
 		add_theme_support('nav_menus');
-		foreach($avia_config['nav_menus'] as $key => $value){ register_nav_menu($key, THEMENAME.' '.$value); }
+		
+		foreach($avia_config['nav_menus'] as $key => $value)
+		{
+			//wp-admin\customize.php does not support html code in the menu description - thus we need to strip it
+			$name = (!empty($value['plain']) && !empty($wp_customize)) ? $value['plain'] : $value['html'];
+			register_nav_menu($key, THEMENAME.' '.$name);
+		}
 	}
 
-	$avia_config['nav_menus'] = array(	'avia' => 'Main Menu' ,
-										'avia2' => 'Secondary Menu <br/><small>(Will be displayed if you selected a header layout that supports a submenu <a target="_blank" href="'.admin_url('?page=avia#goto_header_layout').'">here</a>)</small>',
-										'avia3' => 'Footer Menu <br/><small>(no dropdowns)</small>'
+	$avia_config['nav_menus'] = array(	'avia' => array('html' => __('Main Menu', 'avia_framework')),
+										'avia2' => array(
+													'html' => __('Secondary Menu <br/><small>(Will be displayed if you selected a header layout that supports a submenu <a target="_blank" href="'.admin_url('?page=avia#goto_header_layout').'">here</a>)</small>', 'avia_framework'),
+													'plain'=> __('Secondary Menu - will be displayed if you selected a header layout that supports a submenu', 'avia_framework')),
+										'avia3' => array(
+													'html' => __('Footer Menu <br/><small>(no dropdowns)</small>', 'avia_framework'),
+													'plain'=> __('Footer Menu (no dropdowns)', 'avia_framework'))
 									);
+
 	avia_nav_menus(); //call the function immediatly to activate
 }
+
 
 
 
@@ -481,4 +496,3 @@ add_theme_support('force-post-thumbnails-in-widget');
  */
 
 require_once( 'functions-enfold.php');
-

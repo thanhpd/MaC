@@ -91,7 +91,7 @@ $key .av-default-color, #top $key .av-force-default-color{
 color: $color;
 }
 
-$key , $key .site-background, $key .first-quote,  $key .related_image_wrap, $key .gravatar img  $key .hr_content, $key .news-thumb, $key .post-format-icon, $key .ajax_controlls a, $key .tweet-text.avatar_no, $key .toggler, $key .toggler.activeTitle:hover, $key #js_sort_items, $key.inner-entry, $key .grid-entry-title, $key .related-format-icon,  .grid-entry $key .avia-arrow, $key .avia-gallery-big, $key .avia-gallery-big, $key .avia-gallery img, $key .grid-content, $key .av-share-box ul, #top $key .av-related-style-full .related-format-icon, $key .related_posts.av-related-style-full a:hover{
+$key , $key .site-background, $key .first-quote,  $key .related_image_wrap, $key .gravatar img  $key .hr_content, $key .news-thumb, $key .post-format-icon, $key .ajax_controlls a, $key .tweet-text.avatar_no, $key .toggler, $key .toggler.activeTitle:hover, $key #js_sort_items, $key.inner-entry, $key .grid-entry-title, $key .related-format-icon,  .grid-entry $key .avia-arrow, $key .avia-gallery-big, $key .avia-gallery-big, $key .avia-gallery img, $key .grid-content, $key .av-share-box ul, #top $key .av-related-style-full .related-format-icon, $key .related_posts.av-related-style-full a:hover, $key.avia-fullwidth-portfolio .pagination .current,  $key.avia-fullwidth-portfolio .pagination a{
 background-color:$bg;
 color: $color;
 }
@@ -133,7 +133,7 @@ background-color:$border;
 border-color: $bg;
 }
 
-$key table, $key .widget_nav_menu ul:first-child>.current-menu-item, $key .widget_nav_menu ul:first-child>.current_page_item, $key .widget_nav_menu ul:first-child>.current-menu-ancestor, $key .pagination .current, $key .pagination a, $key.iconbox_top .iconbox_content, $key .av_promobox, $key .toggle_content, $key .toggler:hover, $key .related_posts_default_image, $key .search-result-counter, $key .container_wrap_meta, $key .avia-content-slider .slide-image, $key .avia-slider-testimonials .avia-testimonial-content, $key .avia-testimonial-arrow-wrap .avia-arrow, $key .news-thumb, $key .portfolio-preview-content, $key .portfolio-preview-content .avia-arrow, $key .av-magazine .av-magazine-entry-icon, $key .related_posts.av-related-style-full a, $key .aviaccordion-slide{
+$key table, $key .widget_nav_menu ul:first-child>.current-menu-item, $key .widget_nav_menu ul:first-child>.current_page_item, $key .widget_nav_menu ul:first-child>.current-menu-ancestor, $key .pagination .current, $key .pagination a, $key.iconbox_top .iconbox_content, $key .av_promobox, $key .toggle_content, $key .toggler:hover, $key .related_posts_default_image, $key .search-result-counter, $key .container_wrap_meta, $key .avia-content-slider .slide-image, $key .avia-slider-testimonials .avia-testimonial-content, $key .avia-testimonial-arrow-wrap .avia-arrow, $key .news-thumb, $key .portfolio-preview-content, $key .portfolio-preview-content .avia-arrow, $key .av-magazine .av-magazine-entry-icon, $key .related_posts.av-related-style-full a, $key .aviaccordion-slide, $key.avia-fullwidth-portfolio .pagination, $key .isotope-item.special_av_fullwidth .av_table_col.portfolio-grid-image{
 background: $bg2;
 }
 
@@ -737,7 +737,11 @@ $output .= "
 .image-overlay.overlay-type-video .image-overlay-inside:before{ ".av_icon_css_string('ov_video')." }
 ";
 
-
+//lightbox next/prev icons
+$output .= "
+div.avia-popup button.mfp-arrow:before		{ ".av_icon_css_string('next_big')." }
+div.avia-popup button.mfp-arrow-left:before { ".av_icon_css_string('prev_big')."}
+";
 
 
 
@@ -762,6 +766,14 @@ $avia_config['style'] = array(
 		'key'	=>	'direct_input',
 		'value'		=> avia_get_option('quick_css')
 		),
+		
+		array(
+		'key'	=>	'direct_input',
+		'value'	=> ".html_header_transparency #top .avia-builder-el-0 .container{padding-top:".avia_get_header_scroll_offset()."px;}"
+		),
+		
+		
+		
 
 		//google webfonts
 		array(

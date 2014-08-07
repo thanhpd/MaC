@@ -21,6 +21,7 @@
 					update: function(event, ui) 
 					{
 						//obj.updateTextarea();
+						ui.item.parents('.avia-modal-group:eq(0)').trigger('av-item-moved', [ui.item]);
 					},
 					stop: function( event, ui ) 
 					{

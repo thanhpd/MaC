@@ -21,12 +21,12 @@ return array(
 	'minify.error.notification' => '',
 	'minify.error.notification.last' => 0,
 	'minify.error.file' => '',
-	'track.maxcdn_signup' => 0,
+	'track.maxcdn_signup' => 1407238958,
 	'track.maxcdn_authorize' => 0,
 	'track.maxcdn_validation' => 0,
 	'notes.maxcdn_whitelist_ip' => true,
 	'notes.remove_w3tc' => false,
 	'notes.hide_extensions' => array(
 	),
-	'evaluation.reminder' => 1406448540,
+	'evaluation.reminder' => 1409830914,
 );

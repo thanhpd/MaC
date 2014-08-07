@@ -154,7 +154,7 @@ if ( !class_exists( 'aviaShortcodeTemplate' ) ) {
 					}
 				}
 			}
-
+			
 
 			$elements = $this->set_default_values($elements);
 			echo AviaHtmlHelper::render_multiple_elements($elements, $this);
@@ -315,13 +315,14 @@ if ( !class_exists( 'aviaShortcodeTemplate' ) ) {
 			{
 				switch($element['type'])
 				{
-					case "tiny_mce": 	$this->config['modal_on_load'][] = 'modal_load_tiny_mce'; break;
-					case "colorpicker": $this->config['modal_on_load'][] = 'modal_load_colorpicker'; break;
-					case "table": 		$this->config['modal_on_load'][] = 'modal_load_tablebuilder'; break;
+					case "tiny_mce": 		$this->config['modal_on_load'][] = 'modal_load_tiny_mce'; break;
+					case "colorpicker": 	$this->config['modal_on_load'][] = 'modal_load_colorpicker'; break;
+					case "table": 			$this->config['modal_on_load'][] = 'modal_load_tablebuilder'; break;
 					case "modal_group":
-										$this->config['modal_on_load'][] = 'modal_start_sorting';
-										$this->config['modal_on_load'][] = 'modal_tab_functions';
-										$this->extra_config_element_iterator($element['subelements']);
+											$this->config['modal_on_load'][] = 'modal_start_sorting';
+											$this->config['modal_on_load'][] = 'modal_tab_functions';
+											$this->config['modal_on_load'][] = 'modal_hotspot_helper';
+											$this->extra_config_element_iterator($element['subelements']);
 					break;
 				}
 			}
@@ -385,10 +386,10 @@ if ( !class_exists( 'aviaShortcodeTemplate' ) ) {
 		* function that sets the default values and passes them to the user defined editor element
 		* which in turn returns the array with the properties to render a new AviaBuilder Canvas Element
 		*/
-		public function prepare_editor_element($content = "", $args = array())
+		public function prepare_editor_element($content = false, $args = array())
 		{
 			//set the default content unless it was already passed
-			if(empty($content))
+			if($content === false)
 			{
 				$content = $this->get_default_content($content);
 			}
@@ -507,7 +508,8 @@ if ( !class_exists( 'aviaShortcodeTemplate' ) ) {
 		public function set_default_values($elements)
 		{
 			$shortcode = !empty($_POST['params']['shortcode']) ? $_POST['params']['shortcode'] : "";
-
+			
+			
 
 			if($shortcode)
 			{
@@ -524,7 +526,7 @@ if ( !class_exists( 'aviaShortcodeTemplate' ) ) {
 				if(!empty($extracted_shortcode['attr']) || !empty($extracted_shortcode['content']))
 				{
 					if(empty($extracted_shortcode['attr'])) $extracted_shortcode['attr'] = "";
-					if(!empty($extracted_shortcode['content'])) $extracted_shortcode['attr']['content'] = $extracted_shortcode['content'];
+					if(isset($extracted_shortcode['content'])) $extracted_shortcode['attr']['content'] = $extracted_shortcode['content'];
 
 					//iterate over each array item and check if we already got a value
 					foreach($elements as &$element)

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Enfold v2.7\n"
+"Project-Id-Version: Enfold v2.8.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-22 21:37+0100\n"
-"PO-Revision-Date: 2014-04-23 11:20+0100\n"
+"POT-Creation-Date: 2014-06-04 16:29+0100\n"
+"PO-Revision-Date: 2014-06-08 13:57+0100\n"
 "Last-Translator: Giuseppe Beghelli <info@giuseppebeghelli.it>\n"
 "Language-Team:  <info@giuseppebeghelli.it>\n"
 "Language: it_IT\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
@@ -30,205 +30,9 @@ msgid "Entries by"
 msgstr "Pubblicati da"
 
 # @ avia_framework
-#: footer.php:77 includes/admin/register-admin-options.php:1216
-msgid "Copyright"
-msgstr "Copyright"
-
-# @ avia_framework
-#: footer.php:172
-msgid "Scroll to top"
-msgstr "Scorrere verso l&rsquo;alto"
-
-# @ avia_framework
-#: forum.php:11
-msgid "Forums"
-msgstr "Forums"
-
-# @ avia_framework
-#: forum.php:17 config-bbpress/config.php:106
+#: config-bbpress/config.php:106 forum.php:17
 msgid "Profile for User:"
 msgstr "Profilo utente::"
-
-# @ avia_framework
-#: forum.php:20
-msgid "Edit profile for User:"
-msgstr "Modifica profilo di utente:"
-
-# @ LayerSlider
-# @ woothemes
-# @ avia_framework
-#: functions-enfold.php:71 searchform.php:9
-#: config-layerslider/LayerSlider/views/slider_list.php:494
-#: config-woocommerce/admin-import.php:59
-#: framework/php/class-breadcrumb.php:123
-msgid "Search"
-msgstr "Cerca"
-
-# @ avia_framework
-#: functions-enfold.php:105 includes/loop-archive.php:87
-#: includes/loop-author.php:140 includes/loop-index.php:231
-msgid "Sorry, no posts matched your criteria"
-msgstr "Spiacente, nessun articolo corrisponde  ai tuoi criteri"
-
-# @ avia_framework
-#: functions-enfold.php:106
-msgid "Please try another search term"
-msgstr "Prova con un altro termine di ricerca"
-
-# @ avia_framework
-#: functions-enfold.php:109
-msgid "View all results"
-msgstr "Mostrare tutti i risultati"
-
-# @ avia_framework
-#: functions-enfold.php:307 template-archives.php:53
-#: includes/helper-post-format.php:63 includes/loop-archive.php:34
-msgid "Permanent Link:"
-msgstr "Link Permanente:"
-
-# @ avia_framework
-#: functions-enfold.php:985
-msgid "Don't display image on single post"
-msgstr "Non mostrare l&rsquo;immagine del singolo articolo"
-
-# @ avia_framework
-#: functions.php:115
-msgid "Square"
-msgstr "Quadrato"
-
-# @ avia_framework
-#: functions.php:116
-msgid "Featured Thin"
-msgstr "In primo piano sottile"
-
-# @ avia_framework
-#: functions.php:117
-msgid "Featured Large"
-msgstr "In primo piano grande"
-
-# @ avia_framework
-#: functions.php:118 template-archives.php:130
-msgid "Portfolio"
-msgstr "Portfolio"
-
-# @ avia_framework
-#: functions.php:119 config-templatebuilder/avia-shortcodes/gallery.php:19
-#: config-templatebuilder/avia-template-builder/config/meta.php:98
-msgid "Gallery"
-msgstr "Galleria"
-
-# @ avia_framework
-#: functions.php:120
-msgid "Entry with Sidebar"
-msgstr "Entrata con barra laterale"
-
-# @ avia_framework
-#: functions.php:121
-msgid "Entry without Sidebar"
-msgstr "Entrata senza barra laterale"
-
-# @ avia_framework
-#: functions.php:122
-msgid "Fullscreen Sections/Sliders"
-msgstr "Sezioni/Sliders a schermo intero"
-
-# @ avia_framework
-#: index.php:11 single.php:9
-msgid "Blog - Latest News"
-msgstr "Blog - Ultime notizie"
-
-# @ avia_framework
-#: search.php:23
-msgid "New Search"
-msgstr "Nuova Ricerca"
-
-# @ avia_framework
-#: search.php:24
-msgid "If you are not happy with the results below please do another search"
-msgstr ""
-"Se non siete soddisfatti dei risultati conseguiti per favore fare una nuova "
-"ricerca"
-
-# @ avia_framework
-#: template-archives.php:44 config-templatebuilder/avia-shortcodes/blog.php:16
-msgid "Blog Posts"
-msgstr "Articoli"
-
-# @ avia_framework
-#: template-archives.php:49
-msgid "The 20 latest Blog Posts"
-msgstr "Gli ultimi 20 articoli pubblicati"
-
-# @ avia_framework
-#: template-archives.php:84
-msgid "The 8 latest Portfolio Entries"
-msgstr "Le ultime 8 Voci Portfolio"
-
-# @ avia_framework
-#: template-archives.php:149 includes/admin/register-widget-area.php:127
-msgid "Pages"
-msgstr "Pagine"
-
-# @ avia_framework
-#: template-archives.php:154
-msgid "Available Pages"
-msgstr "Pagine disponibili"
-
-# @ woothemes
-# @ avia_framework
-#: template-archives.php:163 config-woocommerce/admin-import.php:114
-#: config-woocommerce/admin-import.php:116
-#: includes/admin/register-widget-area.php:116
-msgid "Categories"
-msgstr "Categorie"
-
-# @ avia_framework
-#: template-archives.php:168
-msgid "Archives by Subject:"
-msgstr "Archivio per argomento:"
-
-# @ avia_framework
-#: template-archives.php:178
-msgid "Monthly"
-msgstr "Mensile"
-
-# @ avia_framework
-#: template-archives.php:183
-msgid "Archives by Month:"
-msgstr "Archivio per mese:"
-
-# @ avia_framework
-#: template-builder.php:45 includes/loop-index.php:190
-#: includes/loop-portfolio-single.php:33
-msgid "Pages:"
-msgstr "Pagine:"
-
-# @ avia_framework
-#: config-layerslider/config.php:24
-msgid "(Unnamed Slider)"
-msgstr "(Diapositiva sin nombre)"
-
-# @ LayerSlider
-#: config-layerslider/LayerSlider/layerslider.php:100
-msgid "Your settings were successfully saved."
-msgstr "Le impostazioni sono state salvate correttamente."
-
-# @ avia_framework
-#: config-layerslider/LayerSlider/layerslider.php:100
-#: config-layerslider/LayerSlider/layerslider.php:116
-#: config-layerslider/LayerSlider/views/slider_list.php:390
-msgid "Check for update"
-msgstr "Controllare per aggiornamento"
-
-#: config-layerslider/LayerSlider/layerslider.php:116
-#: config-layerslider/LayerSlider/views/slider_list.php:389
-msgid "Thank you for purchasing LayerSlider WP."
-msgstr "Grazie per aver acquistato LayerSlider WP."
-
-#: config-layerslider/LayerSlider/layerslider.php:121
-#: config-layerslider/LayerSlider/views/slider_list.php:393
-msgid "Your purchase code doesn't appear to be valid."
-msgstr "Il tuo codice di acquisto non sembra essere valido."
 
 # @ LayerSlider
 #: config-layerslider/LayerSlider/config/defaults.php:14
@@ -1751,6 +1555,28 @@ msgstr ""
 "collegato, qui è possibile specificarlo per rendere l&rsquo;interazione con "
 "questi plugin."
 
+# @ LayerSlider
+#: config-layerslider/LayerSlider/layerslider.php:100
+msgid "Your settings were successfully saved."
+msgstr "Le impostazioni sono state salvate correttamente."
+
+# @ avia_framework
+#: config-layerslider/LayerSlider/layerslider.php:100
+#: config-layerslider/LayerSlider/layerslider.php:116
+#: config-layerslider/LayerSlider/views/slider_list.php:390
+msgid "Check for update"
+msgstr "Controllare per aggiornamento"
+
+#: config-layerslider/LayerSlider/layerslider.php:116
+#: config-layerslider/LayerSlider/views/slider_list.php:389
+msgid "Thank you for purchasing LayerSlider WP."
+msgstr "Grazie per aver acquistato LayerSlider WP."
+
+#: config-layerslider/LayerSlider/layerslider.php:121
+#: config-layerslider/LayerSlider/views/slider_list.php:393
+msgid "Your purchase code doesn't appear to be valid."
+msgstr "Il tuo codice di acquisto non sembra essere valido."
+
 #: config-layerslider/LayerSlider/views/skin_editor.php:23
 #: config-layerslider/LayerSlider/views/slider_edit.php:66
 #: config-layerslider/LayerSlider/views/slider_list.php:79
@@ -1959,7 +1785,7 @@ msgstr "Link a questa diapositiva"
 #: config-layerslider/LayerSlider/views/slider_edit_sample.php:68
 #: config-layerslider/LayerSlider/views/slider_edit_sample.php:388
 #: config-layerslider/LayerSlider/views/slider_edit_settings.php:22
-#: includes/admin/register-admin-options.php:209
+#: includes/admin/register-admin-options.php:223
 #: includes/admin/register-backend-advanced-styles.php:204
 msgid "Misc"
 msgstr "Miscellaneo"
@@ -2630,10 +2456,10 @@ msgstr "Anteprima Slider"
 # @ LayerSlider
 # @ avia_framework
 #: config-layerslider/LayerSlider/views/slider_list.php:176
-#: config-templatebuilder/avia-shortcodes/contact.php:58
+#: config-templatebuilder/avia-shortcodes/contact.php:64
 #: config-templatebuilder/avia-shortcodes/testimonials.php:52
 #: config-templatebuilder/avia-shortcodes/testimonials.php:70
-#: config-woocommerce/config.php:987
+#: config-woocommerce/config.php:986
 msgid "Name"
 msgstr "Nome"
 
@@ -2794,6 +2620,7 @@ msgstr "Collaboratore, Autore, Editore, Amministratore"
 
 # @ avia_framework
 #: config-layerslider/LayerSlider/views/slider_list.php:341
+#: config-templatebuilder/avia-shortcodes/numbers.php:84
 msgid "Custom"
 msgstr "Personalizzato"
 
@@ -2984,6 +2811,16 @@ msgstr ""
 msgid "Add font:"
 msgstr "Aggiungi carattere:"
 
+# @ LayerSlider
+# @ woothemes
+# @ avia_framework
+#: config-layerslider/LayerSlider/views/slider_list.php:494
+#: config-woocommerce/admin-import.php:59
+#: framework/php/class-breadcrumb.php:123 functions-enfold.php:71
+#: searchform.php:9
+msgid "Search"
+msgstr "Cerca"
+
 # @ avia_framework
 #: config-layerslider/LayerSlider/views/slider_list.php:499
 msgid "Choose a font family"
@@ -3012,9 +2849,9 @@ msgstr "Filtro:"
 # @ avia_framework
 # @ woothemes
 #: config-layerslider/LayerSlider/views/slider_list.php:520
-#: config-templatebuilder/avia-shortcodes/magazine.php:292
-#: config-templatebuilder/avia-shortcodes/masonry_entries.php:420
-#: config-templatebuilder/avia-shortcodes/portfolio.php:505
+#: config-templatebuilder/avia-shortcodes/magazine.php:295
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:431
+#: config-templatebuilder/avia-shortcodes/portfolio.php:506
 #: config-templatebuilder/avia-shortcodes/toggles.php:232
 #: config-templatebuilder/avia-shortcodes/toggles.php:263
 #: config-woocommerce/admin-import.php:60
@@ -3706,6 +3543,16 @@ msgid "Title:"
 msgstr "Titolo:"
 
 # @ avia_framework
+#: config-layerslider/config.php:24
+msgid "(Unnamed Slider)"
+msgstr "(Diapositiva sin nombre)"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/blog.php:16 template-archives.php:44
+msgid "Blog Posts"
+msgstr "Articoli"
+
+# @ avia_framework
 #: config-templatebuilder/avia-shortcodes/blog.php:17
 #: config-templatebuilder/avia-shortcodes/buttons.php:17
 #: config-templatebuilder/avia-shortcodes/codeblock.php:20
@@ -3720,6 +3567,7 @@ msgstr "Titolo:"
 #: config-templatebuilder/avia-shortcodes/magazine.php:19
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:17
 #: config-templatebuilder/avia-shortcodes/notification.php:17
+#: config-templatebuilder/avia-shortcodes/numbers.php:17
 #: config-templatebuilder/avia-shortcodes/portfolio.php:17
 #: config-templatebuilder/avia-shortcodes/postcontent.php:18
 #: config-templatebuilder/avia-shortcodes/postslider.php:19
@@ -3784,8 +3632,8 @@ msgstr ""
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:51
 #: config-templatebuilder/avia-shortcodes/portfolio.php:160
 #: config-templatebuilder/avia-shortcodes/postslider.php:41
-#: config-templatebuilder/avia-shortcodes/productslider.php:48
 #: config-templatebuilder/avia-shortcodes/product_grid.php:46
+#: config-templatebuilder/avia-shortcodes/productslider.php:48
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:53
 msgid "Which Entries?"
 msgstr "Quali Voci?"
@@ -3796,8 +3644,8 @@ msgstr "Quali Voci?"
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:52
 #: config-templatebuilder/avia-shortcodes/portfolio.php:161
 #: config-templatebuilder/avia-shortcodes/postslider.php:42
-#: config-templatebuilder/avia-shortcodes/productslider.php:49
 #: config-templatebuilder/avia-shortcodes/product_grid.php:47
+#: config-templatebuilder/avia-shortcodes/productslider.php:49
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:54
 msgid "Select which entries should be displayed by selecting a taxonomy"
 msgstr "Selezionare le voci da visualizzare selezionando una tassonomia"
@@ -3814,19 +3662,20 @@ msgstr "Mostrare voci da:"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/blog.php:68
-#: includes/admin/register-admin-options.php:1231
+#: includes/admin/register-admin-options.php:1279
 msgid "Blog Style"
 msgstr "Stile Blog"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/blog.php:69
-#: includes/admin/register-admin-options.php:1232
+#: includes/admin/register-admin-options.php:1280
 msgid "Choose the default blog layout here."
 msgstr "Scegliere il layout del blog di default qui."
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/blog.php:74
-#: includes/admin/register-admin-options.php:1238
+#: includes/admin/register-admin-options.php:1286
+#: includes/admin/register-admin-options.php:1315
 msgid ""
 "Multi Author Blog (displays Gravatar of the article author beside the entry "
 "and feature images above)"
@@ -3836,7 +3685,7 @@ msgstr ""
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/blog.php:75
-#: includes/admin/register-admin-options.php:1239
+#: includes/admin/register-admin-options.php:1287
 msgid ""
 "Single Author, small preview Pic (no author picture is displayed, feature "
 "image is small)"
@@ -3846,7 +3695,7 @@ msgstr ""
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/blog.php:76
-#: includes/admin/register-admin-options.php:1240
+#: includes/admin/register-admin-options.php:1288
 msgid ""
 "Single Author, big preview Pic (no author picture is displayed, feature "
 "image is big)"
@@ -3856,7 +3705,7 @@ msgstr ""
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/blog.php:77
-#: includes/admin/register-admin-options.php:1241
+#: includes/admin/register-admin-options.php:1289
 msgid "Grid Layout"
 msgstr "Layout Griglia"
 
@@ -4011,8 +3860,8 @@ msgstr "Quanti elementi devono essere visualizzati per pagina?"
 #: config-templatebuilder/avia-shortcodes/blog.php:148
 #: config-templatebuilder/avia-shortcodes/magazine.php:60
 #: config-templatebuilder/avia-shortcodes/postslider.php:72
-#: config-templatebuilder/avia-shortcodes/productslider.php:77
 #: config-templatebuilder/avia-shortcodes/product_grid.php:75
+#: config-templatebuilder/avia-shortcodes/productslider.php:77
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:74
 msgid "Offset Number"
 msgstr "Numero Offset"
@@ -4033,8 +3882,8 @@ msgstr ""
 #: config-templatebuilder/avia-shortcodes/blog.php:153
 #: config-templatebuilder/avia-shortcodes/magazine.php:65
 #: config-templatebuilder/avia-shortcodes/postslider.php:77
-#: config-templatebuilder/avia-shortcodes/productslider.php:82
 #: config-templatebuilder/avia-shortcodes/product_grid.php:80
+#: config-templatebuilder/avia-shortcodes/productslider.php:82
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:80
 msgid "Deactivate offset"
 msgstr "Disattivare offset"
@@ -4043,8 +3892,8 @@ msgstr "Disattivare offset"
 #: config-templatebuilder/avia-shortcodes/blog.php:153
 #: config-templatebuilder/avia-shortcodes/magazine.php:65
 #: config-templatebuilder/avia-shortcodes/postslider.php:77
-#: config-templatebuilder/avia-shortcodes/productslider.php:82
 #: config-templatebuilder/avia-shortcodes/product_grid.php:80
+#: config-templatebuilder/avia-shortcodes/productslider.php:82
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:80
 msgid ""
 "Do not allow duplicate posts on the entire page (set offset automatically)"
@@ -4154,13 +4003,15 @@ msgstr "Dove manderà il link del bottone?"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/buttons.php:50
+#: config-templatebuilder/avia-shortcodes/contact.php:180
 #: config-templatebuilder/avia-shortcodes/contentslider.php:71
 #: config-templatebuilder/avia-shortcodes/icon.php:82
 #: config-templatebuilder/avia-shortcodes/iconbox.php:69
 #: config-templatebuilder/avia-shortcodes/iconlist.php:73
-#: config-templatebuilder/avia-shortcodes/image.php:87
+#: config-templatebuilder/avia-shortcodes/image.php:88
 #: config-templatebuilder/avia-shortcodes/logoslider.php:87
 #: config-templatebuilder/avia-shortcodes/magazine.php:106
+#: config-templatebuilder/avia-shortcodes/numbers.php:124
 #: config-templatebuilder/avia-shortcodes/promobox.php:72
 #: config-templatebuilder/avia-shortcodes/slideshow.php:195
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:137
@@ -4175,13 +4026,15 @@ msgstr "Impostare manualmente"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/buttons.php:51
+#: config-templatebuilder/avia-shortcodes/contact.php:181
 #: config-templatebuilder/avia-shortcodes/contentslider.php:72
 #: config-templatebuilder/avia-shortcodes/icon.php:83
 #: config-templatebuilder/avia-shortcodes/iconbox.php:70
 #: config-templatebuilder/avia-shortcodes/iconlist.php:74
-#: config-templatebuilder/avia-shortcodes/image.php:88
+#: config-templatebuilder/avia-shortcodes/image.php:89
 #: config-templatebuilder/avia-shortcodes/logoslider.php:88
 #: config-templatebuilder/avia-shortcodes/magazine.php:107
+#: config-templatebuilder/avia-shortcodes/numbers.php:125
 #: config-templatebuilder/avia-shortcodes/postcontent.php:49
 #: config-templatebuilder/avia-shortcodes/promobox.php:73
 #: config-templatebuilder/avia-shortcodes/slideshow.php:196
@@ -4201,9 +4054,10 @@ msgstr "Singolo articolo"
 #: config-templatebuilder/avia-shortcodes/icon.php:84
 #: config-templatebuilder/avia-shortcodes/iconbox.php:71
 #: config-templatebuilder/avia-shortcodes/iconlist.php:75
-#: config-templatebuilder/avia-shortcodes/image.php:89
+#: config-templatebuilder/avia-shortcodes/image.php:90
 #: config-templatebuilder/avia-shortcodes/logoslider.php:89
 #: config-templatebuilder/avia-shortcodes/magazine.php:108
+#: config-templatebuilder/avia-shortcodes/numbers.php:126
 #: config-templatebuilder/avia-shortcodes/promobox.php:74
 #: config-templatebuilder/avia-shortcodes/slideshow.php:197
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:139
@@ -4431,6 +4285,7 @@ msgstr "Nero"
 #: config-templatebuilder/avia-shortcodes/heading.php:66
 #: config-templatebuilder/avia-shortcodes/magazine.php:132
 #: config-templatebuilder/avia-shortcodes/notification.php:63
+#: config-templatebuilder/avia-shortcodes/numbers.php:89
 #: config-templatebuilder/avia-shortcodes/promobox.php:108
 msgid "Custom Color"
 msgstr "Colore personalizzato"
@@ -4545,6 +4400,7 @@ msgstr "Mostrare un&rsquo;icona  sul lato sinistro del pulsante"
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/buttons.php:137
 #: config-templatebuilder/avia-shortcodes/notification.php:115
+#: config-templatebuilder/avia-shortcodes/numbers.php:60
 #: config-templatebuilder/avia-shortcodes/progressbar.php:97
 #: config-templatebuilder/avia-shortcodes/promobox.php:152
 #: config-templatebuilder/avia-shortcodes/tabs.php:112
@@ -4737,9 +4593,8 @@ msgstr "Crea una singola colonna con larghezza al 80%"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/comments.php:21
-#: config-templatebuilder/avia-shortcodes/postslider.php:380
-#: framework/php/class-framework-widgets.php:939 includes/loop-archive.php:19
-#: includes/loop-archive.php:20 includes/loop-author.php:80
+#: config-templatebuilder/avia-shortcodes/postslider.php:381
+#: framework/php/class-framework-widgets.php:939 includes/loop-author.php:80
 #: includes/loop-author.php:82 includes/loop-index.php:139
 #: includes/loop-index.php:141 includes/loop-search.php:49
 #: includes/loop-search.php:51
@@ -4754,12 +4609,12 @@ msgstr "Aggiungere un modulo di commento e l&rsquo;elenco commenti al modello"
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:16
 msgid "Contact Form"
-msgstr "Form di contatto"
+msgstr "Modulo di contatto"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:23
 msgid "Creates a customizable contact form"
-msgstr "Crea un form di contatto personalizzato"
+msgstr "Crea un modulo di contatto personalizzato"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:39
@@ -4768,9 +4623,12 @@ msgstr "Il tuo indirizzo email"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:40
-msgid "Enter the Email address where mails should be delivered to."
+msgid ""
+"Enter one or more Email addresses (separated by comma) where mails should be "
+"delivered to."
 msgstr ""
-"Inserire l&rsquo;indirizzo email al quale dovrebbe essere smistata la posta."
+"Immettere uno o più indirizzi e-mail (separati da virgola) a cui dovrebbe "
+"essere inviata la posta."
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:40
@@ -4778,12 +4636,28 @@ msgid "Default:"
 msgstr "Predefinito:"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:48
-msgid "Add/Edit Contact Form Elements"
-msgstr "Aggiungi/Modifica Elemento form Contatto"
+#: config-templatebuilder/avia-shortcodes/contact.php:47
+msgid "Form Title"
+msgstr "Modulo Titolo"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:49
+#: config-templatebuilder/avia-shortcodes/contact.php:48
+msgid "Enter a form title that is displayed above the form"
+msgstr "Inserire un titolo che viene visualizzato sopra il modulo"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/contact.php:50
+#: config-templatebuilder/avia-shortcodes/contact.php:254
+msgid "Send us mail"
+msgstr "Inviaci email"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/contact.php:54
+msgid "Add/Edit Contact Form Elements"
+msgstr "Aggiungi/Modifica Elemento modulo Contatto"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/contact.php:55
 msgid ""
 "Here you can add, remove and edit the form Elements of your contact form."
 msgstr ""
@@ -4791,7 +4665,7 @@ msgstr ""
 "del vostro modulo di contatto."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:50
+#: config-templatebuilder/avia-shortcodes/contact.php:56
 msgid ""
 "Available form elements are: single line Input elements, Textareas, "
 "Checkboxes and Select-Dropdown menus."
@@ -4800,7 +4674,7 @@ msgstr ""
 "aree di testo, caselle di controllo e menu a discesa ."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:51
+#: config-templatebuilder/avia-shortcodes/contact.php:57
 msgid ""
 "It is recommended to not delete the 'E-Mail' field if you want to use an "
 "auto responder."
@@ -4809,7 +4683,7 @@ msgstr ""
 "un risponditore automatico."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:55
+#: config-templatebuilder/avia-shortcodes/contact.php:61
 #: config-templatebuilder/avia-shortcodes/contentslider.php:44
 #: config-templatebuilder/avia-shortcodes/logoslider.php:43
 #: config-templatebuilder/avia-shortcodes/slideshow.php:43
@@ -4819,66 +4693,70 @@ msgstr ""
 #: config-templatebuilder/avia-shortcodes/tabs.php:85
 #: config-templatebuilder/avia-shortcodes/toggles.php:59
 msgid "Edit Form Element"
-msgstr "Editare elemento del form"
+msgstr "Editare elemento del modulo"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:59
+#: config-templatebuilder/avia-shortcodes/contact.php:65
 msgid "E-Mail"
 msgstr "E-Mail"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:60
+#: config-templatebuilder/avia-shortcodes/contact.php:66
 msgid "Subject"
 msgstr "Oggetto"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:61
+#: config-templatebuilder/avia-shortcodes/contact.php:67
 #: config-templatebuilder/avia-shortcodes/notification.php:44
 msgid "Message"
 msgstr "Messaggio"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:69
+#: config-templatebuilder/avia-shortcodes/contact.php:75
 msgid "Form Element Label"
-msgstr "Etichetta  elemento del form"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:77
-msgid "Form Element Type"
-msgstr "Tipo dell&rsquo;elemento de form"
+msgstr "Etichetta  elemento del modulo"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:83
-msgid "Text input"
-msgstr "Campo di testo"
+msgid "Form Element Type"
+msgstr "Tipo dell&rsquo;elemento del modulo"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:84
-msgid "Text Area"
-msgstr "Area di testo"
+#: config-templatebuilder/avia-shortcodes/contact.php:89
+msgid "Form Element: Text Input"
+msgstr "Modulo Elemento: immissione di testo"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:85
-msgid "Select Element"
-msgstr "Selezionare Elemento"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:86
-msgid "Checkbox"
-msgstr "Casella di verifica"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:87
-msgid "Datepicker"
-msgstr "Datepicker"
+#: config-templatebuilder/avia-shortcodes/contact.php:90
+msgid "Form Element: Text Area"
+msgstr "Modulo Elemento: Area di testo"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:91
-msgid "Form Element Options"
-msgstr "Opzione dell&rsquo;elemento del form"
+msgid "Form Element: Select Element"
+msgstr "Modulo Elemento: Seleziona Elemento"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contact.php:92
+msgid "Form Element: Checkbox"
+msgstr "Modulo Elemento: Casella di spunta"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/contact.php:93
+msgid "Form Element: Datepicker"
+msgstr "Modulo Elemento: selettore Date "
+
+#: config-templatebuilder/avia-shortcodes/contact.php:94
+msgid "Custom HTML: Add a Description"
+msgstr "HTML personalizzato: aggiungere una descrizione"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/contact.php:98
+msgid "Form Element Options"
+msgstr "Opzione dell&rsquo;elemento del modulo"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/contact.php:99
 msgid ""
 "Enter any number of options that the visitor can choose from. Separate these "
 "Options with a comma."
@@ -4887,113 +4765,123 @@ msgstr ""
 "Separare le opzioni con una virgola."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:93
+#: config-templatebuilder/avia-shortcodes/contact.php:100
 msgid "Example: Option 1, Option 2, Option 3"
 msgstr "Esempio: Opzione 1, Opzione 2, Opzione 3"
 
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:101
-msgid "Form Element Validation"
-msgstr "Convalida elemento del form"
+# @ default
+#: config-templatebuilder/avia-shortcodes/contact.php:108
+msgid "Add Description"
+msgstr "Aggiungi Descrizione"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:107
+#: config-templatebuilder/avia-shortcodes/contact.php:116
+msgid "Form Element Validation"
+msgstr "Convalida elemento del modulo"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/contact.php:123
 msgid "No Validation"
 msgstr "No convalida"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:108
+#: config-templatebuilder/avia-shortcodes/contact.php:124
 msgid "Is not empty"
 msgstr "Non è vuoto"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:109
+#: config-templatebuilder/avia-shortcodes/contact.php:125
 msgid "Valid E-Mail address"
 msgstr "Convalidare indirizzo e-mail"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:110
+#: config-templatebuilder/avia-shortcodes/contact.php:126
 msgid "Valid Phone Number"
 msgstr "Convalidare numero di telefono"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:111
+#: config-templatebuilder/avia-shortcodes/contact.php:127
 msgid "Valid Number"
 msgstr "Convalidare Numero "
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:114
+#: config-templatebuilder/avia-shortcodes/contact.php:130
 msgid "Form Element Width"
-msgstr "Larghezza elemento de form"
+msgstr "Larghezza elemento del modulo"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:115
-#, php-format
+#: config-templatebuilder/avia-shortcodes/contact.php:131
 msgid ""
-"If the width is set to 50% for 2 consecutive form items they will appear "
-"beside each other instead of underneath"
+"Change the width of your elements and let them appear beside each other "
+"instead of underneath"
 msgstr ""
-"Se la larghezza è impostata al 50% for per 2 elementi del modulo consecutivi "
-"appariranno uno accanto all&rsquo;altro, invece che sotto"
+"Modificare la larghezza dei vostri elementi e farli apparire uno accanto "
+"all'altro, invece che sotto"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:126
+#: config-templatebuilder/avia-shortcodes/contact.php:143
 msgid "Submit Button Label"
 msgstr "Etichetta del bottone Inviare"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:127
+#: config-templatebuilder/avia-shortcodes/contact.php:144
 msgid "Enter the submit buttons label text here"
 msgstr "Inserisci qui il testo dell&rsquo;etichetta dei bottoni di invio"
 
 # @ avia_framework
 # @ wordpress-importer
-#: config-templatebuilder/avia-shortcodes/contact.php:129
-#: config-templatebuilder/avia-shortcodes/contact.php:207
+#: config-templatebuilder/avia-shortcodes/contact.php:146
+#: config-templatebuilder/avia-shortcodes/contact.php:247
 msgid "Submit"
 msgstr "Inviare"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:133
-msgid "Form Title"
-msgstr "Form Titolo"
+#: config-templatebuilder/avia-shortcodes/contact.php:151
+msgid "What should happen once the form gets sent?"
+msgstr "Cosa dovrebbe accadere una volta che il modulo viene inviato?"
+
+#: config-templatebuilder/avia-shortcodes/contact.php:157
+msgid "Display a short message on the same page"
+msgstr "Visualizza un breve messaggio sulla stessa pagina"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:134
-msgid "Enter a form title that is displayed above the form"
-msgstr "Inserire un titolo che viene visualizzato sopra il form"
+#: config-templatebuilder/avia-shortcodes/contact.php:158
+msgid "Redirect the user to another page"
+msgstr "Reindirizzare l&rsquo;utente ad un'altra pagina"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:136
-#: config-templatebuilder/avia-shortcodes/contact.php:212
-msgid "Send us mail"
-msgstr "Inviaci email"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:140
+#: config-templatebuilder/avia-shortcodes/contact.php:163
 msgid "Message Sent label"
 msgstr "Etichetta del Messaggio inviato"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:141
+#: config-templatebuilder/avia-shortcodes/contact.php:164
 msgid "What should be displayed once the message is sent?"
 msgstr ""
 "Che cosa dovrebbe essere visualizzato una volta che il messaggio viene "
 "inviato?"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:143
-#: config-templatebuilder/avia-shortcodes/contact.php:211
+#: config-templatebuilder/avia-shortcodes/contact.php:167
+#: config-templatebuilder/avia-shortcodes/contact.php:253
 msgid "Your message has been sent!"
 msgstr "Il tuo messaggio è stato inviato!"
 
+#: config-templatebuilder/avia-shortcodes/contact.php:172
+msgid "Redirect"
+msgstr "Reindirizzamento"
+
+#: config-templatebuilder/avia-shortcodes/contact.php:173
+msgid "To which page do you want the user send to?"
+msgstr "A quale pagina vuole che l&rsquo;utente invii? "
+
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:147
+#: config-templatebuilder/avia-shortcodes/contact.php:188
 msgid "E-Mail Subject"
 msgstr "E-mail Oggetto:"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:148
+#: config-templatebuilder/avia-shortcodes/contact.php:189
 msgid ""
 "You can define a custom Email Subject for your form here. If left empty the "
 "subject will be"
@@ -5002,24 +4890,24 @@ msgstr ""
 "lasciato vuoto l&rsquo;oggetto resterà vuoto"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:148
-#: framework/php/class-form-generator.php:573
+#: config-templatebuilder/avia-shortcodes/contact.php:189
+#: framework/php/class-form-generator.php:618
 msgid "New Message"
 msgstr "Nuovo Messaggio"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:148
-#: framework/php/class-form-generator.php:573
+#: config-templatebuilder/avia-shortcodes/contact.php:189
+#: framework/php/class-form-generator.php:618
 msgid "sent by contact form at"
 msgstr "inviato tramite modulo di contatto a"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:154
+#: config-templatebuilder/avia-shortcodes/contact.php:195
 msgid "Autorespond Text"
 msgstr "Testo di auto-risposta"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:155
+#: config-templatebuilder/avia-shortcodes/contact.php:196
 msgid ""
 "Enter a message that will be sent to the users email address once he has "
 "submitted the form."
@@ -5028,17 +4916,17 @@ msgstr ""
 "dell&rsquo;utente una volta che ha inviato il modulo."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:156
+#: config-templatebuilder/avia-shortcodes/contact.php:197
 msgid "If left empty no auto-response will be sent."
 msgstr "Se lasciato vuoto non verrà inviata nessuna risposta automatica."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:163
+#: config-templatebuilder/avia-shortcodes/contact.php:204
 msgid "Contact Form Captcha"
-msgstr "Captcha del form di Contatto"
+msgstr "Captcha del modulo di Contatto"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:164
+#: config-templatebuilder/avia-shortcodes/contact.php:205
 msgid ""
 "Do you want to display a Captcha field at the end of the form so users must "
 "prove they are human by solving a simply mathematical question?"
@@ -5048,7 +4936,7 @@ msgstr ""
 "matematica?"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:164
+#: config-templatebuilder/avia-shortcodes/contact.php:205
 msgid ""
 "(It is recommended to only activate this if you receive spam from your "
 "contact form, since an invisible spam protection is also implemented that "
@@ -5059,18 +4947,18 @@ msgstr ""
 "dovrebbe filtrare la maggioranza dei messaggi di spam dei robot)"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:168
+#: config-templatebuilder/avia-shortcodes/contact.php:209
 msgid "Don't display Captcha"
 msgstr "Non mostrare Captcha"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:168
+#: config-templatebuilder/avia-shortcodes/contact.php:209
 msgid "Display Captcha"
 msgstr "Mostrare Captcha"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:185
-#: config-templatebuilder/avia-shortcodes/contact.php:189
+#: config-templatebuilder/avia-shortcodes/contact.php:226
+#: config-templatebuilder/avia-shortcodes/contact.php:229
 #: config-templatebuilder/avia-shortcodes/iconlist.php:148
 #: config-templatebuilder/avia-shortcodes/iconlist.php:157
 #: config-templatebuilder/avia-shortcodes/table.php:137
@@ -5079,12 +4967,12 @@ msgid "Element"
 msgstr "Elemento"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:226
+#: config-templatebuilder/avia-shortcodes/contact.php:269
 msgid "Thank you for your Message!"
 msgstr "Grazie per il tuo Messaggio!"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contact.php:244
+#: config-templatebuilder/avia-shortcodes/contact.php:288
 msgid "Please prove that you are human by solving the equation"
 msgstr "Si prega di risolvere la semplice equazione"
 
@@ -5150,8 +5038,9 @@ msgstr "Dove lancerà il titolo del link?"
 #: config-templatebuilder/avia-shortcodes/icon.php:81
 #: config-templatebuilder/avia-shortcodes/iconbox.php:68
 #: config-templatebuilder/avia-shortcodes/iconlist.php:72
-#: config-templatebuilder/avia-shortcodes/image.php:85
+#: config-templatebuilder/avia-shortcodes/image.php:86
 #: config-templatebuilder/avia-shortcodes/logoslider.php:85
+#: config-templatebuilder/avia-shortcodes/numbers.php:123
 msgid "No Link"
 msgstr "Senza Link"
 
@@ -5160,9 +5049,10 @@ msgstr "Senza Link"
 #: config-templatebuilder/avia-shortcodes/icon.php:89
 #: config-templatebuilder/avia-shortcodes/iconbox.php:76
 #: config-templatebuilder/avia-shortcodes/iconlist.php:80
+#: config-templatebuilder/avia-shortcodes/numbers.php:131
 #: config-templatebuilder/avia-shortcodes/team.php:116
-#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1221
-#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1229
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1242
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1250
 msgid "Open in new window"
 msgstr "Aprire in una nuova finestra"
 
@@ -5171,6 +5061,7 @@ msgstr "Aprire in una nuova finestra"
 #: config-templatebuilder/avia-shortcodes/icon.php:90
 #: config-templatebuilder/avia-shortcodes/iconbox.php:77
 #: config-templatebuilder/avia-shortcodes/iconlist.php:81
+#: config-templatebuilder/avia-shortcodes/numbers.php:132
 msgid "Do you want to open the link in a new window"
 msgstr "Vuoi aprire il link in una nuova finestra"
 
@@ -5204,8 +5095,8 @@ msgstr "Vuoi visualizzare un titolo che precede le immagini?"
 #: config-templatebuilder/avia-shortcodes/logoslider.php:115
 #: config-templatebuilder/avia-shortcodes/portfolio.php:61
 #: config-templatebuilder/avia-shortcodes/postslider.php:52
-#: config-templatebuilder/avia-shortcodes/productslider.php:58
 #: config-templatebuilder/avia-shortcodes/product_grid.php:56
+#: config-templatebuilder/avia-shortcodes/productslider.php:58
 msgid "Columns"
 msgstr "Colonne"
 
@@ -5226,8 +5117,8 @@ msgstr "1 Colonna"
 #: config-templatebuilder/avia-shortcodes/logoslider.php:121
 #: config-templatebuilder/avia-shortcodes/portfolio.php:67
 #: config-templatebuilder/avia-shortcodes/postslider.php:58
-#: config-templatebuilder/avia-shortcodes/productslider.php:63
 #: config-templatebuilder/avia-shortcodes/product_grid.php:61
+#: config-templatebuilder/avia-shortcodes/productslider.php:63
 msgid "2 Columns"
 msgstr "2 Colonne"
 
@@ -5236,8 +5127,8 @@ msgstr "2 Colonne"
 #: config-templatebuilder/avia-shortcodes/logoslider.php:122
 #: config-templatebuilder/avia-shortcodes/portfolio.php:68
 #: config-templatebuilder/avia-shortcodes/postslider.php:59
-#: config-templatebuilder/avia-shortcodes/productslider.php:64
 #: config-templatebuilder/avia-shortcodes/product_grid.php:62
+#: config-templatebuilder/avia-shortcodes/productslider.php:64
 msgid "3 Columns"
 msgstr "3 Colonne"
 
@@ -5246,8 +5137,8 @@ msgstr "3 Colonne"
 #: config-templatebuilder/avia-shortcodes/logoslider.php:123
 #: config-templatebuilder/avia-shortcodes/portfolio.php:69
 #: config-templatebuilder/avia-shortcodes/postslider.php:60
-#: config-templatebuilder/avia-shortcodes/productslider.php:65
 #: config-templatebuilder/avia-shortcodes/product_grid.php:63
+#: config-templatebuilder/avia-shortcodes/productslider.php:65
 msgid "4 Columns"
 msgstr "4 Colonne"
 
@@ -5256,8 +5147,8 @@ msgstr "4 Colonne"
 #: config-templatebuilder/avia-shortcodes/logoslider.php:124
 #: config-templatebuilder/avia-shortcodes/portfolio.php:70
 #: config-templatebuilder/avia-shortcodes/postslider.php:61
-#: config-templatebuilder/avia-shortcodes/productslider.php:66
 #: config-templatebuilder/avia-shortcodes/product_grid.php:64
+#: config-templatebuilder/avia-shortcodes/productslider.php:66
 msgid "5 Columns"
 msgstr "5 Colonne"
 
@@ -5324,7 +5215,9 @@ msgstr ""
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contentslider.php:150
 #: config-templatebuilder/avia-shortcodes/gallery.php:106
+#: config-templatebuilder/avia-shortcodes/image.php:126
 #: config-templatebuilder/avia-shortcodes/logoslider.php:196
+#: config-templatebuilder/avia-shortcodes/numbers.php:138
 #: config-templatebuilder/avia-shortcodes/postslider.php:130
 #: config-templatebuilder/avia-shortcodes/productslider.php:105
 #: config-templatebuilder/avia-shortcodes/slideshow.php:239
@@ -5336,7 +5229,9 @@ msgstr "Si"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/contentslider.php:150
+#: config-templatebuilder/avia-shortcodes/image.php:125
 #: config-templatebuilder/avia-shortcodes/logoslider.php:196
+#: config-templatebuilder/avia-shortcodes/numbers.php:139
 #: config-templatebuilder/avia-shortcodes/postslider.php:130
 #: config-templatebuilder/avia-shortcodes/productslider.php:105
 #: config-templatebuilder/avia-shortcodes/slideshow.php:239
@@ -5363,21 +5258,21 @@ msgid "Images will be shown the selected amount of seconds."
 msgstr "Le immagini verranno mostrate per i secondi specificati."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contentslider.php:379
-#: config-templatebuilder/avia-shortcodes/logoslider.php:501
-#: config-templatebuilder/avia-shortcodes/postslider.php:443
+#: config-templatebuilder/avia-shortcodes/contentslider.php:381
+#: config-templatebuilder/avia-shortcodes/logoslider.php:506
+#: config-templatebuilder/avia-shortcodes/postslider.php:444
 #: config-templatebuilder/avia-shortcodes/productslider.php:297
-#: config-templatebuilder/avia-shortcodes/slideshow.php:805
+#: config-templatebuilder/avia-shortcodes/slideshow.php:806
 msgid "Previous"
 msgstr "Anteriore"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/contentslider.php:380
-#: config-templatebuilder/avia-shortcodes/logoslider.php:502
-#: config-templatebuilder/avia-shortcodes/postslider.php:444
+#: config-templatebuilder/avia-shortcodes/contentslider.php:382
+#: config-templatebuilder/avia-shortcodes/logoslider.php:507
+#: config-templatebuilder/avia-shortcodes/postslider.php:445
 #: config-templatebuilder/avia-shortcodes/productslider.php:298
-#: config-templatebuilder/avia-shortcodes/slideshow.php:806
-#: framework/php/class-form-generator.php:296
+#: config-templatebuilder/avia-shortcodes/slideshow.php:807
+#: framework/php/class-form-generator.php:346
 msgid "Next"
 msgstr "Posteriore"
 
@@ -5396,6 +5291,13 @@ msgstr "Qui è possibile impostare il colore di sfondo del tuo capolettera"
 msgid "Select a custom background color for your dropcap here"
 msgstr ""
 "Scegliere un colore di sfondo personalizzato per il vostro capolettara qui"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/gallery.php:19
+#: config-templatebuilder/avia-template-builder/config/meta.php:98
+#: functions.php:119
+msgid "Gallery"
+msgstr "Galleria"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/gallery.php:20
@@ -5826,14 +5728,33 @@ msgstr ""
 "Accertarsi per visualizzare la ruota di controllo sulla parte superiore "
 "sinistra della mappa"
 
-#: config-templatebuilder/avia-shortcodes/google_maps.php:205
+#: config-templatebuilder/avia-shortcodes/google_maps.php:188
+msgid "Map dragging on mobile"
+msgstr "Trascinamento mappa sul cellulare"
+
+#: config-templatebuilder/avia-shortcodes/google_maps.php:189
+msgid ""
+"Check to disable the users ability to drag the map on mobile devices. This "
+"ensures that the user can scroll down the page, even if the map fills the "
+"whole viewport of the mobile device"
+msgstr ""
+"Controllare per disabilitare la possibilità agli utenti di trascinare la "
+"mappa su dispositivi mobili. Questo assicura che l&rsquo;utente può scorrere "
+"la pagina, anche se la mappa riempie l&rsquo;intera finestra del dispositivo "
+"mobile"
+
+#: config-templatebuilder/avia-shortcodes/google_maps.php:212
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:200
+#: config-templatebuilder/avia-shortcodes/masonry_gallery.php:180
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:221
 msgid "This element will stretch across the whole screen by default."
 msgstr ""
 "Questo elemento si estenderà su tutto lo schermo per impostazione "
 "predefinita."
 
-#: config-templatebuilder/avia-shortcodes/google_maps.php:206
+#: config-templatebuilder/avia-shortcodes/google_maps.php:213
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:201
+#: config-templatebuilder/avia-shortcodes/masonry_gallery.php:181
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:222
 msgid ""
 "If you put it inside a color section or column it will only take up the "
@@ -5841,25 +5762,31 @@ msgid ""
 msgstr ""
 "Se lo metti in una sezione colore o colonna ci vorrà  lo spazio disponibile"
 
-#: config-templatebuilder/avia-shortcodes/google_maps.php:207
+#: config-templatebuilder/avia-shortcodes/google_maps.php:214
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:202
+#: config-templatebuilder/avia-shortcodes/masonry_gallery.php:182
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:223
 msgid "Currently:"
 msgstr "Attualmente:"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/google_maps.php:208
+#: config-templatebuilder/avia-shortcodes/google_maps.php:215
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:203
+#: config-templatebuilder/avia-shortcodes/masonry_gallery.php:183
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:224
 msgid "Stretch fullwidth"
 msgstr "Allargare alla massima larghezza"
 
-#: config-templatebuilder/avia-shortcodes/google_maps.php:209
+#: config-templatebuilder/avia-shortcodes/google_maps.php:216
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:204
+#: config-templatebuilder/avia-shortcodes/masonry_gallery.php:184
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:225
 msgid "Adjust to content width"
 msgstr "Regolare la larghezza del contenuto"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/google_maps.php:223
-#: config-templatebuilder/avia-shortcodes/google_maps.php:226
+#: config-templatebuilder/avia-shortcodes/google_maps.php:230
+#: config-templatebuilder/avia-shortcodes/google_maps.php:233
 msgid "Address"
 msgstr "Indirizzo"
 
@@ -6044,6 +5971,9 @@ msgstr ""
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/hr.php:51
+#: config-templatebuilder/avia-shortcodes/image.php:112
+#: config-templatebuilder/avia-shortcodes/numbers.php:81
+#: includes/admin/register-backend-google-fonts.php:3
 msgid "Default"
 msgstr "Default"
 
@@ -6079,25 +6009,22 @@ msgstr ""
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/hr.php:66
-#: config-templatebuilder/avia-shortcodes/section.php:238
 msgid "Section Top Shadow"
 msgstr "Sezione  Ombra superiore"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/hr.php:68
-#: config-templatebuilder/avia-shortcodes/section.php:240
+#: config-templatebuilder/avia-shortcodes/section.php:244
 msgid "Display a small styling shadow at the top of the section"
 msgstr "Visualizzare una piccola ombra nella parte superiore della sezione"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/hr.php:72
-#: config-templatebuilder/avia-shortcodes/section.php:243
 msgid "Display shadow"
 msgstr "Visualizzazione ombra"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/hr.php:73
-#: config-templatebuilder/avia-shortcodes/section.php:244
 msgid "Do not display shadow"
 msgstr "Non visualizzazione ombra"
 
@@ -6119,6 +6046,8 @@ msgstr "Centro"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/icon.php:18
+#: config-templatebuilder/avia-shortcodes/numbers.php:54
+#: config-templatebuilder/avia-shortcodes/numbers.php:65
 #: config-templatebuilder/avia-shortcodes/progressbar.php:91
 msgid "Icon"
 msgstr "Icona"
@@ -6300,6 +6229,7 @@ msgstr "Aggiungere contenuto per questo IconBox"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/iconbox.php:104
+#: config-templatebuilder/avia-shortcodes/numbers.php:51
 #: config-templatebuilder/avia-shortcodes/textblock.php:44
 msgid "Click here to add your own text"
 msgstr "Clicca qui per aggiungere il proprio testo"
@@ -6470,28 +6400,32 @@ msgstr ""
 msgid "None"
 msgstr "Nessuno"
 
-# @ avia_framework
 #: config-templatebuilder/avia-shortcodes/image.php:71
+msgid "Pop up"
+msgstr "Pop up"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:72
 msgid "Top to Bottom"
 msgstr "De sopra a sotto"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:72
+#: config-templatebuilder/avia-shortcodes/image.php:73
 msgid "Bottom to Top"
 msgstr "De sotto a sopra"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:73
+#: config-templatebuilder/avia-shortcodes/image.php:74
 msgid "Left to Right"
 msgstr "Da sinistra a destra"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:74
+#: config-templatebuilder/avia-shortcodes/image.php:75
 msgid "Right to Left"
 msgstr "Da destra a sinistra"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:79
+#: config-templatebuilder/avia-shortcodes/image.php:80
 #: config-templatebuilder/avia-shortcodes/slideshow.php:187
 #: config-templatebuilder/avia-shortcodes/slideshow_accordion.php:130
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:226
@@ -6500,25 +6434,88 @@ msgid "Image Link?"
 msgstr "Linkare immagine?"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:80
+#: config-templatebuilder/avia-shortcodes/image.php:81
 msgid "Where should your image link to?"
 msgstr "Dove dovrebbe andare il link immagine?"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:86
+#: config-templatebuilder/avia-shortcodes/image.php:87
 #: config-templatebuilder/avia-shortcodes/logoslider.php:86
 msgid "Lightbox"
 msgstr "Lightbox"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:94
+#: config-templatebuilder/avia-shortcodes/image.php:95
 msgid "Open new tab/window"
 msgstr "Apri nuova scheda/finestra"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/image.php:95
+#: config-templatebuilder/avia-shortcodes/image.php:96
 msgid "Do you want to open the link url in a new tab/window?"
 msgstr "Vuoi aprire il link url in una nuova scheda/finestra?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:106
+msgid "Image Styling"
+msgstr "Stile immagine"
+
+# @ LayerSlider
+#: config-templatebuilder/avia-shortcodes/image.php:107
+msgid "Chose a styling variaton"
+msgstr "Scegli una variazione di stile"
+
+#: config-templatebuilder/avia-shortcodes/image.php:113
+msgid "Circle (image height and width must be equal)"
+msgstr "Cerchio (altezza e larghezza dell&rsquo;immagine devono essere uguali)"
+
+#: config-templatebuilder/avia-shortcodes/image.php:114
+msgid "No Styling (no border, no border radius etc)"
+msgstr "Nessuno Stile (no bordi, no bordi arrotondati, etc)"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:119
+#: config-templatebuilder/avia-shortcodes/logoslider.php:69
+msgid "Image Caption"
+msgstr "Didascalia immagine"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:120
+msgid "Display a caption overlay?"
+msgstr "Visualizzare una didascalia sovrapposta?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:131
+msgid "Caption"
+msgstr "Didascalia "
+
+#: config-templatebuilder/avia-shortcodes/image.php:139
+msgid "Caption custom font size?"
+msgstr "Dimensione  personalizzata carattere didascalia?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:140
+msgid "Size of your caption in pixel"
+msgstr "Dimensione della tua didascalia in pixel"
+
+# @ LayerSlider
+#: config-templatebuilder/avia-shortcodes/image.php:148
+msgid "Caption Appearance"
+msgstr "Aspetto Didascalia"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:149
+msgid "When to display the caption?"
+msgstr "Quando visualizzare la didascalia?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:155
+msgid "Always display caption"
+msgstr "Visualizza sempre la didascalia"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/image.php:156
+msgid "Only display on hover"
+msgstr "Visualizzazione solo con il mouse sopra"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/logoslider.php:16
@@ -6578,11 +6575,6 @@ msgid "Change Image"
 msgstr "Cambiare immagine"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/logoslider.php:69
-msgid "Image Caption"
-msgstr "Didascalia immagine"
-
-# @ avia_framework
 #: config-templatebuilder/avia-shortcodes/logoslider.php:70
 msgid "Display a image caption on hover"
 msgstr "Visualizzare una didascalia dell&rsquo;immagine su hover"
@@ -6611,8 +6603,8 @@ msgstr "Inserisci un titolo del link"
 #: config-templatebuilder/avia-shortcodes/logoslider.php:116
 #: config-templatebuilder/avia-shortcodes/portfolio.php:62
 #: config-templatebuilder/avia-shortcodes/postslider.php:53
-#: config-templatebuilder/avia-shortcodes/productslider.php:59
 #: config-templatebuilder/avia-shortcodes/product_grid.php:57
+#: config-templatebuilder/avia-shortcodes/productslider.php:59
 msgid "How many columns should be displayed?"
 msgstr "Quante colonne devono essere visualizzato?"
 
@@ -6800,15 +6792,22 @@ msgid "Display the first entry beside the others"
 msgstr "Visualizzare il primo articolo accanto agli altri"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/magazine.php:525
+#: config-templatebuilder/avia-shortcodes/magazine.php:528
 #: includes/helper-post-format.php:229
 msgid "Link to:"
 msgstr "Link a:"
 
 # @ avia_framework
+#: config-templatebuilder/avia-shortcodes/magazine.php:535
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:702
+#: framework/php/class-framework-widgets.php:1081 includes/loop-author.php:111
+#: includes/loop-index.php:171
+msgid "by"
+msgstr "da"
+
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:16
-msgid "Fullwidth Masonry"
-msgstr "Masonry schermo intero"
+msgid "Masonry"
+msgstr "Masonry"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:22
@@ -7031,14 +7030,14 @@ msgstr "Visualizzazione con il mouse sopra"
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:157
 #: config-templatebuilder/avia-shortcodes/masonry_gallery.php:154
-#: config-templatebuilder/avia-shortcodes/section.php:249
+#: config-templatebuilder/avia-shortcodes/section.php:251
 msgid "For Developers: Section ID"
 msgstr "Per gli sviluppatori: Sezione ID"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:158
 #: config-templatebuilder/avia-shortcodes/masonry_gallery.php:155
-#: config-templatebuilder/avia-shortcodes/section.php:250
+#: config-templatebuilder/avia-shortcodes/section.php:252
 msgid ""
 "Apply a custom ID Attribute to the section, so you can apply a unique style "
 "via CSS. This option is also helpful if you want to use anchor links to "
@@ -7052,7 +7051,7 @@ msgstr ""
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/masonry_entries.php:159
 #: config-templatebuilder/avia-shortcodes/masonry_gallery.php:156
-#: config-templatebuilder/avia-shortcodes/section.php:251
+#: config-templatebuilder/avia-shortcodes/section.php:253
 msgid ""
 "Use with caution and make sure to only use allowed characters. No special "
 "characters can be used."
@@ -7061,25 +7060,19 @@ msgstr ""
 "Possono essere utilizzati senza caratteri speciali."
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/masonry_entries.php:627
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:638
 msgid "Load more"
 msgstr "Carica di più"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/masonry_entries.php:691
-#: framework/php/class-framework-widgets.php:1081 includes/loop-index.php:171
-msgid "by"
-msgstr "da"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/masonry_entries.php:782
+#: config-templatebuilder/avia-shortcodes/masonry_entries.php:793
 msgid "Sale!"
 msgstr "Vendita!"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/masonry_gallery.php:16
-msgid "Fullwidth Masonry Gallery"
-msgstr "Galleria Masonry a schermo intero"
+msgid "Masonry Gallery"
+msgstr "Galleria Masonry "
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/masonry_gallery.php:22
@@ -7332,6 +7325,121 @@ msgid "Normal"
 msgstr "Normale"
 
 # @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:16
+msgid "Animated Numbers"
+msgstr "Numero Animati"
+
+#: config-templatebuilder/avia-shortcodes/numbers.php:22
+msgid "Display an animated Number with subtitle"
+msgstr "Visualizzare un animato numero con sottotitoli"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:39
+msgid "Number"
+msgstr "Numero"
+
+#: config-templatebuilder/avia-shortcodes/numbers.php:40
+msgid ""
+"Add a Number here. It will be animated. You can also add non numerical "
+"characters. Valid examples: 24/7, 99.9$, 90%, 35k, 200mm etc "
+msgstr ""
+"Aggiungere un numero qui. Sarà animato. È inoltre possibile aggiungere "
+"caratteri non numerici. Esempi validi: 24/7, 99.9$, 90%, 35k, 200 millimetri "
+"ecc"
+
+#: config-templatebuilder/avia-shortcodes/numbers.php:43
+msgid "100"
+msgstr "100"
+
+# @ default
+#: config-templatebuilder/avia-shortcodes/numbers.php:47
+#: framework/php/class-megamenu.php:507
+msgid "Description"
+msgstr "Descrizione"
+
+#: config-templatebuilder/avia-shortcodes/numbers.php:48
+msgid "Add some content to be displayed bellow the number"
+msgstr "Aggiungete un po' di contenuti da visualizzare qui sotto il numero"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:55
+msgid "Add an icon to the element?"
+msgstr "Aggiungere un&rsquo;icona per l&rsquo;elemento?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:61
+msgid "Yes, display an icon in front of number"
+msgstr "Sì, visualizzare un&rsquo;icona davanti al numero"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:62
+msgid "Yes, display an icon after the number"
+msgstr "Sì, visualizzare un&rsquo;icona dopo il numero"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:66
+msgid "Select an icon for the element here"
+msgstr "Selezionare un&rsquo;icona per l&rsquo;elemento qui"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:75
+msgid "Font style?"
+msgstr "Stile carattere?"
+
+#: config-templatebuilder/avia-shortcodes/numbers.php:76
+msgid ""
+"You can use the default font colors and styles or use a custom font color "
+"for the element (in case you use a background image for example)"
+msgstr ""
+"È possibile utilizzare i colori dei font predefiniti e stili o utilizzare un "
+"colore di carattere personalizzato per l&rsquo;elemento (nel caso in cui si "
+"utilizza un&rsquo;immagine di sfondo per esempio)"
+
+# @ LayerSlider
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:82
+msgid "Light"
+msgstr "Leggero"
+
+#: config-templatebuilder/avia-shortcodes/numbers.php:83
+msgid "Dark"
+msgstr "Buio"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:90
+msgid "Select a custom color for your text here"
+msgstr "Selezionare un colore personalizzato per il vostro testo qui"
+
+#: config-templatebuilder/avia-shortcodes/numbers.php:97
+msgid "Number custom font size?"
+msgstr "Dimensione  personalizzata carattere numero?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:98
+msgid "Size of your number in pixel"
+msgstr "Dimensioni del proprio numero in pixel"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:104
+msgid "Description custom font size?"
+msgstr "Dimensione  personalizzata carattere descrizione?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:105
+msgid "Size of your description in pixel"
+msgstr "Dimensione della descrizione in pixel"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:116
+msgid "Apply link?"
+msgstr "Applicare link?"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/numbers.php:117
+msgid "Do you want to apply  a link to the element?"
+msgstr "Vuoi applicare un collegamento all&rsquo;elemento?"
+
+# @ avia_framework
 #: config-templatebuilder/avia-shortcodes/page_split.php:20
 msgid "Page Split"
 msgstr "Scissione pagina"
@@ -7518,15 +7626,15 @@ msgstr "Visualizzare uno slideshow di voci di articolo"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/postslider.php:64
-#: config-templatebuilder/avia-shortcodes/productslider.php:69
 #: config-templatebuilder/avia-shortcodes/product_grid.php:67
+#: config-templatebuilder/avia-shortcodes/productslider.php:69
 msgid "Entry Number"
 msgstr "Numero voci"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/postslider.php:65
-#: config-templatebuilder/avia-shortcodes/productslider.php:70
 #: config-templatebuilder/avia-shortcodes/product_grid.php:68
+#: config-templatebuilder/avia-shortcodes/productslider.php:70
 msgid "How many items should be displayed?"
 msgstr "Quanti elementi dovrebbe essere visualizzati?"
 
@@ -7585,104 +7693,31 @@ msgid "Slideshow will rotate every X seconds"
 msgstr "Slideshow ruoterà ogni X secondi"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/postslider.php:310
-#: framework/php/function-set-avia-frontend.php:951
-#: includes/loop-archive.php:67 includes/loop-index.php:40
+#: config-templatebuilder/avia-shortcodes/postslider.php:311
+#: framework/php/function-set-avia-frontend.php:952 includes/loop-index.php:40
 #: includes/loop-index.php:41 includes/loop-page.php:27
 #: includes/loop-portfolio-single.php:27
 msgid "Read more"
 msgstr "Continua a leggere"
 
 # @ avia_framework
-#: config-templatebuilder/avia-shortcodes/postslider.php:380
-#: includes/loop-archive.php:19 includes/loop-author.php:81
-#: includes/loop-index.php:140 includes/loop-search.php:50
+#: config-templatebuilder/avia-shortcodes/postslider.php:381
+#: includes/loop-author.php:81 includes/loop-index.php:140
+#: includes/loop-search.php:50
 msgid "Comment"
 msgstr "Commento"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:25
-msgid "Product Slider"
-msgstr "Slider prodotto"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:26
-#: config-templatebuilder/avia-shortcodes/product_grid.php:24
-#: config-templatebuilder/avia-shortcodes/slideshow_revolution.php:14
-msgid "Plugin Additions"
-msgstr "Plugin Aggiunti"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:31
-msgid "Display a Slideshow of Product Entries"
-msgstr "Visualizzare una presentazione delle voci del prodotto"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:78
-msgid ""
-"The offset determines where the query begins pulling products. Useful if you "
-"want to remove a certain number of products because you already query them "
-"with another product slider. Attention: Use this option only if the product "
-"sorting of the product sliders match!"
-msgstr ""
-"L&rsquo;offset determina in cui la query inizia estraendo prodotti. Utile se "
-"si desidera rimuovere un certo numero di prodotti, perché li hai già in una "
-"query con un altro dispositivo di slider prodotto. Attenzione: utilizzare "
-"questa opzione solo se l&rsquo;ordinamento prodotto dello slider prodotto "
-"corrispondono!"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:86
-#: config-templatebuilder/avia-shortcodes/product_grid.php:83
-msgid "Sorting Options"
-msgstr "Opzioni di ordinamento"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:87
-#: config-templatebuilder/avia-shortcodes/product_grid.php:84
-msgid "Here you can choose how to sort the products"
-msgstr "Qui si può scegliere come ordinare i prodotti"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:93
-#: config-templatebuilder/avia-shortcodes/product_grid.php:90
-msgid "Use defaut (defined at Woocommerce -> Settings -> Catalog) "
-msgstr ""
-"Usare predefinito (definito in Woocommerce -> Configurazione -> Catalogo)"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:94
-#: config-templatebuilder/avia-shortcodes/product_grid.php:91
-msgid "Sort alphabetically"
-msgstr "Ordine alfabetico"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:95
-#: config-templatebuilder/avia-shortcodes/product_grid.php:92
-msgid "Sort by most recent"
-msgstr "Ordina per più recente"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:96
-#: config-templatebuilder/avia-shortcodes/product_grid.php:93
-msgid "Sort by price"
-msgstr "Ordina per prezzo"
-
-# @ avia_framework
-#: config-templatebuilder/avia-shortcodes/productslider.php:97
-#: config-templatebuilder/avia-shortcodes/product_grid.php:94
-msgid "Sort by popularity"
-msgstr "Ordina per popolarità"
-
-# @ woocommerce
-#: config-templatebuilder/avia-shortcodes/productslider.php:276
-msgid "No products found which match your selection."
-msgstr "Non ci sono prodotti che corrispondono alla vostra selezione."
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/product_grid.php:23
 msgid "Product Grid"
 msgstr "Griglia di prodotti"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:24
+#: config-templatebuilder/avia-shortcodes/productslider.php:26
+#: config-templatebuilder/avia-shortcodes/slideshow_revolution.php:14
+msgid "Plugin Additions"
+msgstr "Plugin Aggiunti"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/product_grid.php:29
@@ -7706,6 +7741,18 @@ msgstr ""
 "ordinamento!"
 
 # @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:83
+#: config-templatebuilder/avia-shortcodes/productslider.php:86
+msgid "Sorting Options"
+msgstr "Opzioni di ordinamento"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:84
+#: config-templatebuilder/avia-shortcodes/productslider.php:87
+msgid "Here you can choose how to sort the products"
+msgstr "Qui si può scegliere come ordinare i prodotti"
+
+# @ avia_framework
 #: config-templatebuilder/avia-shortcodes/product_grid.php:89
 msgid ""
 "Let user pick by displaying a dropdown with sort options (default value is "
@@ -7713,6 +7760,66 @@ msgid ""
 msgstr ""
 "Lasciare che utente scelga di mostrare un menú con le opzioni (valore "
 "predeterminato in Woocommerce -> Configurazione -> Catalogo)"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:90
+#: config-templatebuilder/avia-shortcodes/productslider.php:93
+msgid "Use defaut (defined at Woocommerce -> Settings -> Catalog) "
+msgstr ""
+"Usare predefinito (definito in Woocommerce -> Configurazione -> Catalogo)"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:91
+#: config-templatebuilder/avia-shortcodes/productslider.php:94
+msgid "Sort alphabetically"
+msgstr "Ordine alfabetico"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:92
+#: config-templatebuilder/avia-shortcodes/productslider.php:95
+msgid "Sort by most recent"
+msgstr "Ordina per più recente"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:93
+#: config-templatebuilder/avia-shortcodes/productslider.php:96
+msgid "Sort by price"
+msgstr "Ordina per prezzo"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/product_grid.php:94
+#: config-templatebuilder/avia-shortcodes/productslider.php:97
+msgid "Sort by popularity"
+msgstr "Ordina per popolarità"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/productslider.php:25
+msgid "Product Slider"
+msgstr "Slider prodotto"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/productslider.php:31
+msgid "Display a Slideshow of Product Entries"
+msgstr "Visualizzare una presentazione delle voci del prodotto"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/productslider.php:78
+msgid ""
+"The offset determines where the query begins pulling products. Useful if you "
+"want to remove a certain number of products because you already query them "
+"with another product slider. Attention: Use this option only if the product "
+"sorting of the product sliders match!"
+msgstr ""
+"L&rsquo;offset determina in cui la query inizia estraendo prodotti. Utile se "
+"si desidera rimuovere un certo numero di prodotti, perché li hai già in una "
+"query con un altro dispositivo di slider prodotto. Attenzione: utilizzare "
+"questa opzione solo se l&rsquo;ordinamento prodotto dello slider prodotto "
+"corrispondono!"
+
+# @ woocommerce
+#: config-templatebuilder/avia-shortcodes/productslider.php:276
+msgid "No products found which match your selection."
+msgstr "Non ci sono prodotti che corrispondono alla vostra selezione."
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/progressbar.php:16
@@ -7873,6 +7980,8 @@ msgstr ""
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/section.php:124
+#: includes/admin/register-admin-options.php:440
+#: includes/admin/register-admin-options.php:610
 msgid "Custom Background Image"
 msgstr "Immagine di sfondo Personalizzata"
 
@@ -7904,12 +8013,16 @@ msgstr ""
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/section.php:140
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:459
+#: includes/admin/register-admin-options.php:503
+#: includes/admin/register-admin-options.php:672
 msgid "Scroll"
 msgstr "Scorrere"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/section.php:141
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:459
+#: includes/admin/register-admin-options.php:503
+#: includes/admin/register-admin-options.php:672
 msgid "Fixed"
 msgstr "Fisso"
 
@@ -7927,6 +8040,8 @@ msgstr "Posizione Immagine di sfondo "
 #: config-templatebuilder/avia-shortcodes/section.php:153
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:92
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:427
+#: includes/admin/register-admin-options.php:464
+#: includes/admin/register-admin-options.php:634
 msgid "Top Left"
 msgstr "In alto a sinistra"
 
@@ -7934,6 +8049,8 @@ msgstr "In alto a sinistra"
 #: config-templatebuilder/avia-shortcodes/section.php:154
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:93
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:428
+#: includes/admin/register-admin-options.php:465
+#: includes/admin/register-admin-options.php:635
 msgid "Top Center"
 msgstr "In alto al centro"
 
@@ -7941,6 +8058,8 @@ msgstr "In alto al centro"
 #: config-templatebuilder/avia-shortcodes/section.php:155
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:94
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:429
+#: includes/admin/register-admin-options.php:466
+#: includes/admin/register-admin-options.php:636
 msgid "Top Right"
 msgstr "In alto a destra"
 
@@ -7948,6 +8067,8 @@ msgstr "In alto a destra"
 #: config-templatebuilder/avia-shortcodes/section.php:156
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:95
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:430
+#: includes/admin/register-admin-options.php:467
+#: includes/admin/register-admin-options.php:637
 msgid "Bottom Left"
 msgstr "In basso a sinistra"
 
@@ -7955,6 +8076,8 @@ msgstr "In basso a sinistra"
 #: config-templatebuilder/avia-shortcodes/section.php:157
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:96
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:431
+#: includes/admin/register-admin-options.php:468
+#: includes/admin/register-admin-options.php:638
 msgid "Bottom Center"
 msgstr "In basso  al centro"
 
@@ -7962,6 +8085,8 @@ msgstr "In basso  al centro"
 #: config-templatebuilder/avia-shortcodes/section.php:158
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:97
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:432
+#: includes/admin/register-admin-options.php:469
+#: includes/admin/register-admin-options.php:639
 msgid "Bottom Right"
 msgstr "In basso a destra"
 
@@ -7976,6 +8101,8 @@ msgstr "Centrato a sinistra"
 #: config-templatebuilder/avia-shortcodes/section.php:160
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:99
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:434
+#: includes/admin/register-admin-options.php:471
+#: includes/admin/register-admin-options.php:641
 msgid "Center Center"
 msgstr "Centrato"
 
@@ -7983,6 +8110,8 @@ msgstr "Centrato"
 #: config-templatebuilder/avia-shortcodes/section.php:161
 #: config-templatebuilder/avia-shortcodes/slideshow_fullscreen.php:100
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:435
+#: includes/admin/register-admin-options.php:472
+#: includes/admin/register-admin-options.php:642
 msgid "Center Right"
 msgstr "Centrato a destra"
 
@@ -8001,18 +8130,26 @@ msgstr "Non ripetere"
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/section.php:171
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:446
+#: includes/admin/register-admin-options.php:476
+#: includes/admin/register-admin-options.php:487
+#: includes/admin/register-admin-options.php:646
+#: includes/admin/register-admin-options.php:657
 msgid "Repeat"
 msgstr "Ripetere"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/section.php:172
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:447
+#: includes/admin/register-admin-options.php:488
+#: includes/admin/register-admin-options.php:658
 msgid "Tile Horizontally"
 msgstr "Affianca orizzontalmente"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/section.php:173
 #: config-templatebuilder/avia-shortcodes/slideshow_fullsize.php:448
+#: includes/admin/register-admin-options.php:489
+#: includes/admin/register-admin-options.php:659
 msgid "Tile Vertically"
 msgstr "Affianca verticalmente"
 
@@ -8164,6 +8301,24 @@ msgstr "Spazio predefinito"
 #: config-templatebuilder/avia-shortcodes/section.php:232
 msgid "Large Padding"
 msgstr "Spazio grande"
+
+#: config-templatebuilder/avia-shortcodes/section.php:238
+msgid "Section Top Border Styling"
+msgstr "Stile Sezione Bordo superiore "
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/section.php:240
+msgid "Chose a border styling for the top of your section"
+msgstr "Scegliere uno stile del bordo per la parte superiore della sezione"
+
+# @ avia_framework
+#: config-templatebuilder/avia-shortcodes/section.php:243
+msgid "Display simple top border"
+msgstr "Visualizzare semplice bordo superiore"
+
+#: config-templatebuilder/avia-shortcodes/section.php:245
+msgid "No border styling"
+msgstr "Nessun stile bordo"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/slideshow.php:16
@@ -9189,8 +9344,8 @@ msgstr "Inserisci la URL della pagina che si desidera collegare"
 
 # @ avia_framework
 #: config-templatebuilder/avia-shortcodes/team.php:115
-#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1219
-#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1228
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1240
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1249
 msgid "Open in same window"
 msgstr "Aprire nella stessa finestra "
 
@@ -9615,7 +9770,7 @@ msgstr "Salvare"
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/javascript_strings.php:12
 #: config-templatebuilder/avia-template-builder/php/meta-box.class.php:122
-#: framework/php/class-form-generator.php:294
+#: framework/php/class-form-generator.php:344
 msgid "Close"
 msgstr "Chiudere"
 
@@ -9944,16 +10099,19 @@ msgstr "Titolo "
 
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/meta.php:216
+#: includes/admin/register-admin-options.php:965
 msgid "Display title and breadcrumbs"
 msgstr "Visualizza titolo e breadcrumbs"
 
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/meta.php:217
+#: includes/admin/register-admin-options.php:966
 msgid "Display only title"
 msgstr "Visualizza solo il titolo"
 
 # @ LayerSlider
 #: config-templatebuilder/avia-template-builder/config/meta.php:218
+#: includes/admin/register-admin-options.php:967
 msgid "Hide both"
 msgstr "Nascondere entrambi"
 
@@ -9996,21 +10154,25 @@ msgstr "Piè di pagina"
 
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/meta.php:250
+#: includes/admin/register-admin-options.php:1237
 msgid "Display the footer widgets & socket"
 msgstr "Visualizzare i widgets & socket del Pié di pagina"
 
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/meta.php:251
+#: includes/admin/register-admin-options.php:1238
 msgid "Display only the footer widgets (no socket)"
 msgstr "Visualizzare solo i widgets del Pié di pagina (no socket)"
 
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/meta.php:252
+#: includes/admin/register-admin-options.php:1239
 msgid "Display only the socket (no footer widgets)"
 msgstr "Visualizzare solo socket (no widgets del Pié di pagina)"
 
 # @ avia_framework
 #: config-templatebuilder/avia-template-builder/config/meta.php:253
+#: includes/admin/register-admin-options.php:1240
 msgid "Don't display the socket & footer widgets"
 msgstr "Non visualizzare il socket & widgets del Piè di pagina"
 
@@ -10096,18 +10258,38 @@ msgstr "Aggiungi tabella fila"
 msgid "Add Table Column"
 msgstr "Aggiungi tabella Colonna"
 
+# @ LayerSlider
+# @ default
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1090
+msgid "move up"
+msgstr "spostare in alto"
+
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1091
+msgid "move down"
+msgstr "far scendere"
+
+# @ LayerSlider
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1092
+msgid "move left"
+msgstr "spostare a sinistra"
+
+# @ LayerSlider
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1093
+msgid "move right"
+msgstr "spostare a destra"
+
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1195
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1216
 msgid "Remove Image"
 msgstr "Rimuovere Immagine"
 
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1220
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1241
 msgid "Open in same window and use rel=nofollow"
 msgstr "Aprire nella stessa finestra e utilizzare rel=nofollow"
 
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1222
+#: config-templatebuilder/avia-template-builder/php/html-helper.class.php:1243
 msgid "Open in new window and use rel=nofollow"
 msgstr "Aprire in una nuova finestra e utilizzare rel=nofollow"
 
@@ -10151,12 +10333,12 @@ msgstr ""
 "prima o scegliere un nome diverso"
 
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:432
+#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:437
 msgid "Custom Css Class"
 msgstr "Classe Css personalizzata"
 
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:433
+#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:438
 msgid ""
 "Add a custom css class for the element here. Make sure to only use allowed "
 "characters (latin characters, underscores, dashes and numbers)"
@@ -10166,18 +10348,18 @@ msgstr ""
 "caratteri di sottolineatura, trattini e numeri)"
 
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:479
-#: framework/php/class-htmlhelper.php:1452
+#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:484
+#: framework/php/class-htmlhelper.php:1451
 msgid "Edit Element"
 msgstr "Modifica elemento"
 
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:483
+#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:488
 msgid "Delete Element"
 msgstr "Elimina Elemento"
 
 # @ avia_framework
-#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:484
+#: config-templatebuilder/avia-template-builder/php/shortcode-template.class.php:489
 msgid "Clone Element"
 msgstr "Clonare elemento"
 
@@ -10226,6 +10408,14 @@ msgstr "Editare"
 #: config-woocommerce/admin-import.php:66
 msgid "New"
 msgstr "Nuovo"
+
+# @ woothemes
+# @ avia_framework
+#: config-woocommerce/admin-import.php:114
+#: config-woocommerce/admin-import.php:116
+#: includes/admin/register-widget-area.php:116 template-archives.php:169
+msgid "Categories"
+msgstr "Categorie"
 
 # @ woothemes
 #: config-woocommerce/admin-import.php:117
@@ -10283,7 +10473,7 @@ msgstr "prodotto-categoria [ slug ]"
 #: config-woocommerce/admin-import.php:137
 #: config-woocommerce/admin-import.php:139
 #: framework/php/class-framework-widgets.php:944
-#: includes/admin/register-admin-options.php:209
+#: includes/admin/register-admin-options.php:223
 #: includes/admin/register-backend-advanced-styles.php:8
 #: includes/admin/register-backend-advanced-styles.php:22
 msgid "Tags"
@@ -10686,7 +10876,7 @@ msgstr "Accedere"
 
 # @ avia_framework
 #: config-woocommerce/config.php:439
-#: framework/php/function-set-avia-frontend.php:874
+#: framework/php/function-set-avia-frontend.php:875
 msgid "Search results for:"
 msgstr "Cerca risultati per:"
 
@@ -10710,47 +10900,47 @@ msgid "Cart"
 msgstr "Carrello"
 
 # @ avia_framework
-#: config-woocommerce/config.php:986
+#: config-woocommerce/config.php:985
 msgid "Default Order"
 msgstr "Ordine Predefinito "
 
 # @ avia_framework
-#: config-woocommerce/config.php:988
+#: config-woocommerce/config.php:987
 msgid "Price"
 msgstr "Prezzo"
 
 # @ avia_framework
-#: config-woocommerce/config.php:989
+#: config-woocommerce/config.php:988
 msgid "Date"
 msgstr "Data"
 
 # @ avia_framework
-#: config-woocommerce/config.php:990
+#: config-woocommerce/config.php:989
 msgid "Popularity"
 msgstr "Popolarità"
 
 # @ avia_framework
-#: config-woocommerce/config.php:992
+#: config-woocommerce/config.php:991
 msgid "Click to order products ascending"
 msgstr "Clicca per ordinare i prodotti in forma  ascendente"
 
 # @ avia_framework
-#: config-woocommerce/config.php:993
+#: config-woocommerce/config.php:992
 msgid "Click to order products descending"
 msgstr "Clicca per ordinare i prodotti in forma discendente"
 
 # @ avia_framework
-#: config-woocommerce/config.php:995
+#: config-woocommerce/config.php:994
 msgid "Products per page"
 msgstr "Prodotti per pagina"
 
 # @ avia_framework
-#: config-woocommerce/config.php:1017
+#: config-woocommerce/config.php:1016
 msgid "Sort by"
 msgstr "Ordinare per"
 
 # @ avia_framework
-#: config-woocommerce/config.php:1036
+#: config-woocommerce/config.php:1035
 msgid "Display"
 msgstr "Mostrare"
 
@@ -10763,6 +10953,47 @@ msgstr "Montaggio:"
 #: config-wpml/config.php:399
 msgid "Change"
 msgstr "Modifica"
+
+# @ avia_framework
+#: footer.php:77 includes/admin/register-admin-options.php:1263
+#: includes/admin/register-admin-options.php:1264
+msgid "Copyright"
+msgstr "Copyright"
+
+# @ avia_framework
+#: footer.php:172
+msgid "Scroll to top"
+msgstr "Scorrere verso l&rsquo;alto"
+
+# @ avia_framework
+#: forum.php:11
+msgid "Forums"
+msgstr "Forums"
+
+# @ avia_framework
+#: forum.php:20
+msgid "Edit profile for User:"
+msgstr "Modifica profilo di utente:"
+
+# @ envato
+#: framework/php/auto-updates/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Inserisci il tuo nome utente Envato Marketplace."
+
+# @ envato
+#: framework/php/auto-updates/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Inserisci il tuo Envato Marketplace API Key."
+
+# @ envato
+#: framework/php/auto-updates/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "The API \"set\" è un parametro obbligatorio."
+
+# @ envato
+#: framework/php/auto-updates/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Il Envato Marketplace \"item ID\" è un parametro obbligatorio."
 
 # @ avia_framework
 #: framework/php/class-breadcrumb.php:26
@@ -10806,7 +11037,7 @@ msgstr "g a"
 #: framework/php/class-breadcrumb.php:428
 #: framework/php/class-breadcrumb.php:433
 #: framework/php/class-breadcrumb.php:438
-#: framework/php/function-set-avia-frontend.php:854
+#: framework/php/function-set-avia-frontend.php:855
 msgid "Y"
 msgstr "Y"
 
@@ -10839,17 +11070,22 @@ msgid "404 Not Found"
 msgstr "Errore 404"
 
 # @ avia_framework
-#: framework/php/class-form-generator.php:295
+#: framework/php/class-form-generator.php:225
+msgid "Sending"
+msgstr "Invio"
+
+# @ avia_framework
+#: framework/php/class-form-generator.php:345
 msgid "Today"
 msgstr "Oggi"
 
 # @ avia_framework
-#: framework/php/class-form-generator.php:297
+#: framework/php/class-form-generator.php:347
 msgid "Prev"
 msgstr "Prev"
 
 # @ avia_framework
-#: framework/php/class-form-generator.php:687
+#: framework/php/class-form-generator.php:737
 msgid "Your Message:"
 msgstr "Il tuo messaggio:"
 
@@ -11026,20 +11262,21 @@ msgstr "Nascondere"
 
 # @ avia_framework
 #: framework/php/class-htmlhelper.php:1079
+#: includes/admin/register-admin-options.php:66
 msgid "Export Theme Settings File"
 msgstr "Esporta Impostazioni del tema  "
 
-#: framework/php/class-htmlhelper.php:1428
+#: framework/php/class-htmlhelper.php:1427
 msgid "Select an element to customize"
 msgstr "Selezionare un elemento da personalizzare"
 
 # @ avia_framework
-#: framework/php/class-htmlhelper.php:1543
+#: framework/php/class-htmlhelper.php:1542
 msgid "Apply to Section: "
 msgstr "Applicare alla sezione:"
 
 # @ avia_framework
-#: framework/php/class-htmlhelper.php:1560
+#: framework/php/class-htmlhelper.php:1559
 msgid "Apply only to mouse hover state"
 msgstr "Applicare solo con il mouse sopra"
 
@@ -11117,11 +11354,6 @@ msgstr "Classi CSS (opzionale)"
 #: framework/php/class-megamenu.php:501
 msgid "link Relationship (XFN)"
 msgstr "Relazione del link (XFN)"
-
-# @ default
-#: framework/php/class-megamenu.php:507
-msgid "Description"
-msgstr "Descrizione"
 
 # @ default
 #: framework/php/class-megamenu.php:573
@@ -11593,106 +11825,86 @@ msgid "Edit Dynamic Template of this entry"
 msgstr "Modifica modello dinamico di questa voce"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:717
+#: framework/php/function-set-avia-frontend.php:718
 #, php-format
 msgid "Page %d of %d"
 msgstr "Pagina %d di %d"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:842
+#: framework/php/function-set-avia-frontend.php:843
 msgid "Archive for category:"
 msgstr "Archivio per categoria:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:846
+#: framework/php/function-set-avia-frontend.php:847
 msgid "Archive for date:"
 msgstr "Archivio per data:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:846
+#: framework/php/function-set-avia-frontend.php:847
 msgid "F jS, Y"
 msgstr "F jS, Y"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:850
+#: framework/php/function-set-avia-frontend.php:851
 msgid "Archive for month:"
 msgstr "Archivio per mese:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:850
+#: framework/php/function-set-avia-frontend.php:851
 msgid "F, Y"
 msgstr "F, Y"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:854
+#: framework/php/function-set-avia-frontend.php:855
 msgid "Archive for year:"
 msgstr "Archivio per anno:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:863
+#: framework/php/function-set-avia-frontend.php:864
 msgid "search results for:"
 msgstr "risultati per la ricerca di:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:867
+#: framework/php/function-set-avia-frontend.php:868
 msgid "search result for:"
 msgstr "risultati di ricerca per:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:878
+#: framework/php/function-set-avia-frontend.php:879
 msgid "To search the site please enter a valid term"
 msgstr "Per cercare nel sito si prega di inserire un termine valido"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:886
+#: framework/php/function-set-avia-frontend.php:887
 msgid "Author Archive"
 msgstr "Archivio Autore"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:891
+#: framework/php/function-set-avia-frontend.php:892
 msgid "for:"
 msgstr "di:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:897
+#: framework/php/function-set-avia-frontend.php:898
 msgid "Tag Archive for:"
 msgstr "Tag Archivio per:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:902
+#: framework/php/function-set-avia-frontend.php:903
 msgid "Archive for:"
 msgstr "Archivio per:"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:906
+#: framework/php/function-set-avia-frontend.php:907
 msgid "Archives"
 msgstr "Archivi"
 
 # @ avia_framework
-#: framework/php/function-set-avia-frontend.php:911
+#: framework/php/function-set-avia-frontend.php:912
 #: includes/helper-conditional-megamenu.php:55
 msgid "Page"
 msgstr "Pagina"
-
-# @ envato
-#: framework/php/auto-updates/class-envato-protected-api.php:67
-msgid "Please enter your Envato Marketplace Username."
-msgstr "Inserisci il tuo nome utente Envato Marketplace."
-
-# @ envato
-#: framework/php/auto-updates/class-envato-protected-api.php:71
-msgid "Please enter your Envato Marketplace API Key."
-msgstr "Inserisci il tuo Envato Marketplace API Key."
-
-# @ envato
-#: framework/php/auto-updates/class-envato-protected-api.php:96
-msgid "The API \"set\" is a required parameter."
-msgstr "The API \"set\" è un parametro obbligatorio."
-
-# @ envato
-#: framework/php/auto-updates/class-envato-protected-api.php:167
-msgid "The Envato Marketplace \"item ID\" is a required parameter."
-msgstr "Il Envato Marketplace \"item ID\" è un parametro obbligatorio."
 
 # @ wordpress-importer
 #: framework/php/wordpress-importer/parsers.php:42
@@ -11979,292 +12191,403 @@ msgstr ""
 "importare."
 
 # @ avia_framework
-#: includes/comments.php:17
+#: functions-enfold.php:105 includes/loop-author.php:151
+#: includes/loop-index.php:233
+msgid "Sorry, no posts matched your criteria"
+msgstr "Spiacente, nessun articolo corrisponde  ai tuoi criteri"
+
+# @ avia_framework
+#: functions-enfold.php:106
+msgid "Please try another search term"
+msgstr "Prova con un altro termine di ricerca"
+
+# @ avia_framework
+#: functions-enfold.php:109
+msgid "View all results"
+msgstr "Mostrare tutti i risultati"
+
+# @ avia_framework
+#: functions-enfold.php:307 includes/helper-post-format.php:63
+#: template-archives.php:55
+msgid "Permanent Link:"
+msgstr "Link Permanente:"
+
+# @ avia_framework
+#: functions-enfold.php:955
+msgid "Don't display image on single post"
+msgstr "Non mostrare l&rsquo;immagine del singolo articolo"
+
+# @ avia_framework
+#: functions.php:115
+msgid "Square"
+msgstr "Quadrato"
+
+# @ avia_framework
+#: functions.php:116
+msgid "Featured Thin"
+msgstr "In primo piano sottile"
+
+# @ avia_framework
+#: functions.php:117
+msgid "Featured Large"
+msgstr "In primo piano grande"
+
+# @ avia_framework
+#: functions.php:118 template-archives.php:136
+msgid "Portfolio"
+msgstr "Portfolio"
+
+# @ avia_framework
+#: functions.php:120
+msgid "Entry with Sidebar"
+msgstr "Entrata con barra laterale"
+
+# @ avia_framework
+#: functions.php:121
+msgid "Entry without Sidebar"
+msgstr "Entrata senza barra laterale"
+
+# @ avia_framework
+#: functions.php:122
+msgid "Fullscreen Sections/Sliders"
+msgstr "Sezioni/Sliders a schermo intero"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:7
+msgid "Theme Options"
+msgstr "Opzioni tema"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:8
+msgid "General Styling"
+msgstr "Stile generale"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:9
+msgid "Advanced Styling"
+msgstr "Stile avanzato"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:10
+msgid "Header Layout"
+msgstr "Layout testata"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:11
+msgid "Sidebar Layout"
+msgstr "Layout barra laterale"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:12
+msgid "Footer Layout"
+msgstr "Layout piè di pagina"
+
+# @ LayerSlider
+# @ avia_framework
+#: includes/admin/register-admin-options.php:13
+msgid "Blog Layout"
+msgstr "Layout Blog"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:17
+msgid "Import/Export"
+msgstr "Importare/Esportare "
+
+#: includes/admin/register-admin-options.php:47
+msgid "Import Dummy Content: Posts, Pages, Categories"
+msgstr "Importa contenuto Dummy: Articoli, Pagine, Categorie"
+
+#: includes/admin/register-admin-options.php:48
 msgid ""
-"This post is password protected. Enter the password to view any comments."
+"If you are new to wordpress or have problems creating posts or pages that "
+"look like the <a href='http://www.kriesi.at/themes/enfold/'>Theme Demo</a> "
+"you can import dummy posts and pages here that will definitely help to "
+"understand how those tasks are done."
 msgstr ""
-"Questo articolo è protetto da password. Immettere la password per "
-"visualizzare i commenti."
+"Se siete nuovi di wordpress o avete problemi durante la creazione di post o "
+"pagine che assomigliano al tema <a href='http://www.kriesi.at/themes/"
+"enfold/'> Demo </ a> è possibile importare i post  e pagine  che sicuramente "
+"vi aiuterà a capire come sono fatte."
 
-# @ avia_framework
-#: includes/comments.php:51
-msgid "replies"
-msgstr "commenti"
+#: includes/admin/register-admin-options.php:57
+msgid "Import Settings from your Parent Theme"
+msgstr "Importa impostazioni dal vostro tema padre"
 
-# @ avia_framework
-#: includes/comments.php:52
-msgid "reply"
-msgstr "commento"
-
-# @ avia_framework
-#: includes/comments.php:79 includes/comments.php:135
-msgid "&laquo; Older Comments"
-msgstr "&laquo; Commenti più vecchi"
-
-# @ avia_framework
-#: includes/comments.php:82 includes/comments.php:138
-msgid "Newer Comments &raquo;"
-msgstr "Commenti più recenti &raquo;"
-
-# @ avia_framework
-#: includes/comments.php:114
-msgid "Trackbacks &amp; Pingbacks"
-msgstr "Trackbacks &amp; Pingbacks"
-
-# @ avia_framework
-#: includes/comments.php:172
-msgid "Leave a Reply"
-msgstr "Lascia un Commento"
-
-# @ avia_framework
-#: includes/comments.php:173
-msgid "Want to join the discussion? <br/>Feel free to contribute!"
-msgstr "Vuoi unirti alla discussione? <br/>Sentiti libero di contribuire!"
-
-# @ avia_framework
-#: includes/comments.php:183
-msgid "Comments are closed."
-msgstr "I commenti sono chiusi."
-
-# @ avia_framework
-#: includes/error404.php:3 includes/loop-archive.php:84
-#: includes/loop-author.php:137 includes/loop-index.php:228
-#: includes/loop-page.php:50 includes/loop-portfolio-single.php:62
-#: includes/loop-search.php:121
-msgid "Nothing Found"
-msgstr "Nessun risultato"
-
-# @ avia_framework
-#: includes/error404.php:5
+#: includes/admin/register-admin-options.php:58
 msgid ""
-"Sorry, the post you are looking for is not available. Maybe you want to "
-"perform a search?"
+"We have detected that you are using a Child Theme. That's Great!. If you "
+"want to, we can import the settings of your Parent theme to your Child "
+"theme. <br/>Please be aware that this will overwrite your current child "
+"theme settings."
 msgstr ""
-"Spiacenti, articolo che stai cercando non è disponibile. Vuoi provare ad "
-"effettuare una ricerca?"
+"Abbiamo rilevato che si sta utilizzando un tema Child. Questo è Ottimo!. Se "
+"volete, possiamo importare le impostazioni del tuo tema genitore al tema "
+"Child. <br/> Si prega di tener presente che questo sovrascriverà le "
+"impostazioni del tema figlio attuale."
 
-# @ avia_framework
-#: includes/error404.php:25
-msgid "For best search results, mind the following suggestions:"
-msgstr "Per i risultati di ricerca migliori, segui i seguenti suggerimenti:"
-
-# @ avia_framework
-#: includes/error404.php:27
-msgid "Always double check your spelling."
-msgstr "Controllare sempre l&rsquo;ortografia."
-
-# @ avia_framework
-#: includes/error404.php:28
-msgid "Try similar keywords, for example: tablet instead of laptop."
-msgstr "Prova con termini simili o sinonimi."
-
-# @ avia_framework
-#: includes/error404.php:29 includes/loop-search.php:132
-msgid "Try using more than one keyword."
-msgstr "Provare a utilizzare più di una parola chiave."
-
-# @ avia_framework
-#: includes/error404.php:34 includes/loop-search.php:136
-msgid "Feel like browsing some posts instead?"
-msgstr "Preferisci invece controllare alcuni articoli?"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:46
-msgid "User is logged in"
-msgstr "L&rsquo;utente è connesso"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:47
-msgid "User is logged out"
-msgstr "L&rsquo;utente è disconnesso"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:48
-msgid "User is Admin"
-msgstr "Utente Aministratore"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:49
-msgid "User is Editor"
-msgstr "Utente Editore"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:50
-msgid "User is Subscriber"
-msgstr "Utente è Sottoscrittore"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:51
-msgid "User is Author"
-msgstr "Utente Autore"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:52
-msgid "User is Contributor"
-msgstr "Utente Collaboratore"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:53
-msgid "Front Page"
-msgstr "Pagina inziale"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:54
-msgid "Single Post"
-msgstr "Articolo singolo"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:99
-msgid "Enable Conditional Logic"
-msgstr "Attiva la logica condizionale"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:109
-msgid "Add custom css class"
-msgstr "Aggiungi classe css personalizzata"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:111
-msgid "if"
-msgstr "se"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:124
-msgid "Page/Post ID"
-msgstr "Pagina/Articolo ID"
-
-# @ avia_framework
-#: includes/helper-conditional-megamenu.php:132
-msgid "Conditional CSS Class"
-msgstr "Condizionale classe CSS"
-
-# @ avia_framework
-#: includes/helper-main-menu.php:114
-msgid "Select a page"
-msgstr "Seleziona una pagina"
-
-#: includes/helper-social-media.php:145
-msgid "Share on Google+"
-msgstr "Condividi su Google+"
-
-#: includes/helper-social-media.php:151
-msgid "Share by Mail"
-msgstr "Condividi attraverso Mail"
-
-# @ avia_framework
-#: includes/helper-social-media.php:209
-msgid "Share this entry"
-msgstr "Condividi questo articolo"
-
-#: includes/helper-social-media.php:218
-msgid "Share on"
-msgstr "Condividi su"
-
-# @ avia_framework
-#: includes/loop-about-author.php:13
-msgid "About"
-msgstr "Circa"
-
-# @ avia_framework
-#: includes/loop-about-author.php:19
-msgid "This author has yet to write their bio."
-msgstr "Questo autore deve ancora scrivere la sua biografia."
-
-# @ avia_framework
-#: includes/loop-about-author.php:20
-#, php-format
+#: includes/admin/register-admin-options.php:67
 msgid ""
-"Meanwhile lets just say that we are proud %s contributed a whooping %s "
-"entries."
+"Click the button to generate and download a config file which contains the "
+"theme settings. You can use the config file to import the theme settings on "
+"another sever."
 msgstr ""
-"Nel frattempo lasciaci dire che siamo orgogliosi % s dei contributi e % s "
-"voci."
+"Fare clic sul pulsante per generare e scaricare un file di configurazione "
+"che contiene le impostazioni del tema. È possibile utilizzare il file di "
+"configurazione per importare le impostazioni del tema su un altro server."
 
 # @ avia_framework
-#: includes/loop-about-author.php:24
-msgid "Edit the profile description here."
-msgstr "Modificare la descrizione del profilo."
+#: includes/admin/register-admin-options.php:73
+msgid "Import Theme Settings File"
+msgstr "Importazione delle Impostazioni del tema in un file"
 
-# @ avia_framework
-#: includes/loop-archive.php:21
-msgid "Comments<br/>Off"
-msgstr "Commenti<br/>disattivati"
-
-# @ avia_framework
-#: includes/loop-archive.php:43
-msgid "Categories:"
-msgstr "Categorie:"
-
-# @ avia_framework
-#: includes/loop-archive.php:51 includes/loop-index.php:204
-#: includes/loop-portfolio-single.php:44
-msgid "Tags:"
-msgstr "Tags:"
-
-# @ avia_framework
-#: includes/loop-author.php:83 includes/loop-index.php:142
-#: includes/loop-search.php:52
-msgid "Comments Disabled"
-msgstr "Commenti disabilitati"
-
-# @ avia_framework
-#: includes/loop-author.php:106 includes/loop-index.php:165
-#: includes/loop-search.php:76
-msgid "in"
-msgstr "in"
-
-#: includes/loop-comments.php:34
-msgid "<cite class=\"author_name heading\""
-msgstr "<cite class=\"author_name heading\""
-
-# @ avia_framework
-#: includes/loop-comments.php:35
-msgid "(Edit)"
-msgstr "(Edita)"
-
-# @ avia_framework
-#: includes/loop-comments.php:41
-#, php-format
-msgid "%1$s at %2$s"
-msgstr "%1$s en %2$s"
-
-# @ avia_framework
-#: includes/loop-comments.php:51
-msgid "Your comment is awaiting moderation."
-msgstr "Il tuo commento è in attesa di moderazione."
-
-# @ avia_framework
-#: includes/loop-search.php:122
-msgid "Sorry, no posts matched your criteria. Please try another search"
-msgstr ""
-"Spiacente, nessun articolo corrisponde ai tuoi criteri. Prova con un&rsquo;"
-"altra ricerca"
-
-# @ avia_framework
-#: includes/loop-search.php:128
+#: includes/admin/register-admin-options.php:74
 msgid ""
-"You might want to consider some of our suggestions to get better results:"
+"Upload a theme configuration file here. Note that the configuration file "
+"settings will overwrite your current configuration and you can't restore the "
+"current configuration afterwards."
 msgstr ""
-"Si potrebbero prendere in considerazione alcuni dei nostri suggerimenti per "
-"ottenere risultati migliori:"
+"Carica un file di configurazione del tema qui. Sappi che le impostazioni del "
+"file di configurazione sovrascrive la configurazione corrente e dopo non è "
+"possibile ripristinare la configurazione."
 
 # @ avia_framework
-#: includes/loop-search.php:130
-msgid "Check your spelling."
-msgstr "Controlla la ortografia."
+#: includes/admin/register-admin-options.php:76
+msgid "Upload Theme Settings File"
+msgstr "Caricare Impostazioni del tema in file"
 
 # @ avia_framework
-#: includes/loop-search.php:131
-msgid "Try a similar keyword, for example: tablet instead of laptop."
-msgstr "Prova con termini simili o sinonimi."
+#: includes/admin/register-admin-options.php:77
+msgid "Insert Settings File"
+msgstr "Inserire Impostazioni del tema in un file"
+
+#: includes/admin/register-admin-options.php:92
+msgid "Iconfont Manager"
+msgstr "Gestore Iconfont "
+
+#: includes/admin/register-admin-options.php:93
+msgid ""
+"You can upload additional Iconfont Packages generated with <a href='http://"
+"fontello.com/' target='_blank'>Fontello</a> to use them in your Layout "
+"Builder.<br/><br/>The 'Default Font' can't be deleted. <br/><br/>Make sure "
+"to delete any fonts that you are not using, to keep the loading time for "
+"your visitors low"
+msgstr ""
+"È possibile caricare i pacchetti aggiuntivi Iconfont generati con <a "
+"href='http://fontello.com/' target='_blank'> Fontello </ a> per usarli nel "
+"vostro Builder Layout. <br/> Il 'Default Font' non può essere cancellato. "
+"<br/> Assicurati di eliminare tutti i tipi di carattere che non si utilizza, "
+"per mantenere basso il tempo di caricamento per i tuoi visitatori "
+
+#: includes/admin/register-admin-options.php:95
+msgid "Upload/Select Fontello Font Zip"
+msgstr "Carica/Seleziona Fontello Font Zip"
 
 # @ avia_framework
-#: includes/related-posts.php:91
-msgid "You might also like"
-msgstr "Potrebbero interessarti"
+# @ default
+#: includes/admin/register-admin-options.php:96
+msgid "Insert Zip File"
+msgstr "Inserire zip file"
 
 # @ avia_framework
-#: includes/admin/register-admin-options.php:209
+#: includes/admin/register-admin-options.php:113
+msgid "Frontpage Settings"
+msgstr "Impostazione frontpage"
+
+#: includes/admin/register-admin-options.php:114
+msgid ""
+"Select which page to display on your Frontpage. If left blank the Blog will "
+"be displayed"
+msgstr ""
+"Seleziona la pagina da visualizzare sulla tua Frontpage. Se lasciato vuoto "
+"verrà visualizzato il Blog"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:121
+msgid "And where do you want to display the Blog?"
+msgstr "E dove si desidera visualizzare il blog?"
+
+#: includes/admin/register-admin-options.php:122
+msgid ""
+"Select which page to display as your Blog Page. If left blank no blog will "
+"be displayed"
+msgstr ""
+"Seleziona la pagina da visualizzare come la tua pagina blog. Se lasciato "
+"vuoto non verrà visualizzato nessun blog"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:131
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/admin/register-admin-options.php:132
+msgid ""
+"Upload a logo image, or enter the URL to an image if its already uploaded. "
+"The themes default logo gets applied if the input field is left blank<br/"
+">Logo Dimension: 340px * 156px (if your logo is larger you might need to "
+"modify style.css to align it perfectly)"
+msgstr ""
+"Carica una immagine del logo, o inserisci la URL di una immagine se è già "
+"stata caricata. Il logo di default viene applicato se il campo di input "
+"viene lasciato vuoto <br/> Dimensione: Logo 340px * 156px (se il logo è più "
+"grande potrebbe essere necessario modificare lo style.css per allinearlo "
+"perfettamente)"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:135
+#: includes/admin/register-admin-options.php:1101
+msgid "Use Image as logo"
+msgstr "Usa immagine come logo"
+
+#: includes/admin/register-admin-options.php:139
+msgid "Favicon"
+msgstr "Favicon"
+
+#: includes/admin/register-admin-options.php:140
+msgid ""
+"Specify a <a href='http://en.wikipedia.org/wiki/Favicon'>favicon</a> for "
+"your site. <br/>Accepted formats: .ico, .png, .gif"
+msgstr ""
+"Specificare una favicon <a href='http://en.wikipedia.org/wiki/Favicon'> </ "
+"a> per il tuo sito. <br/> formati accettati:. ico, png, gif.."
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:143
+msgid "Use Image as Favicon"
+msgstr "Usa immagine come Favicon"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:151
+msgid "Responsive Layout active?"
+msgstr "Layout Responsive attivo?"
+
+#: includes/admin/register-admin-options.php:152
+msgid ""
+"By default the theme adapts to the screen size of the visitor and uses a "
+"layout best suited. You can disable this behavior so the theme will only "
+"show the default layout without adaptation. <br/><br/>If you choose to "
+"display responsive layout that adapts to the screen size, you can choose "
+"between 2 maximum width settings"
+msgstr ""
+"Per impostazione predefinita, il tema si adatta alle dimensioni dello "
+"schermo del visitatore e utilizza un layout più adatto. È possibile "
+"disattivare questo comportamento in modo che il tema mostrerà solo il layout "
+"di default senza adattamento. <br/> Se si sceglie di visualizzare il layout "
+"reattivo che si adatta alle dimensioni dello schermo, è possibile scegliere "
+"tra due impostazioni massime di larghezza"
+
+#: includes/admin/register-admin-options.php:157
+msgid "Active - Responsive Layout (Max width: 1030px)"
+msgstr "Attivo - layout Responsive (larghezza max: 1030px)"
+
+#: includes/admin/register-admin-options.php:158
+msgid "Active - Responsive Layout Large (Max width: 1210px)"
+msgstr "Attivo - layout Responsive Grande (larghezza max: 1210px)"
+
+#: includes/admin/register-admin-options.php:159
+msgid "Inactive - Fixed layout"
+msgstr "Inattivo - layout fisso"
+
+#: includes/admin/register-admin-options.php:165
+msgid "Websafe fonts fallback for Windows"
+msgstr "Ritorno sicuro ai font  web per Windows"
+
+#: includes/admin/register-admin-options.php:166
+msgid ""
+"Older Browsers on Windows dont render custom fonts as smooth as modern ones. "
+"If you want to force websafe fonts instead of custom fonts for those "
+"browsers activate the setting here (affects older versions of IE, Firefox "
+"and Opera)"
+msgstr ""
+"I browser più vecchi in Windows non rendono regolari i font personalizzati "
+"come con quelli moderni. Se si vuole forzare i caratteri WebSafe invece dei "
+"caratteri personalizzati per questi browser attivare l&rsquo;impostazione "
+"qui (influenza le vecchie versioni di IE, Firefox e Opera)"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:171
+#: includes/admin/register-admin-options.php:184
+msgid "Not activated"
+msgstr "Non attivato"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:172
+#: includes/admin/register-admin-options.php:185
+msgid "Activated"
+msgstr "Attivato"
+
+#: includes/admin/register-admin-options.php:178
+msgid "Automated Schema.org HTML Markup"
+msgstr "Automatica Schema.org HTML Markup"
+
+#: includes/admin/register-admin-options.php:179
+msgid ""
+"The theme adds generic HTML schema markup to your template builder elements "
+"to provide additional context for search engines. If you want to add your "
+"own specific markup via plugins or custom HTML code, you can deactivate this "
+"setting"
+msgstr ""
+"Il tema aggiunge un generico schema di markup HTML per gli elementi template "
+"builder per fornire un contesto aggiuntivo per i motori di ricerca. Se si "
+"desidera aggiungere il proprio codice specifico tramite plugin o codice HTML "
+"personalizzato, è possibile disattivare questa impostazione"
+
+#: includes/admin/register-admin-options.php:192
+msgid "Google Analytics Tracking Code"
+msgstr "Google Analytics codice di monitoraggio"
+
+#: includes/admin/register-admin-options.php:193
+msgid ""
+"Enter your Google analytics tracking Code here. It will automatically be "
+"added so google can track your visitors behavior."
+msgstr ""
+"Inserisci il tuo Google Analytics codice di monitoraggio qui. Esso verrà "
+"automaticamente aggiunto in modo che google sia in grado di monitorare il "
+"comportamento dei vostri visitatori."
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:205
+msgid "Select a predefined color scheme"
+msgstr "Selezionare uno schema colore predefinito"
+
+#: includes/admin/register-admin-options.php:206
+msgid ""
+"Choose a predefined color scheme here. You can edit the settings of the "
+"scheme below then."
+msgstr ""
+"Scegli una combinazione di colori predefinita qui. È possibile modificare le "
+"impostazioni dello schema anche in seguito."
+
+#: includes/admin/register-admin-options.php:218
+msgid ""
+"Here you can select a number of different elements and change their default "
+"styling"
+msgstr ""
+"Qui è possibile selezionare un numero di elementi diversi e cambiare il loro "
+"stile di default"
+
+#: includes/admin/register-admin-options.php:219
+msgid ""
+"If a value is left empty or set to default then it will not be changed from "
+"the value defined in your CSS files"
+msgstr ""
+"Se un valore viene lasciato vuoto o impostato di default poi non sarà "
+"modificato dal valore definito nei file CSS"
+
+#: includes/admin/register-admin-options.php:220
+msgid ""
+"<strong>Attention:</strong> This feature is in active <strong>BETA!</strong> "
+"We will constantly add new elements to customize and need your help: If you "
+"got any suggestions on what to add please <a target='_blank' href='http://"
+"www.kriesi.at/support/enfold-feature-requests/'>post them here</a><br/><br/>"
+msgstr ""
+"<strong> Attenzione: </ strong> Questa funzionalità è in fase <strong> BETA "
+"</ strong> Aggiungeremo  costantemente nuovi elementi e abbiamo bisogno del "
+"tuo aiuto: se hai qualche suggerimento su cosa aggiungere scrivere <a target "
+"= '_blank' href = 'http://www.kriesi.at/support/enfold-feature-"
+"requests/'>qui </ a> <br/><br/>"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:223
 #: includes/admin/register-backend-advanced-styles.php:40
 #: includes/admin/register-backend-advanced-styles.php:55
 #: includes/admin/register-backend-advanced-styles.php:73
@@ -12276,18 +12599,580 @@ msgid "Headings"
 msgstr "Titolo "
 
 # @ default
-#: includes/admin/register-admin-options.php:209
+#: includes/admin/register-admin-options.php:223
 #: includes/admin/register-backend-advanced-styles.php:155
 #: includes/admin/register-backend-advanced-styles.php:171
 #: includes/admin/register-backend-advanced-styles.php:187
 msgid "Main Menu"
 msgstr "Menu principale"
 
-#: includes/admin/register-admin-options.php:1044
+# @ avia_framework
+#: includes/admin/register-admin-options.php:334
+msgid "General"
+msgstr "Generale"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:337
+msgid "Heading Font"
+msgstr "Carattere del titolo"
+
+#: includes/admin/register-admin-options.php:339
+msgid ""
+"The Font heading utilizes google fonts and allows you to use a wide range of "
+"custom fonts for your headings"
+msgstr ""
+"Il Font del titolo utilizza i font di Google e consente di utilizzare una "
+"vasta gamma di font personalizzati per i vostri titoli"
+
+#: includes/admin/register-admin-options.php:348
+msgid "Defines the Font for your body text"
+msgstr "Definisce il tipo di carattere per il testo del contenuto"
+
+#: includes/admin/register-admin-options.php:350
+msgid ""
+"Choose between web safe fonts (faster rendering) and google webkit fonts "
+"(more unqiue)<br/><br/>"
+msgstr ""
+"Scegliere tra web font sicuri (il rendering è più veloce) e i font google "
+"webkit (più unici) <br/><br/>"
+
+#: includes/admin/register-admin-options.php:357
+msgid "Web save fonts"
+msgstr "Web font sicuri"
+
+#: includes/admin/register-admin-options.php:365
+msgid "Google fonts"
+msgstr "Google Fonts"
+
+#: includes/admin/register-admin-options.php:382
+msgid "Use stretched or boxed layout?"
+msgstr "Utilizzare il layout allungato o inscatolato?"
+
+#: includes/admin/register-admin-options.php:383
+msgid ""
+"The stretched layout expands from the left side of the viewport to the right."
+msgstr "Il layout allungato espande dal lato sinistro del riquadro a destra."
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:390
+msgid "Stretched layout"
+msgstr "Layout allungato"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:390
+msgid "Boxed Layout"
+msgstr "Layout inscatolato"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:395
+msgid "Body Background color"
+msgstr "Colore di sfondo del Body "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:396
+msgid "Background color for your site<br/><br/>"
+msgstr "Il colore di sfondo per il tuo sito <br/><br/>"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:425
+#: includes/admin/register-admin-options.php:596
+msgid "Background Image"
+msgstr "Immagine di sfondo "
+
+#: includes/admin/register-admin-options.php:426
+msgid "The background image of your Body<br/><br/>"
+msgstr "L&rsquo;immagine di sfondo del tuo sito<br/><br/>"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:428
+#: includes/admin/register-admin-options.php:599
+msgid "No Background Image"
+msgstr "Nessuna immagine di sfondo"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:428
+#: includes/admin/register-admin-options.php:599
+msgid "Upload custom image"
+msgstr "Carica una immagine personalizzata"
+
+#: includes/admin/register-admin-options.php:441
+msgid "Upload a BG image for your Body<br/><br/>"
+msgstr "Carica l&rsquo;immagine di sfondo del tuo sito<br/><br/>"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:446
+#: includes/admin/register-admin-options.php:616
+msgid "Use Image"
+msgstr "Utilizzare Immagine"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:454
+#: includes/admin/register-admin-options.php:624
+msgid "Position of the image"
+msgstr "Posizione dell&rsquo;immagine"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:470
+#: includes/admin/register-admin-options.php:640
+msgid "Center Left "
+msgstr "Centrato a sinistra "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:486
+#: includes/admin/register-admin-options.php:656
+msgid "no repeat"
+msgstr "Non ripetere "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:490
+msgid "Stretch Fullscreen"
+msgstr "Allungare schermo intero"
+
+# @ wordpress-importer
+#: includes/admin/register-admin-options.php:494
+#: includes/admin/register-admin-options.php:663
+msgid "Attachment"
+msgstr "Allegato"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:522
+msgid "background color"
+msgstr "Colore di sfondo "
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:527
+msgid "Default Background color"
+msgstr "Colore di sfondo predefinito"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:533
+msgid "Alternate Background color"
+msgstr "Colore di sfondo alternativo"
+
+#: includes/admin/register-admin-options.php:534
+msgid "Alternate Background for menu hover, tables etc"
+msgstr "Sfondo alternativo per il menu hover, tabelle ecc"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:544
+msgid "Primary color"
+msgstr "Colore primario"
+
+#: includes/admin/register-admin-options.php:545
+msgid "Font color for links, dropcaps and other elements"
+msgstr "Colore carattere per i collegamenti, capilettera e altri elementi"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:556
+msgid "Highlight color"
+msgstr "Colore evidenziatore"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:557
+msgid "Secondary color for link and button hover, etc<br/>"
+msgstr "Colore secondario per link e pulsante in hover, ecc <br/>"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:568
+msgid "font color"
+msgstr "Colore Font  "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:578
+msgid "Border colors"
+msgstr "Colori del bordo"
+
+#: includes/admin/register-admin-options.php:695
+msgid "Quick CSS"
+msgstr "CSS rapido"
+
+#: includes/admin/register-admin-options.php:696
+msgid ""
+"Just want to do some quick CSS changes? Enter them here, they will be "
+"applied to the theme. If you need to change major portions of the theme "
+"please use the custom.css file."
+msgstr ""
+"Vuoi  fare solo alcune modifiche CSS veloci? Inseriscile qui, saranno "
+"applicate al tema. Se avete bisogno di cambiare le principali parti del tema "
+"si prega di utilizzare il file custom.css."
+
+#: includes/admin/register-admin-options.php:707
+msgid "Sidebar on Archive Pages"
+msgstr "Sidebar nelle Pagine Archivi"
+
+#: includes/admin/register-admin-options.php:708
+msgid ""
+"Choose the archive sidebar position here. This setting will be applied to "
+"all archive pages"
+msgstr ""
+"Scegliere la posizione sidebar per gli archivi qui. Questa impostazione "
+"verrà applicata a tutte le pagine di archivio"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:713
+#: includes/admin/register-admin-options.php:729
+#: includes/admin/register-admin-options.php:745
+#: includes/admin/register-admin-options.php:764
+msgid "left sidebar"
+msgstr "Barra laterale sinistra "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:714
+#: includes/admin/register-admin-options.php:730
+#: includes/admin/register-admin-options.php:746
+#: includes/admin/register-admin-options.php:765
+msgid "right sidebar"
+msgstr "Barra laterale destra "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:715
+#: includes/admin/register-admin-options.php:731
+#: includes/admin/register-admin-options.php:747
+#: includes/admin/register-admin-options.php:766
+msgid "no sidebar"
+msgstr "Senza barra laterale "
+
+#: includes/admin/register-admin-options.php:723
+msgid "Sidebar on Blog Page"
+msgstr "Sidebar nella Pagina Blog "
+
+#: includes/admin/register-admin-options.php:724
+msgid ""
+"Choose the blog sidebar position here. This setting will be applied to the "
+"blog page"
+msgstr ""
+"Scegliere la posizione sidebar blog qui. Questa impostazione verrà applicata "
+"alla pagina del blog"
+
+#: includes/admin/register-admin-options.php:739
+msgid "Sidebar on Single Post Pages"
+msgstr "Sidebar nelle pagine di post singole"
+
+#: includes/admin/register-admin-options.php:740
+msgid ""
+"Choose the blog post sidebar position here. This setting will be applied to "
+"single blog posts"
+msgstr ""
+"Scegliere la posizione sidebar dei post singoli qui. Questa impostazione "
+"verrà applicata a singoli post sul blog"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:758
+msgid "Sidebar on Pages"
+msgstr "Barra laterale nelle pagine"
+
+#: includes/admin/register-admin-options.php:759
+msgid ""
+"Choose the default page layout here. You can change the setting of each "
+"individual page when editing that page"
+msgstr ""
+"Scegli il layout di pagina predefinito. È possibile modificare l&rsquo;"
+"impostazione di ogni singola pagina durante la modifica di quella pagina"
+
+#: includes/admin/register-admin-options.php:772
+msgid "Sidebar on Smartphones"
+msgstr "Sidebar nei Smartphone"
+
+#: includes/admin/register-admin-options.php:773
+msgid ""
+"Show sidebar on smartphones (Sidebar is displayed then below the actual "
+"content)"
+msgstr ""
+"Mostra barra laterale su smartphone (la sidebar viene visualizzata al di "
+"sotto del contenuto effettivo)"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:778
+msgid "Hide sidebar on smartphones"
+msgstr "Nascondi barra laterale su smartphone"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:779
+msgid "Show sidebar on smartphones"
+msgstr "Mostra barra laterale su smartphone"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:785
+msgid "Page Sidebar navigation"
+msgstr "Pagina di navigazione barra laterale"
+
+#: includes/admin/register-admin-options.php:786
+msgid ""
+"Display a sidebar navigation for all nested subpages of a page automatically?"
+msgstr ""
+"Visualizzare automaticamente una barra laterale di navigazione per tutte le "
+"sottopagine nidificate di una pagina?"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:791
+msgid "Display sidebar navigation"
+msgstr "Visualizza Navigazione barra laterale"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:792
+msgid "Don't display Sidebar navigation"
+msgstr "Non mostrare Navigazione barra laterale"
+
+#: includes/admin/register-admin-options.php:796
+msgid "Create new Sidebar Widget Areas"
+msgstr "Creare nuove aree Sidebar Widget"
+
+#: includes/admin/register-admin-options.php:797
+msgid ""
+"The theme supports the creation of custom widget areas. Simply open your"
+msgstr ""
+"Il tema supporta la creazione di aree  widget personalizzate. Basta aprire "
+"la tua"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:797
+msgid "Widgets Page"
+msgstr "Widget nella pagina"
+
+#: includes/admin/register-admin-options.php:798
+msgid ""
+"and add a new Sidebar Area. Afterwards you can choose to display this Widget "
+"Area in the Edit Page Screen."
+msgstr ""
+"e aggiungere una nuova Sidebar Area. Successivamente è possibile scegliere "
+"di visualizzare questa Area Widget nella schermata Modifica pagina."
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:906
+msgid "Header layout"
+msgstr "Layout Titolo "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:911
+msgid "Menu and Logo Position"
+msgstr "Posizione Menu e Logo"
+
+#: includes/admin/register-admin-options.php:912
+msgid "You can choose various different logo and main menu positions here"
+msgstr ""
+"È possibile scegliere diverse posizioni per il logo e il menu principale qui"
+
+#: includes/admin/register-admin-options.php:919
+msgid "Logo left, Menu right"
+msgstr "Logo a sinistra, menu a destra"
+
+#: includes/admin/register-admin-options.php:920
+msgid "Logo right, Menu Left"
+msgstr "Logo a destra, menu a sinistra"
+
+#: includes/admin/register-admin-options.php:921
+msgid "Logo left, Menu below"
+msgstr "Logo a sinistra, Menu sotto"
+
+#: includes/admin/register-admin-options.php:922
+msgid "Logo right, Menu below"
+msgstr "Logo a destra, Menu sotto"
+
+#: includes/admin/register-admin-options.php:923
+msgid "Logo center, Menu below"
+msgstr "Logo al centro, Menu sotto"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:928
+msgid "Header Size"
+msgstr "Dimensione Titolo "
+
+#: includes/admin/register-admin-options.php:929
+msgid ""
+"Chose a predefined header size. You can also apply a custom height to the "
+"header"
+msgstr ""
+"Scegliere  una dimensione di testata predefinita. È inoltre possibile "
+"applicare un&rsquo;altezza personalizzata per la testata"
+
+#: includes/admin/register-admin-options.php:936
+msgid "slim"
+msgstr "sottile"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:937
+msgid "large"
+msgstr "Grande "
+
+#: includes/admin/register-admin-options.php:938
+msgid "custom pixel value"
+msgstr "valore del pixel personalizzato"
+
+#: includes/admin/register-admin-options.php:947
+msgid "Header Custom Height"
+msgstr "Altezza Testata personalizzata"
+
+#: includes/admin/register-admin-options.php:948
+msgid ""
+"Chose a custom height in pixels (wont be reflected in the preview above, "
+"only on your actual page)"
+msgstr ""
+"Scegliere una altezza personalizzata in pixel (non si rifletterà nella "
+"anteprima qui sopra, solo sulla tua pagina reale)"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:958
+msgid "Header Title and Breadcrumbs"
+msgstr "Titolo testata e breadcrumbs"
+
+#: includes/admin/register-admin-options.php:959
+msgid ""
+"Chose if and how you want to display the Title and Breadcrumb of your page. "
+"This option can be overwritten when writing/editing a page"
+msgstr ""
+"Scegliere se e come si desidera visualizzare il titolo e il Breadcrumb della "
+"tua pagina. Questa opzione può essere sovrascritta durante la scrittura/"
+"modifica di una pagina"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:974
+msgid "Header behavior"
+msgstr "Comportamento titolo"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:978
+msgid "Sticky Header"
+msgstr "Titolo in evidenza"
+
+#: includes/admin/register-admin-options.php:979
+msgid ""
+"If checked the header will stick to the top of your site if user scrolls "
+"down (ignored on smartphones)"
+msgstr ""
+"Se selezionata l&rsquo;intestazione rimarrà attaccata alla parte superiore "
+"del vostro sito quando l&rsquo;utente scorre verso il basso (ignorato su "
+"smartphone)"
+
+#: includes/admin/register-admin-options.php:986
+msgid "Shrinking Header"
+msgstr "Restringimento testata"
+
+#: includes/admin/register-admin-options.php:987
+msgid ""
+"If checked the sticky header will shrink once the user scrolls down (ignored "
+"on smartphones + tablets)"
+msgstr ""
+"Se selezionato l&rsquo;intestazione si ridurrà una volta che l&rsquo;utente "
+"scorre verso il basso (ignorato su smartphone + tablet)"
+
+#: includes/admin/register-admin-options.php:995
+msgid "Let logo and menu position adapt to browser window"
+msgstr ""
+"Lasciare il logo e il menu in grado di adattarsi alla finestra del browser"
+
+#: includes/admin/register-admin-options.php:996
+msgid ""
+"If checked the elements in your header will always be placed at the browser "
+"window edge, instead of matching the content width"
+msgstr ""
+"Se selezionato gli elementi nella vostra testata saranno sempre posti al "
+"bordo della finestra del browser, anziché corrispondenti alla larghezza del "
+"contenuto"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1007
+msgid "Extra Elements"
+msgstr "Elementi aggiuntivi"
+
+#: includes/admin/register-admin-options.php:1012
+msgid "Append search icon to main menu"
+msgstr "Aggiunge una icona di ricerca al menu principale"
+
+#: includes/admin/register-admin-options.php:1013
+msgid ""
+"If enabled a search Icon will be appended to the main menu that allows the "
+"users to perform an 'AJAX' Search"
+msgstr ""
+"Se attivata una icona di ricerca verrà aggiunta al menu principale che "
+"permette agli utenti di eseguire un 'AJAX' Cerca"
+
+#: includes/admin/register-admin-options.php:1024
+msgid "Header Social Icons"
+msgstr "Icone Sociali Nella Testata"
+
+#: includes/admin/register-admin-options.php:1025
+msgid "Chose if and where to display social icons"
+msgstr "Scegliere se e dove visualizzare le icone sociali"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1032
+msgid "No social Icons"
+msgstr "Nessuna icona sociale"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1033
+#: includes/admin/register-admin-options.php:1064
+msgid "Display in top bar at the left"
+msgstr "Mostra nella barra superiore a sinistra"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1034
+#: includes/admin/register-admin-options.php:1065
+msgid "Display in top bar at the right"
+msgstr "Mostra nella barra superiore a destra"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1035
+msgid "Display in main header area"
+msgstr "Mostra nella principale area della testa"
+
+#: includes/admin/register-admin-options.php:1040
+msgid "Header Secondary Menu"
+msgstr "Menu secondario nella testata"
+
+#: includes/admin/register-admin-options.php:1041
+msgid "Chose if and where to display a secondary menu"
+msgstr "Scegliere se e dove visualizzare un menu secondario"
+
+#: includes/admin/register-admin-options.php:1048
+msgid "No Secondary Menu"
+msgstr "Nessun menu secondario"
+
+#: includes/admin/register-admin-options.php:1049
+msgid "Secondary Menu in top bar at the left"
+msgstr "Menu Secondario nella barra superiore a sinistra"
+
+#: includes/admin/register-admin-options.php:1050
+msgid "Secondary Menu in top bar at the right"
+msgstr "Menu Secondario nella barra superiore a destra"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1055
+msgid "Header Phone Number/Extra Info"
+msgstr "Testata numero di telefono/Extra Info"
+
+#: includes/admin/register-admin-options.php:1056
+msgid ""
+"Chose if you want to display an additional phone number or some extra info "
+"in your header"
+msgstr ""
+"Scegliere se si desidera visualizzare un numero di telefono aggiuntivo o "
+"qualche informazione in più nella testata"
+
+#: includes/admin/register-admin-options.php:1063
+msgid "No Phone Number/Extra Info"
+msgstr "Nessun numero di telefono/Extra Info "
+
+#: includes/admin/register-admin-options.php:1069
+msgid "Phone Number or small info text"
+msgstr "Numero di telefono o piccolo testo informativo"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1070
+msgid "Add the text that should be displayed in your header here"
+msgstr ""
+"Aggiungere il testo che dovrebbe essere visualizzato nella intestazione qui"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:1084
+msgid "Transparency Options"
+msgstr "Opzioni di trasparenza"
+
+#: includes/admin/register-admin-options.php:1086
 msgid "What is header transparency"
 msgstr "Che cosa è la trasparenza intestazione"
 
-#: includes/admin/register-admin-options.php:1045
+#: includes/admin/register-admin-options.php:1087
 msgid ""
 "When creating/editing a page you can select to have the header be "
 "transparent and display the content (usually a fullwidth slideshow or a "
@@ -12300,11 +13185,158 @@ msgstr ""
 "di solito si ha bisogno di un diverso logo e il colore principale del menu "
 "che può essere impostato qui."
 
-#: includes/admin/register-admin-options.php:1045
+#: includes/admin/register-admin-options.php:1087
 msgid "(Show example Screenshot)"
 msgstr "(Visualizza esempio Screenshot)"
 
-#: includes/admin/register-admin-options.php:1232
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1097
+msgid "Transparency Logo"
+msgstr "Trasparenza Logo"
+
+#: includes/admin/register-admin-options.php:1098
+msgid ""
+"Upload a logo image, or enter the URL to an image if its already uploaded. "
+"(Leave empty to use the default logo)"
+msgstr ""
+"Carica una immagine del logo, o inserire la URL di una immagine se è già "
+"caricata. (Lasciare vuoto per usare il logo predefinito)"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1106
+msgid "Transparency menu color"
+msgstr "Trasparenza colore menu"
+
+#: includes/admin/register-admin-options.php:1107
+msgid ""
+"Menu color for transparent header (Leave empty to use the default color)"
+msgstr ""
+"Colore Menu per la testata trasparente (Lasciare vuoto per utilizzare il "
+"colore predefinito)"
+
+# @ default
+#: includes/admin/register-admin-options.php:1115
+msgid "Mobile Menu"
+msgstr "Mobile Menu"
+
+#: includes/admin/register-admin-options.php:1119
+msgid "Header Mobile Menu activation"
+msgstr "Attivazione testata Menu mobile"
+
+#: includes/admin/register-admin-options.php:1120
+msgid ""
+"The mobile menu is usually displayed on smarthphone screensize only. If you "
+"have a lot of main menu items you might want to activate it for tablet "
+"screen size as well so it doesn't overlap the logo on tablets or small "
+"screens"
+msgstr ""
+"Il menu mobile è solitamente visualizzato solo per lo schermo dello "
+"smartphone. Se avete un sacco di voci del menu principale si potrebbe "
+"desiderare di attivarlo anche per tablet in modo che non si sovrappongano al "
+"logo"
+
+#: includes/admin/register-admin-options.php:1125
+msgid "Activate only for Smartphones (browser width below 768px)"
+msgstr "Attiva solo per smartphone (larghezza del browser sotto 768px)"
+
+#: includes/admin/register-admin-options.php:1126
+msgid "Activate for Smartphones and Tablets (browser width below 990px)"
+msgstr "Attivare per smartphone e tablet (larghezza del browser sotto 990px​​)"
+
+#: includes/admin/register-admin-options.php:1131
+msgid "Hide Mobile Menu Submenu Items"
+msgstr "Nascondi Sottomenu Articoli Menu mobile"
+
+#: includes/admin/register-admin-options.php:1132
+msgid ""
+"By default all menu items of the mobile menu are visible. If you activate "
+"this option they will be hidden and a user needs to click on the parent menu "
+"item to display the submenus"
+msgstr ""
+"Per impostazione predefinita, tutte le voci di menu del menu mobile sono "
+"visibili. Se si attiva questa opzione saranno nascosti e un utente deve "
+"cliccare sulla voce di menu padre per visualizzare i sottomenù"
+
+# @ woothemes
+#: includes/admin/register-admin-options.php:1163
+msgid "Add another social icon"
+msgstr "Aggiungi un&rsquo;altra icona sociale"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1174
+msgid "Social Icon"
+msgstr "Icona Sociale"
+
+#: includes/admin/register-admin-options.php:1200
+msgid ""
+"Special: RSS (add RSS URL, leave blank if you want to use default WordPress "
+"RSS feed)"
+msgstr ""
+"Speciale: RSS (RSS aggiungere URL, lasciare in bianco se si desidera "
+"utilizzare WordPress feed RSS di default )"
+
+#: includes/admin/register-admin-options.php:1201
+msgid "Special: Email Icon (add your own URL to link to a contact form)"
+msgstr ""
+"Speciale: Email Icon (aggiungere il proprio URL come link ad un modulo di "
+"contatto)"
+
+#: includes/admin/register-admin-options.php:1206
+msgid "Social Icon URL:"
+msgstr "URL Icone Sociali:"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1230
+msgid "Default Footer Widgets & Socket Settings"
+msgstr "Impostazioni predefinite Widgets del Pié di pagina & socket "
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1231
+msgid "Do you want to display the footer widgets & footer socket?"
+msgstr "Vuoi mostrare i widget piè di pagina & socket?"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1249
+msgid "Footer Columns"
+msgstr "Colonne Pié di pagina"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1250
+msgid "How many colmns should be diplayed in your footer"
+msgstr "Quante colonne devono essere visualizzate nel piè di pagina?"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:1255
+msgid "1"
+msgstr "1"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:1256
+msgid "2"
+msgstr "2"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:1257
+msgid "3"
+msgstr "3"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:1258
+msgid "4"
+msgstr "4"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:1259
+msgid "5"
+msgstr "5"
+
+#: includes/admin/register-admin-options.php:1264
+msgid "Add a custom copyright text at the bottom of your site. eg:"
+msgstr ""
+"Aggiungere un testo personalizzato del copyright nella parte inferiore del "
+"tuo sito. es:"
+
+#: includes/admin/register-admin-options.php:1280
 msgid ""
 "You can either chose a predefined layout or build your own blog layout with "
 "the advanced layout editor"
@@ -12312,7 +13344,7 @@ msgstr ""
 "È possibile scegliere un layout predefinito o costruire il proprio layout di "
 "blog con l&rsquo;editor di layout avanzato"
 
-#: includes/admin/register-admin-options.php:1242
+#: includes/admin/register-admin-options.php:1290
 msgid ""
 "Use the advance layout editor to build your own blog layout (simply edit the "
 "page you have chosen in Enfold->Theme Options as a blog page)"
@@ -12320,6 +13352,166 @@ msgstr ""
 "Utilizzare l&rsquo;editor avanzato di layout  per costruire il proprio "
 "layout di blog (basta modificare la pagina che hai scelto in Enfold-> "
 "Opzioni tema come una pagina del blog)"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1297
+msgid "Single Post Options"
+msgstr "Opzioni Articolo singolo"
+
+#: includes/admin/register-admin-options.php:1298
+msgid "Here you can set options that affect your single blog post layout"
+msgstr ""
+"Qui è possibile impostare le opzioni che riguardano il layout del singolo "
+"post del blog"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1307
+msgid "Single Post Style"
+msgstr "Stile Articolo singolo"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1308
+msgid "Choose the single post style here."
+msgstr "Scegliere lo stile del post singolo qui."
+
+#: includes/admin/register-admin-options.php:1313
+msgid "Single post with small preview image (featured image)"
+msgstr "Singolo post con piccola immagine di anteprima (immagine in evidenza)"
+
+#: includes/admin/register-admin-options.php:1314
+msgid "Single post with big preview image (featured image)"
+msgstr "Singolo post con grande anteprima immagine (immagine in evidenza)"
+
+#: includes/admin/register-admin-options.php:1322
+msgid "Related Entries"
+msgstr "Articoli correlati"
+
+#: includes/admin/register-admin-options.php:1323
+msgid ""
+"Choose if and how you want to display your related entries. (Related entries "
+"are based on tags. If a post does not have any tags then no related entries "
+"will be shown)"
+msgstr ""
+"Scegliere se e come si desidera visualizzare le voci correlate. (Voci "
+"correlate sono basate sui tag. Se un post non ha tags allora nessuna voce "
+"correlata verrà mostrata)"
+
+#: includes/admin/register-admin-options.php:1328
+msgid "Show Thumnails and display post title by tooltip"
+msgstr "Mostra Miniature e titolo post nel tooltip"
+
+#: includes/admin/register-admin-options.php:1329
+msgid "Show Thumbnail and post title by default"
+msgstr "Mostra anteprima e titolo del post per impostazione predefinita"
+
+#: includes/admin/register-admin-options.php:1330
+msgid "Disable related entries"
+msgstr "Disabilitare articoli correlati"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1335
+msgid "Blog meta elements"
+msgstr "Elementi meta del blog"
+
+# @ LayerSlider
+#: includes/admin/register-admin-options.php:1336
+msgid "You can chose to hide some of the default Blog elements here:"
+msgstr ""
+"È possibile scegliere di nascondere alcuni degli elementi predefiniti del "
+"Blog qui:"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1345
+msgid "Blog Post Author"
+msgstr "Articoli blog autore"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1346
+#: includes/admin/register-admin-options.php:1356
+#: includes/admin/register-admin-options.php:1365
+#: includes/admin/register-admin-options.php:1376
+#: includes/admin/register-admin-options.php:1386
+#: includes/admin/register-admin-options.php:1413
+#: includes/admin/register-admin-options.php:1423
+#: includes/admin/register-admin-options.php:1432
+#: includes/admin/register-admin-options.php:1444
+#: includes/admin/register-admin-options.php:1454
+#: includes/admin/register-admin-options.php:1463
+#: includes/admin/register-admin-options.php:1473
+#: includes/admin/register-admin-options.php:1482
+#: includes/admin/register-admin-options.php:1492
+msgid "Check to display"
+msgstr "Controllare per visualizzare"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1355
+msgid "Blog Post Comment Count"
+msgstr "Conteggio commenti Blog Post"
+
+# @ woothemes
+#: includes/admin/register-admin-options.php:1364
+msgid "Blog Post Category"
+msgstr "Categoria blog post"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1375
+msgid "Blog Post Date"
+msgstr "Date blog post"
+
+#: includes/admin/register-admin-options.php:1385
+msgid "Blog Post Allowed HTML Tags"
+msgstr "Sono ammessi html tags per i post del blog"
+
+#: includes/admin/register-admin-options.php:1402
+msgid "Share links at the bottom of your blog post"
+msgstr "Condividere link in fondo al tuo post sul blog"
+
+#: includes/admin/register-admin-options.php:1403
+msgid ""
+"The theme allows you to display share links to various social networks at "
+"the bottom of your blog posts. Check which links you want to display:"
+msgstr ""
+"Il tema permette di visualizzare la condivisione dei link ai vari social "
+"network in fondo al post del tuo blog. Verificate che collegamenti si "
+"desidera visualizzare:"
+
+#: includes/admin/register-admin-options.php:1412
+msgid "Facebook link"
+msgstr "Facebook link"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1422
+msgid "Twitter link"
+msgstr "Twitter link"
+
+# @ avia_framework
+#: includes/admin/register-admin-options.php:1431
+msgid "Pinterest link "
+msgstr "Pinterest link "
+
+#: includes/admin/register-admin-options.php:1443
+msgid "Google Plus link"
+msgstr "Google Plus link"
+
+#: includes/admin/register-admin-options.php:1453
+msgid "Reddit link"
+msgstr "Reddit link"
+
+#: includes/admin/register-admin-options.php:1462
+msgid "Linkedin link "
+msgstr "Linkedin link "
+
+#: includes/admin/register-admin-options.php:1472
+msgid "Tumblr link"
+msgstr "Tumblr link"
+
+#: includes/admin/register-admin-options.php:1481
+msgid "VK link"
+msgstr "VK link"
+
+#: includes/admin/register-admin-options.php:1491
+msgid "Email link"
+msgstr "Email link"
 
 #: includes/admin/register-backend-advanced-styles.php:9
 msgid "Change the styling for all &lt;strong&gt; tags"
@@ -12599,6 +13791,342 @@ msgid "Archive"
 msgstr "Archivio"
 
 # @ avia_framework
+#: includes/admin/register-widget-area.php:127 template-archives.php:155
+msgid "Pages"
+msgstr "Pagine"
+
+# @ avia_framework
 #: includes/admin/register-widget-area.php:138
 msgid "Bookmarks"
 msgstr "Bookmarks"
+
+# @ avia_framework
+#: includes/comments.php:17
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Questo articolo è protetto da password. Immettere la password per "
+"visualizzare i commenti."
+
+# @ avia_framework
+#: includes/comments.php:51
+msgid "replies"
+msgstr "commenti"
+
+# @ avia_framework
+#: includes/comments.php:52
+msgid "reply"
+msgstr "commento"
+
+# @ avia_framework
+#: includes/comments.php:79 includes/comments.php:135
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Commenti più vecchi"
+
+# @ avia_framework
+#: includes/comments.php:82 includes/comments.php:138
+msgid "Newer Comments &raquo;"
+msgstr "Commenti più recenti &raquo;"
+
+# @ avia_framework
+#: includes/comments.php:114
+msgid "Trackbacks &amp; Pingbacks"
+msgstr "Trackbacks &amp; Pingbacks"
+
+# @ avia_framework
+#: includes/comments.php:172
+msgid "Leave a Reply"
+msgstr "Lascia un Commento"
+
+# @ avia_framework
+#: includes/comments.php:173
+msgid "Want to join the discussion? <br/>Feel free to contribute!"
+msgstr "Vuoi unirti alla discussione? <br/>Sentiti libero di contribuire!"
+
+# @ avia_framework
+#: includes/comments.php:183
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+# @ avia_framework
+#: includes/error404.php:2 includes/loop-author.php:148
+#: includes/loop-index.php:230 includes/loop-page.php:52
+#: includes/loop-portfolio-single.php:65 includes/loop-search.php:123
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+# @ avia_framework
+#: includes/error404.php:4
+msgid ""
+"Sorry, the post you are looking for is not available. Maybe you want to "
+"perform a search?"
+msgstr ""
+"Spiacenti, articolo che stai cercando non è disponibile. Vuoi provare ad "
+"effettuare una ricerca?"
+
+# @ avia_framework
+#: includes/error404.php:24
+msgid "For best search results, mind the following suggestions:"
+msgstr "Per i risultati di ricerca migliori, segui i seguenti suggerimenti:"
+
+# @ avia_framework
+#: includes/error404.php:26
+msgid "Always double check your spelling."
+msgstr "Controllare sempre l&rsquo;ortografia."
+
+# @ avia_framework
+#: includes/error404.php:27
+msgid "Try similar keywords, for example: tablet instead of laptop."
+msgstr "Prova con termini simili o sinonimi."
+
+# @ avia_framework
+#: includes/error404.php:28 includes/loop-search.php:134
+msgid "Try using more than one keyword."
+msgstr "Provare a utilizzare più di una parola chiave."
+
+# @ avia_framework
+#: includes/error404.php:33 includes/loop-search.php:138
+msgid "Feel like browsing some posts instead?"
+msgstr "Preferisci invece controllare alcuni articoli?"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:46
+msgid "User is logged in"
+msgstr "L&rsquo;utente è connesso"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:47
+msgid "User is logged out"
+msgstr "L&rsquo;utente è disconnesso"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:48
+msgid "User is Admin"
+msgstr "Utente Aministratore"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:49
+msgid "User is Editor"
+msgstr "Utente Editore"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:50
+msgid "User is Subscriber"
+msgstr "Utente è Sottoscrittore"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:51
+msgid "User is Author"
+msgstr "Utente Autore"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:52
+msgid "User is Contributor"
+msgstr "Utente Collaboratore"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:53
+msgid "Front Page"
+msgstr "Pagina inziale"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:54
+msgid "Single Post"
+msgstr "Articolo singolo"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:99
+msgid "Enable Conditional Logic"
+msgstr "Attiva la logica condizionale"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:109
+msgid "Add custom css class"
+msgstr "Aggiungi classe css personalizzata"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:111
+msgid "if"
+msgstr "se"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:124
+msgid "Page/Post ID"
+msgstr "Pagina/Articolo ID"
+
+# @ avia_framework
+#: includes/helper-conditional-megamenu.php:132
+msgid "Conditional CSS Class"
+msgstr "Condizionale classe CSS"
+
+# @ avia_framework
+#: includes/helper-main-menu.php:114
+msgid "Select a page"
+msgstr "Seleziona una pagina"
+
+#: includes/helper-social-media.php:148
+msgid "Share on Google+"
+msgstr "Condividi su Google+"
+
+#: includes/helper-social-media.php:154
+msgid "Share by Mail"
+msgstr "Condividi attraverso Mail"
+
+# @ avia_framework
+#: includes/helper-social-media.php:214
+msgid "Share this entry"
+msgstr "Condividi questo articolo"
+
+#: includes/helper-social-media.php:223
+msgid "Share on"
+msgstr "Condividi su"
+
+# @ avia_framework
+#: includes/loop-about-author.php:13
+msgid "About"
+msgstr "Circa"
+
+# @ avia_framework
+#: includes/loop-about-author.php:19
+msgid "This author has yet to write their bio."
+msgstr "Questo autore deve ancora scrivere la sua biografia."
+
+# @ avia_framework
+#: includes/loop-about-author.php:20
+#, php-format
+msgid ""
+"Meanwhile lets just say that we are proud %s contributed a whooping %s "
+"entries."
+msgstr ""
+"Nel frattempo lasciaci dire che siamo orgogliosi % s dei contributi e % s "
+"voci."
+
+# @ avia_framework
+#: includes/loop-about-author.php:24
+msgid "Edit the profile description here."
+msgstr "Modificare la descrizione del profilo."
+
+# @ avia_framework
+#: includes/loop-author.php:83 includes/loop-index.php:142
+#: includes/loop-search.php:52
+msgid "Comments Disabled"
+msgstr "Commenti disabilitati"
+
+# @ avia_framework
+#: includes/loop-author.php:106 includes/loop-index.php:165
+#: includes/loop-search.php:76
+msgid "in"
+msgstr "in"
+
+#: includes/loop-comments.php:34
+msgid "<cite class=\"author_name heading\""
+msgstr "<cite class=\"author_name heading\""
+
+# @ avia_framework
+#: includes/loop-comments.php:35
+msgid "(Edit)"
+msgstr "(Edita)"
+
+# @ avia_framework
+#: includes/loop-comments.php:41
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s en %2$s"
+
+# @ avia_framework
+#: includes/loop-comments.php:51
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+# @ avia_framework
+#: includes/loop-index.php:190 includes/loop-portfolio-single.php:33
+#: template-builder.php:45
+msgid "Pages:"
+msgstr "Pagine:"
+
+# @ avia_framework
+#: includes/loop-index.php:204 includes/loop-portfolio-single.php:44
+msgid "Tags:"
+msgstr "Tags:"
+
+# @ avia_framework
+#: includes/loop-search.php:124
+msgid "Sorry, no posts matched your criteria. Please try another search"
+msgstr ""
+"Spiacente, nessun articolo corrisponde ai tuoi criteri. Prova con un&rsquo;"
+"altra ricerca"
+
+# @ avia_framework
+#: includes/loop-search.php:130
+msgid ""
+"You might want to consider some of our suggestions to get better results:"
+msgstr ""
+"Si potrebbero prendere in considerazione alcuni dei nostri suggerimenti per "
+"ottenere risultati migliori:"
+
+# @ avia_framework
+#: includes/loop-search.php:132
+msgid "Check your spelling."
+msgstr "Controlla la ortografia."
+
+# @ avia_framework
+#: includes/loop-search.php:133
+msgid "Try a similar keyword, for example: tablet instead of laptop."
+msgstr "Prova con termini simili o sinonimi."
+
+# @ avia_framework
+#: includes/related-posts.php:91
+msgid "You might also like"
+msgstr "Potrebbero interessarti"
+
+# @ avia_framework
+#: index.php:11 single.php:9
+msgid "Blog - Latest News"
+msgstr "Blog - Ultime notizie"
+
+# @ avia_framework
+#: search.php:23
+msgid "New Search"
+msgstr "Nuova Ricerca"
+
+# @ avia_framework
+#: search.php:24
+msgid "If you are not happy with the results below please do another search"
+msgstr ""
+"Se non siete soddisfatti dei risultati conseguiti per favore fare una nuova "
+"ricerca"
+
+# @ avia_framework
+#: template-archives.php:51
+msgid "The 20 latest Blog Posts"
+msgstr "Gli ultimi 20 articoli pubblicati"
+
+# @ woothemes
+#: template-archives.php:61
+msgid "No Blog Posts found"
+msgstr "Nessun post trovato nel blog "
+
+# @ avia_framework
+#: template-archives.php:90
+msgid "The 8 latest Portfolio Entries"
+msgstr "Le ultime 8 Voci Portfolio"
+
+# @ avia_framework
+#: template-archives.php:160
+msgid "Available Pages"
+msgstr "Pagine disponibili"
+
+# @ avia_framework
+#: template-archives.php:174
+msgid "Archives by Subject:"
+msgstr "Archivio per argomento:"
+
+# @ avia_framework
+#: template-archives.php:184
+msgid "Monthly"
+msgstr "Mensile"
+
+# @ avia_framework
+#: template-archives.php:189
+msgid "Archives by Month:"
+msgstr "Archivio per mese:"

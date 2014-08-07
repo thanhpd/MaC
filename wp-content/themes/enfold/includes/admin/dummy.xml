@@ -2548,7 +2548,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ']
 
 [av_hr class='short' height='30' position='left']
 
-[av_portfolio columns='3' items='9' contents='title' preview_mode='auto' image_size='portfolio' linking='ajax' sort='yes' paginate='no']
+[av_one_full first][av_portfolio columns='3' items='9' contents='title' preview_mode='auto' image_size='portfolio' linking='ajax' sort='yes' paginate='no'][/av_one_full]
 
 [av_section color='alternate_color' custom_bg='' src='' position='top left' repeat='no-repeat' attach='scroll' padding='large' shadow='no-shadow']
 [av_one_fourth first]
@@ -2626,7 +2626,7 @@ Enfold is freakishly powerful and so damn easy to use, its probably the last 
 
 [av_hr class='short' height='30' position='left']
 
-[av_portfolio columns='3' items='9' contents='title' preview_mode='auto' image_size='portfolio' linking='ajax' sort='yes' paginate='no']
+[av_one_full first][av_portfolio columns='3' items='9' contents='title' preview_mode='auto' image_size='portfolio' linking='ajax' sort='yes' paginate='no'][/av_one_full]
 
 [av_section color='alternate_color' custom_bg='' src='' position='top left' repeat='no-repeat' attach='scroll' padding='large' shadow='no-shadow']
 [av_one_fourth first]
@@ -4087,7 +4087,7 @@ Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et 
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://www.kriesi.at/themes/enfold/?page_id=755</guid>
 		<description></description>
-		<content:encoded><![CDATA[[av_portfolio columns='4' items='16' contents='title' linking='' sort='yes' paginate='yes']
+		<content:encoded><![CDATA[[av_one_full first][av_portfolio columns='4' items='16' contents='title' linking='' sort='yes' paginate='yes'][/av_one_full]
 
 [av_hr class='short' height='50' position='center']
 
@@ -4140,7 +4140,7 @@ You can add Portfolio Grids to every Page you want or need, with the help of the
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aviaLayoutBuilderCleanData</wp:meta_key>
-			<wp:meta_value><![CDATA[[av_portfolio columns='4' items='16' contents='title' linking='' sort='yes' paginate='yes']
+			<wp:meta_value><![CDATA[[av_one_full first][av_portfolio columns='4' items='16' contents='title' linking='' sort='yes' paginate='yes'][/av_one_full]
 
 [av_hr class='short' height='50' position='center']
 
@@ -7674,11 +7674,11 @@ Embed any number of videos into your pages. You can choose the aspect ratio and 
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://www.kriesi.at/themes/enfold/?page_id=910</guid>
 		<description></description>
-		<content:encoded><![CDATA[[av_portfolio columns='2' items='4' contents='title' linking='' sort='yes' paginate='yes']
+		<content:encoded><![CDATA[[av_one_full][av_portfolio columns='2' items='4' contents='title' linking='' sort='yes' paginate='yes']
 
 [av_hr class='short' height='50' position='center']
 
-[av_portfolio columns='3' items='3' contents='title' linking='lightbox' sort='no' paginate='no']]]></content:encoded>
+[av_portfolio columns='3' items='3' contents='title' linking='lightbox' sort='no' paginate='no'][/av_one_full]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>910</wp:post_id>
 		<wp:post_date>2013-04-02 14:23:27</wp:post_date>
@@ -7726,11 +7726,11 @@ Embed any number of videos into your pages. You can choose the aspect ratio and 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aviaLayoutBuilderCleanData</wp:meta_key>
-			<wp:meta_value><![CDATA[[av_portfolio columns='2' items='4' contents='title' linking='' sort='yes' paginate='yes']
+			<wp:meta_value><![CDATA[[av_one_full first][av_portfolio columns='2' items='4' contents='title' linking='' sort='yes' paginate='yes']
 
 [av_hr class='short' height='50' position='center']
 
-[av_portfolio columns='3' items='3' contents='title' linking='lightbox' sort='no' paginate='no']
+[av_portfolio columns='3' items='3' contents='title' linking='lightbox' sort='no' paginate='no'][/av_one_full]
 
 ]]></wp:meta_value>
 		</wp:postmeta>
@@ -7885,7 +7885,7 @@ You can add Portfolio Grids to every Page you want or need, with the help of the
 
 [av_hr class='short' height='50' position='center']
 
-[av_portfolio columns='2' items='8' contents='title' linking='' sort='yes' paginate='yes']]]></content:encoded>
+[av_one_full first][av_portfolio columns='2' items='8' contents='title' linking='' sort='yes' paginate='yes'][/av_one_full]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>987</wp:post_id>
 		<wp:post_date>2013-04-03 15:50:15</wp:post_date>
@@ -7938,7 +7938,7 @@ You can add Portfolio Grids to every Page you want or need, with the help of the
 
 [av_hr class='short' height='50' position='center']
 
-[av_portfolio columns='2' items='8' contents='title' linking='' sort='yes' paginate='yes']
+[av_one_full first][av_portfolio columns='2' items='8' contents='title' linking='' sort='yes' paginate='yes'][/av_one_full]
 
 ]]></wp:meta_value>
 		</wp:postmeta>
@@ -7961,7 +7961,7 @@ You can add Portfolio Grids to every Page you want or need, with the help of the
 
 [av_hr class='default' height='50' position='center']
 
-[av_portfolio columns='3' items='12' contents='title' linking='' sort='yes' paginate='yes']]]></content:encoded>
+[av_one_full first][av_portfolio columns='3' items='12' contents='title' linking='' sort='yes' paginate='yes'][/av_one_full]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>992</wp:post_id>
 		<wp:post_date>2013-04-03 15:51:29</wp:post_date>
@@ -8012,7 +8012,7 @@ You can add Portfolio Grids to every Page you want or need, with the help of the
 
 [av_hr class='default' height='50' position='center']
 
-[av_portfolio columns='3' items='12' contents='title' linking='' sort='yes' paginate='yes']
+[av_one_full first][av_portfolio columns='3' items='12' contents='title' linking='' sort='yes' paginate='yes'][/av_one_full]
 
 ]]></wp:meta_value>
 		</wp:postmeta>
@@ -15492,5 +15492,304 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
-	</channel>
+	item>
+				<title>Mixed Fullwidth Portfolio</title>
+		<link>http://www.kriesi.at/themes/enfold/portfolio/mixed-fullwidth-portfolio/</link>
+		<pubDate>Tue, 08 Jul 2014 17:07:05 +0000</pubDate>
+		<dc:creator><![CDATA[Kriesi]]></dc:creator>
+		<guid isPermaLink="false">http://www.kriesi.at/themes/enfold/?page_id=3187</guid>
+		<description></description>
+		<content:encoded><![CDATA[[av_portfolio columns='1' one_column_template='special' items='3' contents='excerpt' preview_mode='custom' image_size='featured' linking='lightbox' sort='no' paginate='no']
+
+[av_portfolio columns='3' one_column_template='special' items='6' contents='excerpt' preview_mode='auto' image_size='portfolio' linking='' sort='no' paginate='no']]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3187</wp:post_id>
+		<wp:post_date>2014-07-08 17:07:05</wp:post_date>
+		<wp:post_date_gmt>2014-07-08 17:07:05</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>mixed-fullwidth-portfolio</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>755</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aviaLayoutBuilder_active</wp:meta_key>
+			<wp:meta_value><![CDATA[active]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aviaLayoutBuilderCleanData</wp:meta_key>
+			<wp:meta_value><![CDATA[[av_portfolio columns='1' one_column_template='special' items='3' contents='excerpt' preview_mode='custom' image_size='featured' linking='lightbox' sort='no' paginate='no']
+
+[av_portfolio columns='3' one_column_template='special' items='6' contents='excerpt' preview_mode='auto' image_size='portfolio' linking='' sort='no' paginate='no']
+
+]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_avia_builder_shortcode_tree</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;a:3:{s:3:"tag";s:12:"av_portfolio";s:7:"content";a:0:{}s:5:"index";i:0;}i:1;a:3:{s:3:"tag";s:12:"av_portfolio";s:7:"content";a:0:{}s:5:"index";i:1;}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>sidebar</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_title_bar</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_transparency</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>footer</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_avia_hide_featured_image</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+		<item>
+				<title></title>
+		<link>http://www.kriesi.at/themes/enfold/2014/07/08/3191/</link>
+		<pubDate>Tue, 08 Jul 2014 17:11:31 +0000</pubDate>
+		<dc:creator><![CDATA[Kriesi]]></dc:creator>
+		<guid isPermaLink="false">http://www.kriesi.at/themes/enfold/?p=3191</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3191</wp:post_id>
+		<wp:post_date>2014-07-08 17:11:31</wp:post_date>
+		<wp:post_date_gmt>2014-07-08 17:11:31</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>3191</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>755</wp:post_parent>
+		<wp:menu_order>21</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu-item-avia-megamenu</wp:meta_key>
+			<wp:meta_value><![CDATA[active]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu-item-avia-division</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu-item-avia-textarea</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[3187]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[1001]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Images with Hotspots</title>
+		<link>http://www.kriesi.at/themes/enfold/shortcodes/images-with-hotspots/</link>
+		<pubDate>Tue, 08 Jul 2014 17:58:03 +0000</pubDate>
+		<dc:creator><![CDATA[Kriesi]]></dc:creator>
+		<guid isPermaLink="false">http://www.kriesi.at/themes/enfold/?page_id=3192</guid>
+		<description></description>
+		<content:encoded><![CDATA[[av_image_hotspot src='http://www.kriesi.at/themes/enfold/files/2012/04/014-1000x430.jpg' attachment='315' attachment_size='featured' animation='fade-in' hotspot_layout='numbered' hotspot_mobile='aviaTBhotspot_mobile']
+[av_image_spot tooltip_pos='av-tt-pos-right av-tt-align-centered' tooltip_width='av-tt-default-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='60.4,12.5']
+Place any number of tooltips on the image
+[/av_image_spot]
+[av_image_spot tooltip_pos='av-tt-pos-below av-tt-align-centered' tooltip_width='av-tt-xlarge-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='25.5,59']
+You can change styling, size and position of each of the tooltips to your likings
+[/av_image_spot]
+[av_image_spot tooltip_pos='av-tt-pos-above av-tt-align-left' tooltip_width='av-tt-large-width' tooltip_style='transparent_dark' hotspot_color='custom' custom_bg='#000000' custom_font='#ffffff' custom_pulse='#1e73be' hotspot_pos='67.4,69.5']
+Here is an example of a tooltip with a different color scheme
+[/av_image_spot]
+[/av_image_hotspot]
+
+[av_heading tag='h1' padding='10' heading='Images <strong>with Tooltips</strong>' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
+
+[av_textblock]
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+[/av_textblock]
+
+[av_one_half first]
+[av_image_hotspot src='http://www.kriesi.at/themes/enfold/files/2012/04/2-300x195.jpg' attachment='316' attachment_size='medium' animation='left-to-right' hotspot_layout='numbered' hotspot_mobile='aviaTBhotspot_mobile']
+[av_image_spot tooltip_pos='av-tt-pos-right av-tt-align-centered' tooltip_width='av-tt-default-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='43.7,47.5']
+Place any number of tooltips on the image
+[/av_image_spot]
+
+[/av_image_hotspot]
+[/av_one_half]
+
+[av_one_half]
+[av_image_hotspot src='http://www.kriesi.at/themes/enfold/files/2012/04/013-300x195.jpg' attachment='314' attachment_size='medium' animation='pop-up' hotspot_layout='numbered' hotspot_mobile='aviaTBhotspot_mobile']
+[av_image_spot tooltip_pos='av-tt-pos-right av-tt-align-centered' tooltip_width='av-tt-default-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='28.3,17.5']
+Place any number of tooltips on the image
+[/av_image_spot]
+[av_image_spot tooltip_pos='av-tt-pos-above av-tt-align-left' tooltip_width='av-tt-large-width' tooltip_style='transparent_dark' hotspot_color='custom' custom_bg='#000000' custom_font='#ffffff' custom_pulse='#aa1b1b' hotspot_pos='57.7,83.5']
+Here is an example of a tooltip with a different color scheme
+[/av_image_spot]
+[/av_image_hotspot]
+[/av_one_half]
+
+[av_textblock]
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+[/av_textblock]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3192</wp:post_id>
+		<wp:post_date>2014-07-08 17:58:03</wp:post_date>
+		<wp:post_date_gmt>2014-07-08 17:58:03</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>images-with-hotspots</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>750</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_aviaLayoutBuilder_active</wp:meta_key>
+			<wp:meta_value><![CDATA[active]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aviaLayoutBuilderCleanData</wp:meta_key>
+			<wp:meta_value><![CDATA[[av_image_hotspot src='http://www.kriesi.at/themes/enfold/files/2012/04/014-1000x430.jpg' attachment='315' attachment_size='featured' animation='fade-in' hotspot_layout='numbered' hotspot_mobile='aviaTBhotspot_mobile']
+[av_image_spot tooltip_pos='av-tt-pos-right av-tt-align-centered' tooltip_width='av-tt-default-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='60.4,12.5']
+Place any number of tooltips on the image
+[/av_image_spot]
+[av_image_spot tooltip_pos='av-tt-pos-below av-tt-align-centered' tooltip_width='av-tt-xlarge-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='25.5,59']
+You can change styling, size and position of each of the tooltips to your likings
+[/av_image_spot]
+[av_image_spot tooltip_pos='av-tt-pos-above av-tt-align-left' tooltip_width='av-tt-large-width' tooltip_style='transparent_dark' hotspot_color='custom' custom_bg='#000000' custom_font='#ffffff' custom_pulse='#1e73be' hotspot_pos='67.4,69.5']
+Here is an example of a tooltip with a different color scheme
+[/av_image_spot]
+[/av_image_hotspot]
+
+[av_heading tag='h1' padding='10' heading='Images <strong>with Tooltips</strong>' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
+
+[av_textblock]
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+[/av_textblock]
+
+[av_one_half first]
+[av_image_hotspot src='http://www.kriesi.at/themes/enfold/files/2012/04/2-300x195.jpg' attachment='316' attachment_size='medium' animation='left-to-right' hotspot_layout='numbered' hotspot_mobile='aviaTBhotspot_mobile']
+[av_image_spot tooltip_pos='av-tt-pos-right av-tt-align-centered' tooltip_width='av-tt-default-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='43.7,47.5']
+Place any number of tooltips on the image
+[/av_image_spot]
+
+
+[/av_image_hotspot]
+[/av_one_half]
+
+[av_one_half]
+[av_image_hotspot src='http://www.kriesi.at/themes/enfold/files/2012/04/013-300x195.jpg' attachment='314' attachment_size='medium' animation='pop-up' hotspot_layout='numbered' hotspot_mobile='aviaTBhotspot_mobile']
+[av_image_spot tooltip_pos='av-tt-pos-right av-tt-align-centered' tooltip_width='av-tt-default-width' tooltip_style='main_color' hotspot_color='' custom_bg='' custom_font='' custom_pulse='' hotspot_pos='28.3,17.5']
+Place any number of tooltips on the image
+[/av_image_spot]
+[av_image_spot tooltip_pos='av-tt-pos-above av-tt-align-left' tooltip_width='av-tt-large-width' tooltip_style='transparent_dark' hotspot_color='custom' custom_bg='#000000' custom_font='#ffffff' custom_pulse='#aa1b1b' hotspot_pos='57.7,83.5']
+Here is an example of a tooltip with a different color scheme
+[/av_image_spot]
+[/av_image_hotspot]
+[/av_one_half]
+
+[av_textblock]
+ 
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+[/av_textblock]
+
+]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_avia_builder_shortcode_tree</wp:meta_key>
+			<wp:meta_value><![CDATA[a:6:{i:0;a:3:{s:3:"tag";s:16:"av_image_hotspot";s:7:"content";a:0:{}s:5:"index";i:0;}i:1;a:3:{s:3:"tag";s:10:"av_heading";s:7:"content";a:0:{}s:5:"index";i:1;}i:2;a:3:{s:3:"tag";s:12:"av_textblock";s:7:"content";a:0:{}s:5:"index";i:2;}i:3;a:3:{s:3:"tag";s:11:"av_one_half";s:7:"content";a:1:{i:0;a:3:{s:3:"tag";s:16:"av_image_hotspot";s:7:"content";a:0:{}s:5:"index";i:4;}}s:5:"index";i:3;}i:4;a:3:{s:3:"tag";s:11:"av_one_half";s:7:"content";a:1:{i:0;a:3:{s:3:"tag";s:16:"av_image_hotspot";s:7:"content";a:0:{}s:5:"index";i:6;}}s:5:"index";i:5;}i:5;a:3:{s:3:"tag";s:12:"av_textblock";s:7:"content";a:0:{}s:5:"index";i:7;}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>sidebar</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_title_bar</wp:meta_key>
+			<wp:meta_value><![CDATA[hidden_title_bar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_transparency</wp:meta_key>
+			<wp:meta_value><![CDATA[header_transparent header_glassy ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>footer</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_avia_hide_featured_image</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+		</channel>
 </rss>

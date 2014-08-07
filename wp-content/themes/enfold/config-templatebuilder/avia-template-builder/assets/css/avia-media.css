@@ -180,11 +180,11 @@ background: white url(../../images/icon-trash.png) bottom left no-repeat;
 display:none;
 }
 
-
+.avia-builder-prev-img-container-wrap{position: relative; margin-top:10px; overflow: hidden;}
 
 .avia-builder-prev-img-container{
 overflow: hidden;
-margin-top:10px;
+position: relative;
 }
 
 .avia-builder-prev-img-container img{

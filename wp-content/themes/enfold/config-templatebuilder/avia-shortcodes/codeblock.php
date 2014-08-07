@@ -165,7 +165,7 @@ if ( !class_exists( 'avia_sc_codeblock' ) )
 			            
 			            $codeblock = !empty($atts['escape_html']) ? esc_html($codeblock) : $codeblock;
 			            $codeblock = !empty($atts['escape_html']) && empty($atts['wrapper_element']) ? nl2br($codeblock) : $codeblock;
-			            $codeblock = !empty($atts['deactivate_shortcode']) ? do_shortcode($codeblock) : $codeblock;
+			            $codeblock = empty($atts['deactivate_shortcode']) ? do_shortcode($codeblock) : $codeblock;
 			        }
 			
 			        self::$codeblocks[$key] = $codeblock;

@@ -143,18 +143,32 @@ class avia_wp_import extends WP_Import
 		global $avia_config;
 		//get all registered menu locations
 		$locations   = get_theme_mod('nav_menu_locations');
-		
+
 		//get all created menus
 		$avia_menus  = wp_get_nav_menus();
 		
+		
 		if(!empty($avia_menus) && !empty($avia_config['nav_menus']))
 		{
+			$avia_navs = array();
+			foreach($avia_config['nav_menus'] as $key => $nav_menu)
+			{
+				if(isset($nav_menu['html']))
+				{
+					$avia_navs[$key] = $nav_menu['html'];
+				}
+				else
+				{
+					$avia_navs[$key] = $nav_menu;
+				}
+			}
+		
 			foreach($avia_menus as $avia_menu)
 			{
 				//check if we got a menu that corresponds to the Menu name array ($avia_config['nav_menus']) we have set in functions.php
-				if(is_object($avia_menu) && in_array($avia_menu->name, $avia_config['nav_menus']))
+				if(is_object($avia_menu) && in_array($avia_menu->name, $avia_navs) )
 				{
-					$key = array_search($avia_menu->name, $avia_config['nav_menus']);
+					$key = array_search($avia_menu->name, $avia_navs);
 					if($key)
 					{
 						//if we have found a menu with the correct menu name apply the id to the menu location
@@ -163,6 +177,9 @@ class avia_wp_import extends WP_Import
 				}
 			}
 		}
+		
+		
+		
 		//update the theme
 		set_theme_mod( 'nav_menu_locations', $locations);
 	}

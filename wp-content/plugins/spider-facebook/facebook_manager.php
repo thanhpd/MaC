@@ -55,7 +55,7 @@
 		$search_tag="";
 		}
 	if ( $search_tag ) {
-		$where= ' WHERE title LIKE "%'.$search_tag.'%"';
+		$where= ' WHERE title LIKE "%'.$wpdb->_escape($search_tag).'%"';
 	}
 	
 	

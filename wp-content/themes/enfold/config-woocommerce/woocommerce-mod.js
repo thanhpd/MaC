@@ -23,7 +23,9 @@ jQuery(document).ready(function($) {
 	setTimeout(first_load_amount, 10);
 	$('body').bind('added_to_cart', update_cart_dropdown);
 		
-	
+	// small fix for the hover menu for woocommerce sort buttons since it does no seem to work on mobile devices. 
+	// even if no event is actually bound the css dropdown works. if the binding is removed dropdown does no longer work.
+	jQuery('.avia_mobile .sort-param').on('touchstart', function(){});	
 		
 });
 
@@ -163,6 +165,8 @@ function cart_dropdown_improvement()
 	function(){ subelement.stop().animate({opacity:0}, function(){ subelement.css({display:'none'}); }); }
 	);
 }
+
+
 
 
 

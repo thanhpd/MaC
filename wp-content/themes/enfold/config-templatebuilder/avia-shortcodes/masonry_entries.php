@@ -250,9 +250,7 @@ if ( !class_exists( 'avia_sc_masonry_entries' ) )
 			function shortcode_handler($atts, $content = "", $shortcodename = "", $meta = "")
 			{
 				$output  = "";
-				
-				$skipSecond = false;
-				
+								
 				//check if we got a layerslider
 				global $wpdb;
 				
@@ -275,31 +273,11 @@ if ( !class_exists( 'avia_sc_masonry_entries' ) )
 				
 				
 				
-				
 				if(!ShortcodeHelper::is_top_level()) return $masonry_html;
 				
 				$output .=  avia_new_section($params);
 				$output .= $masonry_html;
-				$output .= "</div>"; //close section
-				
-				
-				//if the next tag is a section dont create a new section from this shortcode
-				if(!empty($meta['siblings']['next']['tag']) && in_array($meta['siblings']['next']['tag'], AviaBuilder::$full_el ))
-				{
-				    $skipSecond = true;
-				}
-
-				//if there is no next element dont create a new section.
-				if(empty($meta['siblings']['next']['tag']))
-				{
-				    $skipSecond = true;
-				}
-				
-				if(empty($skipSecond)) {
-				
-				$output .= avia_new_section(array('close'=>false, 'id' => "after_masonry"));
-				
-				}
+				$output .= avia_section_after_element_content( $meta , 'after_masonry' );
 				
 				return $output;
 			}
